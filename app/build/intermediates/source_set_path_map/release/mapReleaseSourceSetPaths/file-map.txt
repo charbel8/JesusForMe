@@ -1,0 +1,35 @@
+com.charbel.jesusforme.app-appcompat-resources-1.7.0-0 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\08c4468b375f13efc2aa7541f610839e\transformed\appcompat-resources-1.7.0\res
+com.charbel.jesusforme.app-coordinatorlayout-1.1.0-1 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\1278c0a42c36659deaa0b315db76cd9c\transformed\coordinatorlayout-1.1.0\res
+com.charbel.jesusforme.app-material-1.12.0-2 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\1a4713e03b7621826f6da8b187e72b89\transformed\material-1.12.0\res
+com.charbel.jesusforme.app-lifecycle-livedata-core-2.6.2-3 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\3101a08034b0f8d07849b492d6e12323\transformed\lifecycle-livedata-core-2.6.2\res
+com.charbel.jesusforme.app-activity-1.8.0-4 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\31471cdc79abfe18b42182f84df2fc39\transformed\activity-1.8.0\res
+com.charbel.jesusforme.app-core-runtime-2.2.0-5 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\393cdb8d92ca09f08b4a9211efedd480\transformed\core-runtime-2.2.0\res
+com.charbel.jesusforme.app-lifecycle-viewmodel-savedstate-2.6.2-6 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\412496e34807b6507094fa1d33db58f7\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.charbel.jesusforme.app-profileinstaller-1.4.0-7 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\591677ed0c0bd03f23b50a88521e4f6d\transformed\profileinstaller-1.4.0\res
+com.charbel.jesusforme.app-savedstate-1.2.1-8 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\5a95501c2bc4e22153293093f9fd8193\transformed\savedstate-1.2.1\res
+com.charbel.jesusforme.app-startup-runtime-1.1.1-9 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\62894f2f31ac09ce7cf3b912af957ac6\transformed\startup-runtime-1.1.1\res
+com.charbel.jesusforme.app-emoji2-views-helper-1.3.0-10 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\6daf528082a249e345cdda61f98b9010\transformed\emoji2-views-helper-1.3.0\res
+com.charbel.jesusforme.app-appcompat-1.7.0-11 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\75d10de5cbf29a3b18d0f35f23056acd\transformed\appcompat-1.7.0\res
+com.charbel.jesusforme.app-constraintlayout-2.2.0-12 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\775e2b05d8e66eaef3f9a72afe3d8710\transformed\constraintlayout-2.2.0\res
+com.charbel.jesusforme.app-lifecycle-viewmodel-2.6.2-13 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\7d4235b290cb7ddf2ecbdd790d7b0075\transformed\lifecycle-viewmodel-2.6.2\res
+com.charbel.jesusforme.app-fragment-1.5.4-14 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\85142d5eaa705b3fb82bcc63c0368014\transformed\fragment-1.5.4\res
+com.charbel.jesusforme.app-lifecycle-process-2.6.2-15 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\94866e7c5475270f5b77b2e5f31cd353\transformed\lifecycle-process-2.6.2\res
+com.charbel.jesusforme.app-core-ktx-1.13.0-16 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\a16f5ee3d3170af0ecb951460244effc\transformed\core-ktx-1.13.0\res
+com.charbel.jesusforme.app-recyclerview-1.1.0-17 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\b028694564ed278b84519dc2129a8cc9\transformed\recyclerview-1.1.0\res
+com.charbel.jesusforme.app-drawerlayout-1.1.1-18 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\c1ece330b4691bf4ff0424e466b5b559\transformed\drawerlayout-1.1.1\res
+com.charbel.jesusforme.app-viewpager2-1.0.0-19 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\c204e3846958da9064d27d0ede268075\transformed\viewpager2-1.0.0\res
+com.charbel.jesusforme.app-transition-1.5.0-20 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\c9ad5f8497a59acf339654021c60f2d1\transformed\transition-1.5.0\res
+com.charbel.jesusforme.app-lifecycle-livedata-2.6.2-21 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\d08fa197f516dba1a165f1c937ba8594\transformed\lifecycle-livedata-2.6.2\res
+com.charbel.jesusforme.app-core-1.13.0-22 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\d1aad0709a163e66d310a1de2b3fa5db\transformed\core-1.13.0\res
+com.charbel.jesusforme.app-emoji2-1.3.0-23 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\d97be33889a23a38bab6f97bfc3ff3ca\transformed\emoji2-1.3.0\res
+com.charbel.jesusforme.app-annotation-experimental-1.4.0-24 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\e611930dfa764d396dc952485b33fc97\transformed\annotation-experimental-1.4.0\res
+com.charbel.jesusforme.app-lifecycle-runtime-2.6.2-25 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\eaf8423b519c68c85472d8717428fcca\transformed\lifecycle-runtime-2.6.2\res
+com.charbel.jesusforme.app-cardview-1.0.0-26 C:\Users\Charbel Tannous\.gradle\caches\8.13\transforms\f2c6e9182c18ed47886c394090cd2361\transformed\cardview-1.0.0\res
+com.charbel.jesusforme.app-pngs-27 D:\AndroidStudioApps\Jesusforme\app\build\generated\res\pngs\release
+com.charbel.jesusforme.app-resValues-28 D:\AndroidStudioApps\Jesusforme\app\build\generated\res\resValues\release
+com.charbel.jesusforme.app-updated_navigation_xml-29 D:\AndroidStudioApps\Jesusforme\app\build\generated\updated_navigation_xml\release
+com.charbel.jesusforme.app-packageReleaseResources-30 D:\AndroidStudioApps\Jesusforme\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.charbel.jesusforme.app-packageReleaseResources-31 D:\AndroidStudioApps\Jesusforme\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.charbel.jesusforme.app-release-32 D:\AndroidStudioApps\Jesusforme\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.charbel.jesusforme.app-main-33 D:\AndroidStudioApps\Jesusforme\app\src\main\res
+com.charbel.jesusforme.app-release-34 D:\AndroidStudioApps\Jesusforme\app\src\release\res

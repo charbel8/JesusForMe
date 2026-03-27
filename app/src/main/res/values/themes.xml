@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JesusForMe" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme colors here -->
+            <item name="colorPrimary">#EFE0CA</item>
+            <item name="colorPrimaryDark">#EFE0CA</item>
+            <item name="colorAccent">#EFE0CA</item>
+        </style>
+
+
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/cross"
+    android:gravity="fill" />
+    <!-- Options: fill, center, top, bottom, left, right, center_vertical, center_horizontal, clip_vertical, clip_horizontal -->

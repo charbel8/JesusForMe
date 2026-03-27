@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.charbel.jesusforme.app-mergeReleaseResources-29:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Charbel Tannous\\.gradle\\caches\\8.13\\transforms\\75d10de5cbf29a3b18d0f35f23056acd\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

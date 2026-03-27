@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-mergeReleaseResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-32:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-mergeReleaseResources-30:\\layout\\display_prayer.xml",
+        "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-32:\\layout\\display_prayer.xml"
+    },
+    {
+        "merged": "com.charbel.jesusforme.app-mergeReleaseResources-30:/layout/activity_main.xml",
+        "source": "com.charbel.jesusforme.app-main-32:/layout/activity_main.xml"
+    }
+]

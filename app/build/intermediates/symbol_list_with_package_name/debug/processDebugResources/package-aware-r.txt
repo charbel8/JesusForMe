@@ -3123,7 +3123,9 @@ id AnfoudAlmathariyeh
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id DouaatExpandableButtons
 id FUNCTION
+id FransistoViergeMarie
 id META
 id MassebihExpandableButtons
 id NO_DEBUG
@@ -3232,6 +3234,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnGroupDouaat
 id btnGroupMassebih
 id btnGroupSalawet
 id btnGroupSalawetKhassa
@@ -3301,6 +3304,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id doua2SaintJoseph
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3324,6 +3328,7 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id evening
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3395,6 +3400,7 @@ id masbahaAlFarah
 id masbahaAlHezen
 id masbahaAlMajed
 id masbahaAlNour
+id masbahaSaintJoseph
 id masked
 id match_constraint
 id match_parent
@@ -3428,6 +3434,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id morning
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -3610,8 +3617,10 @@ id takrisKalebYassou3
 id talabetExpandableButtons
 id telbatElAddra
 id telbetElMawta
+id telbetSaintJoseph
 id telbitAlra7maIlahiyeh
 id telbitkalebyassouh
+id tessawiyetSaintJoseph
 id text
 id text2
 id textEnd

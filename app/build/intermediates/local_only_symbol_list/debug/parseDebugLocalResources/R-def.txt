@@ -15,6 +15,8 @@ drawable cross
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id AnfoudAlmathariyeh
+id DouaatExpandableButtons
+id FransistoViergeMarie
 id MassebihExpandableButtons
 id SaintCharbel
 id SalawetExpandableButtons
@@ -27,6 +29,7 @@ id althaloth
 id babyCancer
 id back
 id beforsleep
+id btnGroupDouaat
 id btnGroupMassebih
 id btnGroupSalawet
 id btnGroupSalawetKhassa
@@ -37,6 +40,8 @@ id charbel
 id currentFontSize
 id data
 id decreaseFontSize
+id doua2SaintJoseph
+id evening
 id gardAngel
 id increaseFontSize
 id mariamt7ik3ikad
@@ -44,6 +49,8 @@ id masbahaAlFarah
 id masbahaAlHezen
 id masbahaAlMajed
 id masbahaAlNour
+id masbahaSaintJoseph
+id morning
 id myfather
 id padrePioS1
 id rita1
@@ -60,8 +67,10 @@ id takrisKalebYassou3
 id talabetExpandableButtons
 id telbatElAddra
 id telbetElMawta
+id telbetSaintJoseph
 id telbitAlra7maIlahiyeh
 id telbitkalebyassouh
+id tessawiyetSaintJoseph
 id title
 id tsaiiyatExpandableButtons
 id tssaiiatSaintRita

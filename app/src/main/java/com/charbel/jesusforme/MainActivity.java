@@ -28,11 +28,13 @@ public class MainActivity  extends AppCompatActivity {
 
     private Button saintJoseph, saintJoseph2, telbatElAddra;
     private Button tabchirmalaika, telbitkalebyassouh, althaloth, telbetElMawta;
+    private Button telbetSaintJoseph;
     private Button beforsleep, ssaidniyarab,myfather;
-
-// ------------------------
+    private Button morning, evening;
+    // ------------------------
     private Button padrePioS1, againstEvil, tssaiiatSaintRita;
     private Button masbahaAlFarah, masbahaAlHezen, masbahaAlMajed, masbahaAlNour;
+    private Button masbahaSaintJoseph;
     private Button alra7maIlahiyeh, telbitAlra7maIlahiyeh;
     private Button gardAngel;
 
@@ -40,17 +42,22 @@ public class MainActivity  extends AppCompatActivity {
     private Button   takrisKalebYassou3, AnfoudAlmathariyeh;
 
 
+    private Button tessawiyetSaintJoseph;
+
     private Button btnGroupTsaiiyat, btnGroupTalabet,btnGroupSalawetYawmiyeh, btnGroupSalawet , btnGroupMassebih ;
+    private Button btnGroupDouaat, doua2SaintJoseph, FransistoViergeMarie;
+
     private Button  btnGroupSalawetKhassa;
     private LinearLayout TsaiiyatExpandableButtons,talabetExpandableButtons;
     private LinearLayout SalawetkhassaExpandableButtons , SalawetYawmiyehExpandableButtons;
-    private LinearLayout SalawetExpandableButtons, MassebihExpandableButtons;
+    private LinearLayout SalawetExpandableButtons, MassebihExpandableButtons, DouaatExpandableButtons;
     private boolean isTsaiiyatExpanded = false;
     private boolean istalabetExpanded = false;
     private boolean isSalawetYawmiyeh = false;
     private boolean isSalawet= false;
     private boolean isMassebih= false;
     private boolean isSalawetKhassa= false;
+    private boolean isDouaat= false;
 
 
 
@@ -153,7 +160,18 @@ public class MainActivity  extends AppCompatActivity {
         });
 
 
-
+        // ------------- Douaat ------------------
+        btnGroupDouaat = findViewById(R.id.btnGroupDouaat);
+        DouaatExpandableButtons = findViewById(R.id.DouaatExpandableButtons);
+        DouaatExpandableButtons.setVisibility(View.GONE);
+        btnGroupDouaat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                staticVar.setGroupNumber(7);
+                Expend();
+                //  MassebihtoggleExpansion();
+            }
+        });
 
         // ----------------------------------------------
 
@@ -289,6 +307,15 @@ public class MainActivity  extends AppCompatActivity {
             finish(); // optional, closes SigActivity so user can't return to it with back button
         });
 
+        telbetSaintJoseph = findViewById(R.id.telbetSaintJoseph);
+        telbetSaintJoseph.setOnClickListener(v -> {
+            staticVar.code=35;
+            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
+            startActivity(intent);
+            finish(); // optional, closes SigActivity so user can't return to it with back button
+        });
+
+
 
 
         beforsleep = findViewById(R.id.beforsleep);
@@ -298,6 +325,29 @@ public class MainActivity  extends AppCompatActivity {
             startActivity(intent);
             finish(); // optional, closes SigActivity so user can't return to it with back button
         });
+
+
+
+
+        morning = findViewById(R.id.morning);
+        morning.setOnClickListener(v -> {
+            staticVar.code=39;
+            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
+            startActivity(intent);
+            finish(); // optional, closes SigActivity so user can't return to it with back button
+        });
+
+
+        evening = findViewById(R.id.evening);
+        evening.setOnClickListener(v -> {
+            staticVar.code=40;
+            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
+            startActivity(intent);
+            finish(); // optional, closes SigActivity so user can't return to it with back button
+        });
+
+
+
 
         ssaidniyarab = findViewById(R.id.ssaidniyarab);
         ssaidniyarab.setOnClickListener(v -> {
@@ -343,6 +393,18 @@ public class MainActivity  extends AppCompatActivity {
             finish(); // optional, closes SigActivity so user can't return to it with back button
         });
 
+        // ---------------------------
+        tessawiyetSaintJoseph= findViewById(R.id.tessawiyetSaintJoseph);
+        tessawiyetSaintJoseph.setOnClickListener(v -> {
+            staticVar.code=34;
+            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
+            startActivity(intent);
+            finish(); // optional, closes SigActivity so user can't return to it with back button
+        });
+
+
+
+
 
         //--------------------------
         masbahaAlFarah= findViewById(R.id.masbahaAlFarah);
@@ -373,6 +435,15 @@ public class MainActivity  extends AppCompatActivity {
         masbahaAlNour= findViewById(R.id.masbahaAlNour);
         masbahaAlNour.setOnClickListener(v -> {
             staticVar.code=22;
+            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
+            startActivity(intent);
+            finish(); // optional, closes SigActivity so user can't return to it with back button
+        });
+
+
+        masbahaSaintJoseph= findViewById(R.id.masbahaSaintJoseph);
+        masbahaSaintJoseph.setOnClickListener(v -> {
+            staticVar.code=36;
             Intent intent = new Intent(MainActivity.this, dynamicAct.class);
             startActivity(intent);
             finish(); // optional, closes SigActivity so user can't return to it with back button
@@ -450,6 +521,23 @@ public class MainActivity  extends AppCompatActivity {
             finish(); // optional, closes SigActivity so user can't return to it with back button
         });
 
+        // --------------------
+        doua2SaintJoseph = findViewById(R.id.doua2SaintJoseph);
+        doua2SaintJoseph.setOnClickListener(v -> {
+            staticVar.code=37;
+            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
+            startActivity(intent);
+            finish(); // optional, closes SigActivity so user can't return to it with back button
+        });
+        FransistoViergeMarie = findViewById(R.id.FransistoViergeMarie);
+        FransistoViergeMarie.setOnClickListener(v -> {
+            staticVar.code=38;
+            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
+            startActivity(intent);
+            finish(); // optional, closes SigActivity so user can't return to it with back button
+        });
+
+
 
         Expend();
     }
@@ -466,6 +554,7 @@ public class MainActivity  extends AppCompatActivity {
               istalabetExpanded= false;
               isMassebih= false;
               isSalawetKhassa =false;
+              isDouaat=false;
               break;
 
           case 2:
@@ -475,6 +564,7 @@ public class MainActivity  extends AppCompatActivity {
               istalabetExpanded= false;
               isMassebih= false;
               isSalawetKhassa =false;
+              isDouaat=false;
               break;
 
           case 3:
@@ -484,6 +574,7 @@ public class MainActivity  extends AppCompatActivity {
               istalabetExpanded= false;
               isMassebih= false;
               isSalawetKhassa =false;
+              isDouaat=false;
               break;
           case 4:
               isSalawetYawmiyeh= false;
@@ -492,6 +583,7 @@ public class MainActivity  extends AppCompatActivity {
               istalabetExpanded= true;
               isMassebih= false;
               isSalawetKhassa =false;
+              isDouaat=false;
               break;
           case 5:
               isSalawetYawmiyeh= false;
@@ -500,6 +592,7 @@ public class MainActivity  extends AppCompatActivity {
               istalabetExpanded= false;
               isMassebih= true;
               isSalawetKhassa =false;
+              isDouaat=false;
               break;
 
           case 6:
@@ -509,6 +602,17 @@ public class MainActivity  extends AppCompatActivity {
               istalabetExpanded= false;
               isMassebih= false;
               isSalawetKhassa =true;
+              isDouaat=false;
+              break;
+
+          case 7:
+              isSalawetYawmiyeh= false;
+              isSalawet= false;
+              isTsaiiyatExpanded= false;
+              istalabetExpanded= false;
+              isMassebih= false;
+              isSalawetKhassa =false;
+              isDouaat=true;
               break;
       }
 
@@ -519,6 +623,7 @@ public class MainActivity  extends AppCompatActivity {
                 talabettoggleExpansion();
                 MassebihtoggleExpansion();
                 SalawetKhassaExpansion();
+                DouaatExpansion();
     }
 
 
@@ -609,6 +714,21 @@ public class MainActivity  extends AppCompatActivity {
             SalawetkhassaExpandableButtons.setVisibility(View.VISIBLE);
             btnGroupSalawetKhassa.setText("صلاوات خاصة  ▼");
             isSalawetKhassa = true;
+        }
+    }
+
+
+    private void DouaatExpansion() {
+        if (!isDouaat) {
+            // Collapse
+            DouaatExpandableButtons.setVisibility(View.GONE);
+            btnGroupDouaat.setText("الدعاءات  ◀ ");
+            isDouaat = false;
+        } else {
+            // Expand
+            DouaatExpandableButtons.setVisibility(View.VISIBLE);
+            btnGroupDouaat.setText("الدعاءات  ▼");
+            isDouaat = true;
         }
     }
 

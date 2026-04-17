@@ -1,5 +1,10 @@
 package com.charbel.jesusforme;
 
+import com.charbel.jesusforme.data.doua2.FransistoViergeMarie;
+import com.charbel.jesusforme.data.doua2.doua2SaintJoseph;
+import com.charbel.jesusforme.data.massbaha.masbahaSaintJoseph;
+import com.charbel.jesusforme.data.salatYawmiyeh.evening;
+import com.charbel.jesusforme.data.salatYawmiyeh.morning;
 import com.charbel.jesusforme.data.salawet.SaintRafqa;
 import com.charbel.jesusforme.data.salawet.Saintcharbel;
 import com.charbel.jesusforme.data.salawet.againstEvil;
@@ -20,6 +25,7 @@ import com.charbel.jesusforme.data.salatYawmiyeh.myfather;
 import com.charbel.jesusforme.data.salawet.padrePioS1;
 import com.charbel.jesusforme.data.salawet.rou7koudous;
 import com.charbel.jesusforme.data.telbet.telbetElMawta;
+import com.charbel.jesusforme.data.telbet.telbetSaintJoseph;
 import com.charbel.jesusforme.data.telbet.telbitAlra7maIlahiyeh;
 import com.charbel.jesusforme.data.tesawiyet.alra7maIlahiyeh;
 import com.charbel.jesusforme.data.tesawiyet.saintCharbel;
@@ -33,6 +39,7 @@ import com.charbel.jesusforme.data.salawet.tabchirAlMala2ika;
 import com.charbel.jesusforme.data.telbet.telbatElAddra;
 import com.charbel.jesusforme.data.telbet.telbetkalebyassouh;
 import com.charbel.jesusforme.data.template;
+import com.charbel.jesusforme.data.tesawiyet.tessawiyetSaintJoseph;
 import com.charbel.jesusforme.data.tesawiyet.tssaiiatSaintRita;
 
 public class staticVar {
@@ -121,10 +128,24 @@ public class staticVar {
                 return new SaintRafqa();
 
 
+                // -----
+            case 34:
+                return new tessawiyetSaintJoseph();
+
+            case 35:
+                return new telbetSaintJoseph();
+            case 36:
+                return new masbahaSaintJoseph();
+            case 37:
+                return new doua2SaintJoseph();
+            case 38:
+                return new FransistoViergeMarie();
 
 
-
-
+            case 39:
+                return new morning();
+            case 40:
+                return new evening();
 
             // -----------------------------------
             default:

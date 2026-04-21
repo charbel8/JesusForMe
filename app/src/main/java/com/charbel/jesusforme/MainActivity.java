@@ -2,736 +2,200 @@ package com.charbel.jesusforme;
 
 
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.text.Html;
-import android.text.Spanned;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
+import android.util.Log;
+
+import java.util.Arrays;
+import java.util.List;
+
 
 
 public class MainActivity  extends AppCompatActivity {
 
 
+    // ── inner model ──────────────────────────────────────────────
+    private static class Group {
+        final int headerBtnId;
+        final int containerId;
+        final String collapsedLabel;
+        final String expandedLabel;
+        final int[][] buttons; // {viewId, code}
 
-    private Button saintCharbel, saintRafqa,saintKassab;
-    private Button  alra7ma, rou7koudous, rita1;
-    private Button Saintcharbel, SaintRafqaS;
+        Group(int headerBtnId, int containerId,
+              String collapsedLabel, String expandedLabel,
+              int[][] buttons) {
+            this.headerBtnId    = headerBtnId;
+            this.containerId    = containerId;
+            this.collapsedLabel = collapsedLabel;
+            this.expandedLabel  = expandedLabel;
+            this.buttons        = buttons;
+        }
+    }
 
-    private Button saintJoseph, saintJoseph2, telbatElAddra;
-    private Button tabchirmalaika, telbitkalebyassouh, althaloth, telbetElMawta;
-    private Button telbetSaintJoseph;
-    private Button beforsleep, ssaidniyarab,myfather;
-    private Button morning, evening;
-    // ------------------------
-    private Button padrePioS1, againstEvil, tssaiiatSaintRita;
-    private Button masbahaAlFarah, masbahaAlHezen, masbahaAlMajed, masbahaAlNour;
-    private Button masbahaSaintJoseph;
-    private Button alra7maIlahiyeh, telbitAlra7maIlahiyeh;
-    private Button gardAngel;
-
-    private Button babyCancer, mariamt7ik3ikad, takrisKalebMariam;
-    private Button   takrisKalebYassou3, AnfoudAlmathariyeh;
-
-
-    private Button tessawiyetSaintJoseph;
-
-    private Button btnGroupTsaiiyat, btnGroupTalabet,btnGroupSalawetYawmiyeh, btnGroupSalawet , btnGroupMassebih ;
-    private Button btnGroupDouaat, doua2SaintJoseph, FransistoViergeMarie;
-
-    private Button  btnGroupSalawetKhassa;
-    private LinearLayout TsaiiyatExpandableButtons,talabetExpandableButtons;
-    private LinearLayout SalawetkhassaExpandableButtons , SalawetYawmiyehExpandableButtons;
-    private LinearLayout SalawetExpandableButtons, MassebihExpandableButtons, DouaatExpandableButtons;
-    private boolean isTsaiiyatExpanded = false;
-    private boolean istalabetExpanded = false;
-    private boolean isSalawetYawmiyeh = false;
-    private boolean isSalawet= false;
-    private boolean isMassebih= false;
-    private boolean isSalawetKhassa= false;
-    private boolean isDouaat= false;
+    // ── state ─────────────────────────────────────────────────────
+    private List<Group>       groups;
+    private List<LinearLayout> containers;
+    private List<Button>       headers;
 
 
+    // ── data ──────────────────────────────────────────────────────
+    private List<Group> buildGroups() {
+        return Arrays.asList(
+
+                new Group(R.id.btnGroupSalawetYawmiyeh,
+                        R.id.SalawetYawmiyehExpandableButtons,
+                        "الصلاة اليومية  ◀ ", "الصلاة اليومية  ▼ ",
+                        new int[][]{
+                                {R.id.myfather,      15},
+                                {R.id.ssaidniyarab,  14},
+                                {R.id.beforsleep,    13},
+                                {R.id.evening,       40},
+                                {R.id.morning,       39},
+                        }),
+
+                new Group(R.id.btnGroupSalawetKhassa,
+                        R.id.SalawetkhassaExpandableButtons,
+                        "صلاوات خاصة  ◀ ", "صلاوات خاصة  ▼ ",
+                        new int[][]{
+                                {R.id.takrisKalebMariam,   28},
+                                {R.id.mariamt7ik3ikad,     27},
+                                {R.id.takrisKalebYassou3,  29},
+                                {R.id.babyCancer,          26},
+                                {R.id.AnfoudAlmathariyeh,  31},
+                        }),
+
+                new Group(R.id.btnGroupSalawet,
+                        R.id.SalawetExpandableButtons,
+                        "الصلوات  ◀ ", "الصلوات  ▼ ",
+                        new int[][]{
+                                {R.id.rita1,          6},
+                                {R.id.SaintRita2,    45},
+                                {R.id.charbel,       32},
+                                {R.id.saintRafqaS,   33},
+                                {R.id.padrePioS1,    16},
+                                {R.id.againstEvil,   17},
+                                {R.id.tabchirmalaika, 10},
+                                {R.id.rou7koudous,    5},
+                                {R.id.saintJoseph2,   8},
+                                {R.id.saintJoseph,    7},
+                                {R.id.gardAngel,     25},
 
 
+
+                                {R.id.SaintMarina,    41},
+                                {R.id.SaintNemaAllah, 42},
+                        }),
+
+                new Group(R.id.btnGroupTsaiiyat,
+                        R.id.tsaiiyatExpandableButtons,
+                        "التساعيّات  ◀ ", "التساعيّات  ▼ ",
+                        new int[][]{
+                                {R.id.tssaiiatSaintRita,      18},
+                                {R.id.tessawiyetSaintJoseph,  34},
+                        }),
+
+                new Group(R.id.btnGroupTalabet,
+                        R.id.talabetExpandableButtons,
+                        "الطلبات  ◀ ", "الطلبات  ▼ ",
+                        new int[][]{
+                                {R.id.SaintCharbel,      1},
+                                {R.id.saintRafqa,        2},
+                                {R.id.saintKassab,       3},
+                                {R.id.alra7ma,           4},
+                                {R.id.telbatElAddra,     9},
+                                {R.id.telbitkalebyassouh,11},
+                                {R.id.althaloth,         12},
+                                {R.id.telbetElMawta,     30},
+                                {R.id.telbetSaintJoseph, 35},
+                        }),
+
+                new Group(R.id.btnGroupMassebih,
+                        R.id.MassebihExpandableButtons,
+                        "المسابح  ◀ ", "المسابح  ▼ ",
+                        new int[][]{
+                                {R.id.masbahaAlFarah,       19},
+                                {R.id.masbahaAlHezen,       20},
+                                {R.id.masbahaAlMajed,       21},
+                                {R.id.masbahaAlNour,        22},
+                                {R.id.masbahaSaintJoseph,   36},
+                                {R.id.alra7maIlahiyeh,      23},
+                                {R.id.telbitAlra7maIlahiyeh,24},
+                        }),
+
+                new Group(R.id.btnGroupDouaat,
+                        R.id.DouaatExpandableButtons,
+                        "الدعاءات  ◀ ", "الدعاءات  ▼ ",
+                        new int[][]{
+                                {R.id.doua2SaintJoseph,    37},
+                                {R.id.FransistoViergeMarie,38},
+                                {R.id.sallatNafes,    43},
+                                {R.id.sallatJassad,44},
+                        })
+        );
+    }
+
+    // ── lifecycle ─────────────────────────────────────────────────
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
-
-
-        // --------------Salawet Yawmiyeh ------------------
-
-        btnGroupSalawetYawmiyeh = findViewById(R.id.btnGroupSalawetYawmiyeh);
-        SalawetYawmiyehExpandableButtons = findViewById(R.id.SalawetYawmiyehExpandableButtons);
-        SalawetYawmiyehExpandableButtons.setVisibility(View.GONE);
-        btnGroupSalawetYawmiyeh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                staticVar.setGroupNumber(1);
-
-                Expend();
-             //   SalawetYawmiyehtoggleExpansion();
-            }
-        });
-
-
-        // ------------- Salawet ------------------
-        btnGroupSalawet = findViewById(R.id.btnGroupSalawet);
-        SalawetExpandableButtons = findViewById(R.id.SalawetExpandableButtons);
-        SalawetExpandableButtons.setVisibility(View.GONE);
-        btnGroupSalawet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                staticVar.setGroupNumber(2);
-
-                Expend();
-               // SalawettoggleExpansion();
-            }
-        });
-
-
-      // ------------- Tsaiiyat ------------------
-        btnGroupTsaiiyat = findViewById(R.id.btnGroupTsaiiyat);
-        TsaiiyatExpandableButtons = findViewById(R.id.tsaiiyatExpandableButtons);
-        TsaiiyatExpandableButtons.setVisibility(View.GONE);
-
-        btnGroupTsaiiyat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                staticVar.setGroupNumber(3);
-
-                Expend();
-              //  TsaiiyattoggleExpansion();
-            }
-        });
-
-
-      // ------------- Talabet ------------------
-        btnGroupTalabet = findViewById(R.id.btnGroupTalabet);
-        talabetExpandableButtons = findViewById(R.id.talabetExpandableButtons);
-        talabetExpandableButtons.setVisibility(View.GONE);
-
-        btnGroupTalabet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                staticVar.setGroupNumber(4);
-
-                Expend();
-                //talabettoggleExpansion();
-            }
-        });
-
-        // ------------- Massebih ------------------
-        btnGroupMassebih = findViewById(R.id.btnGroupMassebih);
-        MassebihExpandableButtons = findViewById(R.id.MassebihExpandableButtons);
-        MassebihExpandableButtons.setVisibility(View.GONE);
-        btnGroupMassebih.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                staticVar.setGroupNumber(5);
-                Expend();
-              //  MassebihtoggleExpansion();
-            }
-        });
-
-        //---------------------- SalawetkhassaExpandableButtons -----------
-        btnGroupSalawetKhassa =  findViewById(R.id.btnGroupSalawetKhassa);
-        SalawetkhassaExpandableButtons = findViewById(R.id.SalawetkhassaExpandableButtons);
-        SalawetkhassaExpandableButtons.setVisibility(View.GONE);
-        btnGroupSalawetKhassa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                staticVar.setGroupNumber(6);
-                Expend();
-            }
-        });
-
-
-        // ------------- Douaat ------------------
-        btnGroupDouaat = findViewById(R.id.btnGroupDouaat);
-        DouaatExpandableButtons = findViewById(R.id.DouaatExpandableButtons);
-        DouaatExpandableButtons.setVisibility(View.GONE);
-        btnGroupDouaat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                staticVar.setGroupNumber(7);
-                Expend();
-                //  MassebihtoggleExpansion();
-            }
-        });
-
-        // ----------------------------------------------
-
-        saintCharbel = findViewById(R.id.SaintCharbel);
-        saintCharbel.setOnClickListener(v -> {
-            staticVar.code=1;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        saintRafqa = findViewById(R.id.saintRafqa);
-        saintRafqa.setOnClickListener(v -> {
-            staticVar.code=2;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        saintKassab = findViewById(R.id.saintKassab);
-        saintKassab.setOnClickListener(v -> {
-            staticVar.code=3;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        // ---------------------
-        alra7ma = findViewById(R.id.alra7ma);
-        alra7ma.setOnClickListener(v -> {
-            staticVar.code=4;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        rou7koudous = findViewById(R.id.rou7koudous);
-        rou7koudous.setOnClickListener(v -> {
-            staticVar.code=5;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        rita1 = findViewById(R.id.rita1);
-        rita1.setOnClickListener(v -> {
-            staticVar.code=6;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-
-        Saintcharbel = findViewById(R.id.charbel);
-        Saintcharbel.setOnClickListener(v -> {
-            staticVar.code=32;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        SaintRafqaS = findViewById(R.id.saintRafqaS);
-        SaintRafqaS.setOnClickListener(v -> {
-            staticVar.code=33;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        // --------------------
-        saintJoseph = findViewById(R.id.saintJoseph);
-        saintJoseph.setOnClickListener(v -> {
-            staticVar.code=7;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        saintJoseph2 = findViewById(R.id.saintJoseph2);
-        saintJoseph2.setOnClickListener(v -> {
-            staticVar.code=8;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-        telbatElAddra = findViewById(R.id.telbatElAddra);
-        telbatElAddra.setOnClickListener(v -> {
-            staticVar.code=9;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        tabchirmalaika = findViewById(R.id.tabchirmalaika);
-        tabchirmalaika.setOnClickListener(v -> {
-            staticVar.code=10;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        telbitkalebyassouh = findViewById(R.id.telbitkalebyassouh);
-        telbitkalebyassouh.setOnClickListener(v -> {
-            staticVar.code=11;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        althaloth = findViewById(R.id.althaloth);
-        althaloth.setOnClickListener(v -> {
-            staticVar.code=12;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        telbetElMawta = findViewById(R.id.telbetElMawta);
-        telbetElMawta.setOnClickListener(v -> {
-            staticVar.code=30;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        telbetSaintJoseph = findViewById(R.id.telbetSaintJoseph);
-        telbetSaintJoseph.setOnClickListener(v -> {
-            staticVar.code=35;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-
-        beforsleep = findViewById(R.id.beforsleep);
-        beforsleep.setOnClickListener(v -> {
-            staticVar.code=13;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-
-        morning = findViewById(R.id.morning);
-        morning.setOnClickListener(v -> {
-            staticVar.code=39;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        evening = findViewById(R.id.evening);
-        evening.setOnClickListener(v -> {
-            staticVar.code=40;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-
-        ssaidniyarab = findViewById(R.id.ssaidniyarab);
-        ssaidniyarab.setOnClickListener(v -> {
-            staticVar.code=14;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        myfather = findViewById(R.id.myfather);
-        myfather.setOnClickListener(v -> {
-            staticVar.code=15;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        // ---------------------------
-        padrePioS1= findViewById(R.id.padrePioS1);
-        padrePioS1.setOnClickListener(v -> {
-            staticVar.code=16;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        // ---------------------------
-        againstEvil= findViewById(R.id.againstEvil);
-        againstEvil.setOnClickListener(v -> {
-            staticVar.code=17;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-        // ---------------------------
-        tssaiiatSaintRita= findViewById(R.id.tssaiiatSaintRita);
-        tssaiiatSaintRita.setOnClickListener(v -> {
-            staticVar.code=18;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        // ---------------------------
-        tessawiyetSaintJoseph= findViewById(R.id.tessawiyetSaintJoseph);
-        tessawiyetSaintJoseph.setOnClickListener(v -> {
-            staticVar.code=34;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-
-
-        //--------------------------
-        masbahaAlFarah= findViewById(R.id.masbahaAlFarah);
-        masbahaAlFarah.setOnClickListener(v -> {
-            staticVar.code=19;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        masbahaAlHezen= findViewById(R.id.masbahaAlHezen);
-        masbahaAlHezen.setOnClickListener(v -> {
-            staticVar.code=20;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        masbahaAlMajed= findViewById(R.id.masbahaAlMajed);
-        masbahaAlMajed.setOnClickListener(v -> {
-            staticVar.code=21;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        masbahaAlNour= findViewById(R.id.masbahaAlNour);
-        masbahaAlNour.setOnClickListener(v -> {
-            staticVar.code=22;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        masbahaSaintJoseph= findViewById(R.id.masbahaSaintJoseph);
-        masbahaSaintJoseph.setOnClickListener(v -> {
-            staticVar.code=36;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        alra7maIlahiyeh= findViewById(R.id.alra7maIlahiyeh);
-        alra7maIlahiyeh.setOnClickListener(v -> {
-            staticVar.code=23;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-        telbitAlra7maIlahiyeh= findViewById(R.id.telbitAlra7maIlahiyeh);
-        telbitAlra7maIlahiyeh.setOnClickListener(v -> {
-            staticVar.code=24;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        gardAngel= findViewById(R.id.gardAngel);
-        gardAngel.setOnClickListener(v -> {
-            staticVar.code=25;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        babyCancer= findViewById(R.id.babyCancer);
-        babyCancer.setOnClickListener(v -> {
-            staticVar.code=26;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        mariamt7ik3ikad= findViewById(R.id.mariamt7ik3ikad);
-        mariamt7ik3ikad.setOnClickListener(v -> {
-            staticVar.code=27;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-        takrisKalebMariam= findViewById(R.id.takrisKalebMariam);
-        takrisKalebMariam.setOnClickListener(v -> {
-            staticVar.code=28;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-        takrisKalebYassou3= findViewById(R.id.takrisKalebYassou3);
-        takrisKalebYassou3.setOnClickListener(v -> {
-            staticVar.code=29;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        AnfoudAlmathariyeh= findViewById(R.id.AnfoudAlmathariyeh);
-        AnfoudAlmathariyeh.setOnClickListener(v -> {
-            staticVar.code=31;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-        // --------------------
-        doua2SaintJoseph = findViewById(R.id.doua2SaintJoseph);
-        doua2SaintJoseph.setOnClickListener(v -> {
-            staticVar.code=37;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-        FransistoViergeMarie = findViewById(R.id.FransistoViergeMarie);
-        FransistoViergeMarie.setOnClickListener(v -> {
-            staticVar.code=38;
-            Intent intent = new Intent(MainActivity.this, dynamicAct.class);
-            startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
-        });
-
-
-
-        Expend();
-    }
-
-// ------------------------------ Block selector -------------
-
-    private void Expend(){
-
-      switch (staticVar.getGroupNumber()){
-          case 1:
-              isSalawetYawmiyeh= true;
-              isSalawet= false;
-              isTsaiiyatExpanded= false;
-              istalabetExpanded= false;
-              isMassebih= false;
-              isSalawetKhassa =false;
-              isDouaat=false;
-              break;
-
-          case 2:
-              isSalawetYawmiyeh= false;
-              isSalawet= true;
-              isTsaiiyatExpanded= false;
-              istalabetExpanded= false;
-              isMassebih= false;
-              isSalawetKhassa =false;
-              isDouaat=false;
-              break;
-
-          case 3:
-              isSalawetYawmiyeh= false;
-              isSalawet= false;
-              isTsaiiyatExpanded= true;
-              istalabetExpanded= false;
-              isMassebih= false;
-              isSalawetKhassa =false;
-              isDouaat=false;
-              break;
-          case 4:
-              isSalawetYawmiyeh= false;
-              isSalawet= false;
-              isTsaiiyatExpanded= false;
-              istalabetExpanded= true;
-              isMassebih= false;
-              isSalawetKhassa =false;
-              isDouaat=false;
-              break;
-          case 5:
-              isSalawetYawmiyeh= false;
-              isSalawet= false;
-              isTsaiiyatExpanded= false;
-              istalabetExpanded= false;
-              isMassebih= true;
-              isSalawetKhassa =false;
-              isDouaat=false;
-              break;
-
-          case 6:
-              isSalawetYawmiyeh= false;
-              isSalawet= false;
-              isTsaiiyatExpanded= false;
-              istalabetExpanded= false;
-              isMassebih= false;
-              isSalawetKhassa =true;
-              isDouaat=false;
-              break;
-
-          case 7:
-              isSalawetYawmiyeh= false;
-              isSalawet= false;
-              isTsaiiyatExpanded= false;
-              istalabetExpanded= false;
-              isMassebih= false;
-              isSalawetKhassa =false;
-              isDouaat=true;
-              break;
-      }
-
-
-                SalawetYawmiyehtoggleExpansion();
-                SalawettoggleExpansion();
-                TsaiiyattoggleExpansion();
-                talabettoggleExpansion();
-                MassebihtoggleExpansion();
-                SalawetKhassaExpansion();
-                DouaatExpansion();
-    }
-
-
-
-
-     // ------------------- expend ... ---------------------------
-        private void TsaiiyattoggleExpansion() {
-            if (!isTsaiiyatExpanded) {
-                // Collapse
-                TsaiiyatExpandableButtons.setVisibility(View.GONE);
-                btnGroupTsaiiyat.setText("التساعيّات  ◀ ");
-                isTsaiiyatExpanded = false;
-            } else {
-                // Expand
-                TsaiiyatExpandableButtons.setVisibility(View.VISIBLE);
-                btnGroupTsaiiyat.setText("التساعيّات  ▼");
-                isTsaiiyatExpanded = true;
+        groups     = buildGroups();
+        containers = new java.util.ArrayList<>();
+        headers    = new java.util.ArrayList<>();
+
+        for (int i = 0; i < groups.size(); i++) {
+            Group g = groups.get(i);
+
+            Button       header    = findViewById(g.headerBtnId);
+            LinearLayout container = findViewById(g.containerId);
+
+            headers.add(header);
+            containers.add(container);
+
+            container.setVisibility(View.GONE);
+
+            final int index = i;
+            header.setOnClickListener(v -> toggle(index));
+
+            // wire up every content button in this group
+            for (int[] pair : g.buttons) {
+                int viewId = pair[0];
+                int code   = pair[1];
+                findViewById(viewId).setOnClickListener(
+                        v -> openPage(code)
+                );
             }
         }
-
-    private void talabettoggleExpansion() {
-        if (!istalabetExpanded) {
-            // Collapse
-            talabetExpandableButtons.setVisibility(View.GONE);
-            btnGroupTalabet.setText("الطلبات  ◀ ");
-            istalabetExpanded = false;
-        } else {
-            // Expand
-            talabetExpandableButtons.setVisibility(View.VISIBLE);
-            btnGroupTalabet.setText("الطلبات  ▼");
-            istalabetExpanded = true;
-        }
+        toggle(staticVar.getGroupNumber());
     }
 
-    private void SalawetYawmiyehtoggleExpansion() {
+    // ── helpers ───────────────────────────────────────────────────
+    private void toggle(int index) {
 
-        if (!isSalawetYawmiyeh) {
-            // Collapse
-            SalawetYawmiyehExpandableButtons.setVisibility(View.GONE);
-            btnGroupSalawetYawmiyeh.setText("الصلاة اليومية  ◀ ");
-            isSalawetYawmiyeh = false;
-        } else {
-            // Expand
-            SalawetYawmiyehExpandableButtons.setVisibility(View.VISIBLE);
-            btnGroupSalawetYawmiyeh.setText("الصلاة اليومية  ▼");
-            isSalawetYawmiyeh = true;
+        for (int i = 0; i < groups.size(); i++) {
+            if (i == index) {
+                containers.get(i).setVisibility( View.VISIBLE);
+                headers.get(i).setText(groups.get(i).expandedLabel);
+                continue;
+            }
+            containers.get(i).setVisibility(View.GONE);
+            headers.get(i).setText(groups.get(i).collapsedLabel);
+
         }
+        staticVar.setGroupNumber(index);
+
     }
 
-
-    private void SalawettoggleExpansion() {
-        if (!isSalawet) {
-            // Collapse
-            SalawetExpandableButtons.setVisibility(View.GONE);
-            btnGroupSalawet.setText("الصلوات  ◀ ");
-            isSalawet = false;
-        } else {
-            // Expand
-            SalawetExpandableButtons.setVisibility(View.VISIBLE);
-            btnGroupSalawet.setText("الصلوات  ▼");
-            isSalawet = true;
-        }
+    private void openPage(int code) {
+        staticVar.code = code;
+        startActivity(new Intent(this, dynamicAct.class));
+        finish();
     }
-
-    private void MassebihtoggleExpansion() {
-        if (!isMassebih) {
-            // Collapse
-            MassebihExpandableButtons.setVisibility(View.GONE);
-            btnGroupMassebih.setText("المسابح  ◀ ");
-            isMassebih = false;
-        } else {
-            // Expand
-            MassebihExpandableButtons.setVisibility(View.VISIBLE);
-            btnGroupMassebih.setText("المسابح  ▼");
-            isMassebih = true;
-        }
-    }
-
-
-    private void SalawetKhassaExpansion() {
-        if (!isSalawetKhassa) {
-            // Collapse
-            SalawetkhassaExpandableButtons.setVisibility(View.GONE);
-            btnGroupSalawetKhassa.setText("صلاوات خاصة  ◀ ");
-            isSalawetKhassa = false;
-        } else {
-            // Expand
-            SalawetkhassaExpandableButtons.setVisibility(View.VISIBLE);
-            btnGroupSalawetKhassa.setText("صلاوات خاصة  ▼");
-            isSalawetKhassa = true;
-        }
-    }
-
-
-    private void DouaatExpansion() {
-        if (!isDouaat) {
-            // Collapse
-            DouaatExpandableButtons.setVisibility(View.GONE);
-            btnGroupDouaat.setText("الدعاءات  ◀ ");
-            isDouaat = false;
-        } else {
-            // Expand
-            DouaatExpandableButtons.setVisibility(View.VISIBLE);
-            btnGroupDouaat.setText("الدعاءات  ▼");
-            isDouaat = true;
-        }
-    }
-
-
 
 }

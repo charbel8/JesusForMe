@@ -3135,6 +3135,9 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SaintCharbel
+id SaintMarina
+id SaintNemaAllah
+id SaintRita2
 id SalawetExpandableButtons
 id SalawetYawmiyehExpandableButtons
 id SalawetkhassaExpandableButtons
@@ -3535,6 +3538,8 @@ id saintJoseph2
 id saintKassab
 id saintRafqa
 id saintRafqaS
+id sallatJassad
+id sallatNafes
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3911,6 +3916,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
+string app_version
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
@@ -4340,6 +4346,9 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style ExpendButton
+style GridButton
+style LinearExpand
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text
@@ -4374,6 +4383,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style RawButton
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
@@ -5177,6 +5187,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style appVersionText
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

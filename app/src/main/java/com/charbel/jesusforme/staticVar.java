@@ -1,53 +1,20 @@
 package com.charbel.jesusforme;
 
-import com.charbel.jesusforme.data.doua2.FransistoViergeMarie;
-import com.charbel.jesusforme.data.doua2.doua2SaintJoseph;
-import com.charbel.jesusforme.data.massbaha.masbahaSaintJoseph;
-import com.charbel.jesusforme.data.salatYawmiyeh.evening;
-import com.charbel.jesusforme.data.salatYawmiyeh.morning;
-import com.charbel.jesusforme.data.salawet.SaintRafqa;
-import com.charbel.jesusforme.data.salawet.Saintcharbel;
-import com.charbel.jesusforme.data.salawet.againstEvil;
-import com.charbel.jesusforme.data.massbaha.alra7ma;
-import com.charbel.jesusforme.data.salawet.gardAngel;
-import com.charbel.jesusforme.data.salawetKhassa.AnfoudAlmathariyeh;
-import com.charbel.jesusforme.data.salawetKhassa.babyCancer;
-import com.charbel.jesusforme.data.salawetKhassa.mariamt7ik3ikad;
-import com.charbel.jesusforme.data.salawetKhassa.takrisKalebMariam;
-import com.charbel.jesusforme.data.salawetKhassa.takrisKalebYassou3;
-import com.charbel.jesusforme.data.telbet.althaloth;
-import com.charbel.jesusforme.data.salatYawmiyeh.beforsleep;
-import com.charbel.jesusforme.data.massbaha.masbahaAlFarah;
-import com.charbel.jesusforme.data.massbaha.masbahaAlHezen;
-import com.charbel.jesusforme.data.massbaha.masbahaAlMajed;
-import com.charbel.jesusforme.data.massbaha.masbahaAlNour;
-import com.charbel.jesusforme.data.salatYawmiyeh.myfather;
-import com.charbel.jesusforme.data.salawet.padrePioS1;
-import com.charbel.jesusforme.data.salawet.rou7koudous;
-import com.charbel.jesusforme.data.telbet.telbetElMawta;
-import com.charbel.jesusforme.data.telbet.telbetSaintJoseph;
-import com.charbel.jesusforme.data.telbet.telbitAlra7maIlahiyeh;
-import com.charbel.jesusforme.data.tesawiyet.alra7maIlahiyeh;
-import com.charbel.jesusforme.data.tesawiyet.saintCharbel;
-import com.charbel.jesusforme.data.salawet.saintJoseph;
-import com.charbel.jesusforme.data.salawet.saintJoseph2;
-import com.charbel.jesusforme.data.tesawiyet.saintKassab;
-import com.charbel.jesusforme.data.tesawiyet.saintRafqa;
-import com.charbel.jesusforme.data.salawet.saintRita;
-import com.charbel.jesusforme.data.salatYawmiyeh.ssaidniyarab;
-import com.charbel.jesusforme.data.salawet.tabchirAlMala2ika;
-import com.charbel.jesusforme.data.telbet.telbatElAddra;
-import com.charbel.jesusforme.data.telbet.telbetkalebyassouh;
+import com.charbel.jesusforme.data.doua2.*;
+import com.charbel.jesusforme.data.massbaha.*;
+import com.charbel.jesusforme.data.salatYawmiyeh.*;
+import com.charbel.jesusforme.data.salawet.*;
+import com.charbel.jesusforme.data.salawetKhassa.*;
+import com.charbel.jesusforme.data.telbet.*;
 import com.charbel.jesusforme.data.template;
-import com.charbel.jesusforme.data.tesawiyet.tessawiyetSaintJoseph;
-import com.charbel.jesusforme.data.tesawiyet.tssaiiatSaintRita;
+import com.charbel.jesusforme.data.tesawiyet.*;
 
 public class staticVar {
 
     public static int code=0;
     public static template _template;
 
- public static int groupNumber = 0;
+ public static int groupNumber = -1;
 
 
     public static template getSalat() {
@@ -146,6 +113,21 @@ public class staticVar {
                 return new morning();
             case 40:
                 return new evening();
+
+            case 41:
+                return new SaintMarina();
+            case 42:
+                return new SaintNemaAllah();
+
+
+            case 43:
+                return new sallatNafes();
+            case 44:
+                return new sallatJassad();
+            case 45:
+                return new SaintRita2();
+
+
 
             // -----------------------------------
             default:

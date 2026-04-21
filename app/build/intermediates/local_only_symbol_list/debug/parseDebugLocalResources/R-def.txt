@@ -19,6 +19,9 @@ id DouaatExpandableButtons
 id FransistoViergeMarie
 id MassebihExpandableButtons
 id SaintCharbel
+id SaintMarina
+id SaintNemaAllah
+id SaintRita2
 id SalawetExpandableButtons
 id SalawetYawmiyehExpandableButtons
 id SalawetkhassaExpandableButtons
@@ -60,6 +63,8 @@ id saintJoseph2
 id saintKassab
 id saintRafqa
 id saintRafqaS
+id sallatJassad
+id sallatNafes
 id ssaidniyarab
 id tabchirmalaika
 id takrisKalebMariam
@@ -81,7 +86,13 @@ mipmap ic_launcher_adaptive_back
 mipmap ic_launcher_adaptive_fore
 mipmap ic_launcher_round
 string app_name
+string app_version
 string saintCharbel
+style ExpendButton
+style GridButton
+style LinearExpand
+style RawButton
 style Theme.JesusForMe
+style appVersionText
 xml backup_rules
 xml data_extraction_rules

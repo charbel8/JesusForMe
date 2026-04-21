@@ -20,986 +20,394 @@
             android:gravity="fill">
 
             <!-- SalawetYawmiyeh -->
-            <Button
+            <Button style="@style/ExpendButton"
                 android:id="@+id/btnGroupSalawetYawmiyeh"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="الصلاة اليومية  ◀ "
-                android:textAlignment="textStart"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:background="?attr/selectableItemBackground"
-                android:textColor="#2196F3"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
+                android:text="الصلاة اليومية  ◀ " />
 
             <!-- Expandable Buttons Container -->
-            <LinearLayout
-                android:id="@+id/SalawetYawmiyehExpandableButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingStart="24dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp">
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/SalawetYawmiyehExpandableButtons">
 
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout style="@style/RawButton" >
 
-
-                    <Button
+                    <Button style="@style/GridButton"
                         android:id="@+id/myfather"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة الصباح – أنت أبي السماوي ومخلصي" />
 
-                    <Button
+                    <Button style="@style/GridButton"
                         android:id="@+id/ssaidniyarab"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة الصباح – ساعدني يا ربّ" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/beforsleep"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة إلى مريم قبل النوم" />
-
-
 
                 </LinearLayout>
 
 
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton" >
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/evening"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة المساء" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/morning"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة الصباحّ" />
 
-
-
-
-
                 </LinearLayout>
-
-
 
             </LinearLayout>
 
 
 
             <!-- btnGroup Salawet Khassa -->
-            <Button
+            <Button  style="@style/ExpendButton"
                 android:id="@+id/btnGroupSalawetKhassa"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="صلاوات خاصة  ◀ "
-                android:textAlignment="textStart"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:background="?attr/selectableItemBackground"
-                android:textColor="#2196F3"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
+                android:text="صلاوات خاصة  ◀ "/>
 
             <!-- Expandable Buttons Container -->
-            <LinearLayout
-                android:id="@+id/SalawetkhassaExpandableButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingStart="24dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp">
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/SalawetkhassaExpandableButtons">
 
                 <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
 
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
-
-                    <Button
-                        android:id="@+id/takrisKalebMariam"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="4dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/button_border"
-                        android:text="فعل التكريس لقلب مريم الطاهر"
-                        android:textColor="#000000"
-                        android:textStyle="bold" />
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/mariamt7ik3ikad"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة لمريم التي تحل العقد" />
 
-
-
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/takrisKalebMariam"
+                        android:text="فعل التكريس لقلب مريم الطاهر" />
 
                 </LinearLayout>
 
-
-
                 <!-- Row 2 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/takrisKalebYassou3"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="فعل التكريس لقلب يسوع الأقدس" />
-
 
                 </LinearLayout>
 
 
                 <!-- Row 3 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/babyCancer"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة لمرضى السرطان وخاصة الاطفال" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/AnfoudAlmathariyeh"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة لأجل الأنفس المطهريّة" />
-
-
-
 
                 </LinearLayout>
 
-
             </LinearLayout>
-
-
-
-
-
-
 
 
             <!-- Salawet -->
-            <Button
+            <Button  style="@style/ExpendButton"
                 android:id="@+id/btnGroupSalawet"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="الصلوات  ◀ "
-                android:textAlignment="textStart"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:background="?attr/selectableItemBackground"
-                android:textColor="#2196F3"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
+                android:text="الصلوات  ◀ "/>
 
             <!-- Expandable Buttons Container -->
-            <LinearLayout
-                android:id="@+id/SalawetExpandableButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingStart="24dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp">
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/SalawetExpandableButtons">
 
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintRita2"
+                        android:text="صلاة للقديسة ريتا 2" />
+
+                    <Button  style="@style/GridButton"
                         android:id="@+id/rita1"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة للقديسة ريتا " />
 
+
+
+
                 </LinearLayout>
 
-
-
-
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/charbel"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة إلى القديس شربل" />
 
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintNemaAllah"
+                        android:text="القديس نعمه الله" />
 
-                    <Button
+                </LinearLayout>
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+
+                    <Button  style="@style/GridButton"
                         android:id="@+id/saintRafqaS"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة للقدّيسة رفقا" />
 
-
-
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintMarina"
+                        android:text="صلاة القديسة مارينا" />
 
                 </LinearLayout>
 
 
 
-
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/padrePioS1"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="تحقّق المعجزات - بادري بيو" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/againstEvil"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="ضد كل الشـرور الشـيطانيّة" />
 
-
-
-
                 </LinearLayout>
-
-
-
 
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/tabchirmalaika"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="التبشير الملائكي" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/rou7koudous"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة للروح القدس" />
 
-
                 </LinearLayout>
 
                 <!-- Row 2 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/saintJoseph2"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="مار يوسف شفيع الكنيسة العام" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/saintJoseph"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة للقديس يوسف " />
+
                 </LinearLayout>
 
-
-
-
                 <!-- Row 2 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/gardAngel"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="صلاة للملاك الحارس " />
                 </LinearLayout>
 
-
-
-
             </LinearLayout>
-
-
-
-
-
-
 
             <!-- Tsaiiyat -->
-            <Button
+            <Button  style="@style/ExpendButton"
                 android:id="@+id/btnGroupTsaiiyat"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="التساعيّات  ◀ "
-                android:textAlignment="textStart"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:background="?attr/selectableItemBackground"
-                android:textColor="#2196F3"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
+                android:text="التساعيّات  ◀ " />
 
             <!-- Expandable Buttons Container -->
-            <LinearLayout
-                android:id="@+id/tsaiiyatExpandableButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingStart="24dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp">
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/tsaiiyatExpandableButtons">
 
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/SaintCharbel"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="تساعية مار شربل" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/saintRafqa"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="4dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/button_border"
-                        android:text="تساعيّة القدّيسة رفقا"
-                        android:textColor="#000000"
-                        android:textStyle="bold" />
+                        android:text="تساعيّة القدّيسة رفقا"  />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/saintKassab"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="تساعيّة القدّيس نعمة الله الحرديني" />
+
                 </LinearLayout>
 
-
-
                 <!-- Row 2 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/tssaiiatSaintRita"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="تساعيّة القدّيسة ريتا" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/alra7maIlahiyeh"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="تساعية الرحمة الإلهية" />
 
-
-
-
-
                 </LinearLayout>
 
                 <!-- Row 3 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/tessawiyetSaintJoseph"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="تساعية القديس يوسف" />
 
-
-
-
-
-
-
                 </LinearLayout>
 
-
-
             </LinearLayout>
-
-
-
-
 
             <!--       ************** btnGrouptalabet ************                          -->
-            <Button
+            <Button  style="@style/ExpendButton"
                 android:id="@+id/btnGroupTalabet"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="الطلبات  ◀ "
-                android:textAlignment="textStart"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:background="?attr/selectableItemBackground"
-                android:textColor="#2196F3"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:text="الطلبات  ◀ " />
 
             <!-- Expandable Buttons Container -->
-            <LinearLayout
-                android:id="@+id/talabetExpandableButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingStart="24dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp">
-
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/talabetExpandableButtons">
 
                 <!-- Row 3 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/telbatElAddra"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="طلبة العذراء" />
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/althaloth"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="طلبة الثالوث الأقدس" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/telbitkalebyassouh"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="طلبة قلب يسوع الأقدس" />
-
 
                 </LinearLayout>
 
 
                 <!-- Row 3 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/telbetSaintJoseph"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="طلبة مار يوسف" />
-
-
 
                 </LinearLayout>
 
 
                 <!-- Row 4 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/telbitAlra7maIlahiyeh"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="طلبة الرحمة الإلهية" />
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/telbetElMawta"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="الطلبة من أجل الموتى المؤمنين" />
 
-
-
-
                 </LinearLayout>
-
-
-
-
-
-
-
 
             </LinearLayout>
 
-
             <!--       ************** Massebih ************                          -->
-            <Button
+            <Button  style="@style/ExpendButton"
                 android:id="@+id/btnGroupMassebih"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="المسابح  ◀ "
-                android:textAlignment="textStart"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:background="?attr/selectableItemBackground"
-                android:textColor="#2196F3"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:text="المسابح  ◀ "/>
 
             <!-- Expandable Buttons Container -->
-            <LinearLayout
-                android:id="@+id/MassebihExpandableButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingStart="24dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp">
-
+            <LinearLayout  style="@style/LinearExpand"
+                android:id="@+id/MassebihExpandableButtons">
 
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/masbahaAlHezen"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="مسبحة الورديّة: أسرار الحزن"/>
 
-
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/masbahaAlFarah"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="مسبحة الورديّة: أسرار الفرح"/>
 
-
                 </LinearLayout>
 
-
                 <!-- Row 2 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/masbahaAlNour"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="مسبحة الورديّة: أسرار النّور"/>
 
-
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/masbahaAlMajed"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="مسبحة الورديّة: أسرار المجد"/>
 
-
                 </LinearLayout>
-
-
 
                 <!-- Row 2 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/masbahaSaintJoseph"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="مسبحة القديس يوسف"/>
-
-
-
 
                 </LinearLayout>
 
-
-
-
                 <!-- Row 4 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/alra7ma"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="مسبحة الرحمة الإلهية" />
 
                 </LinearLayout>
+
             </LinearLayout>
 
-
             <!--       ************** Douaat ************                          -->
-            <Button
+            <Button  style="@style/ExpendButton"
                 android:id="@+id/btnGroupDouaat"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="الدعاءات  ◀ "
-                android:textAlignment="textStart"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:background="?attr/selectableItemBackground"
-                android:textColor="#2196F3"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:text="الدعاءات  ◀ " />
 
             <!-- Expandable Buttons Container -->
-            <LinearLayout
-                android:id="@+id/DouaatExpandableButtons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingStart="24dp"
-                android:paddingEnd="16dp"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp">
-
+            <LinearLayout  style="@style/LinearExpand"
+                android:id="@+id/DouaatExpandableButtons">
 
                 <!-- Row 1 -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp">
+                <LinearLayout  style="@style/RawButton">
 
-
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/doua2SaintJoseph"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="دعاء الى القديس يوسف"/>
 
-                    <Button
+                    <Button  style="@style/GridButton"
                         android:id="@+id/FransistoViergeMarie"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:textStyle="bold"
-                        android:textColor="#000000"
-                        android:background="@drawable/button_border"
                         android:text="القديس فرنسيس السالسي الى العذراء"/>
 
                 </LinearLayout>
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/sallatJassad"
+                        android:text="صلاة من أجل شفاء الجسد"/>
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/sallatNafes"
+                        android:text="صلاة من أجل شفاء النفس"/>
+
+
+                </LinearLayout>
+
             </LinearLayout>
-
-
 
         </LinearLayout>
 
@@ -1008,20 +416,8 @@
     <!--       *********************************************************                          -->
 
 
-
-
-
-
-
-
     <!-- Version at bottom (fixed, not scrolling) -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="version 1.3"
-        android:textSize="12sp"
-        android:textColor="#666666"
-        android:padding="8dp" />
+    <TextView style="@style/appVersionText"
+        android:text="@string/app_version" />
 
 </LinearLayout>

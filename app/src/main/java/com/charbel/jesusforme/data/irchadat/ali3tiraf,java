@@ -1,0 +1,13 @@
+package com.charbel.jesusforme.data.irchadat;
+
+import com.charbel.jesusforme.data.template;
+
+public class ali3tiraf  extends template {
+
+    public ali3tiraf() {
+        super();
+
+        super.title="";
+        super.data="";
+}
+}

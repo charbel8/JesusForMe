@@ -1,8 +1,10 @@
+package com.charbel.jesusforme.data.af3al;
 
-public class alnadama {
-    
-    
-    String data1 ="<p  dir=\"RTL\">\n" +
+import com.charbel.jesusforme.data.template;
+
+public class alnadama  extends template {
+
+ String data1 ="<p  dir=\"RTL\">\n" +
 "<h2 dir=\"RTL\" >\n" +
 "<span lang=\"AR-SA\" >الإعتراف الصّحيح</span>\n" +
 "</h2></p>\n" +
@@ -255,5 +257,13 @@ public class alnadama {
 "</p>";
     
    String data =  data1+data2+data3+data4;
-    
-}
+
+
+
+    public alnadama () {
+        super();
+
+        super.title = "الإعتراف الصّحيح";
+        super.data =data1+data2+data3+data4;
+    }
+    }

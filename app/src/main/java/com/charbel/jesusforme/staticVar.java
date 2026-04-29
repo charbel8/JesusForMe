@@ -1,80 +1,145 @@
 package com.charbel.jesusforme;
 
-import com.charbel.jesusforme.data.template;
-
 import com.charbel.jesusforme.data.doua2.*;
-import com.charbel.jesusforme.data.irchadat.*;
 import com.charbel.jesusforme.data.massbaha.*;
 import com.charbel.jesusforme.data.salatYawmiyeh.*;
 import com.charbel.jesusforme.data.salawet.*;
 import com.charbel.jesusforme.data.salawetKhassa.*;
 import com.charbel.jesusforme.data.telbet.*;
+import com.charbel.jesusforme.data.template;
 import com.charbel.jesusforme.data.tesawiyet.*;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.function.Supplier;
+import com.charbel.jesusforme.data.irchadat.*;
 
 public class staticVar {
-    public static int code = 0;
+
+    public static int code=0;
     public static template _template;
-    public static int groupNumber = -1;
 
-    private static final Map<Integer, Supplier<template>> REGISTRY = new HashMap<>();
+ public static int groupNumber = -1;
 
-    static {
-        REGISTRY.put(1,  new saintCharbel());
-        REGISTRY.put(2,  new saintRafqa());
-        REGISTRY.put(3,  new saintKassab());
-        REGISTRY.put(4,  new alra7ma());
-        REGISTRY.put(5,  new rou7koudous());
-        REGISTRY.put(6,  new saintRita());
-        REGISTRY.put(7,  new saintJoseph());
-        REGISTRY.put(8,  new saintJoseph2());
-        REGISTRY.put(9,  new telbatElAddra());
-        REGISTRY.put(10, new tabchirAlMala2ika());
-        REGISTRY.put(11, new telbetkalebyassouh());
-        REGISTRY.put(12, new althaloth());
-        REGISTRY.put(13, new beforsleep());
-        REGISTRY.put(14, new ssaidniyarab());
-        REGISTRY.put(15, new myfather());
-        REGISTRY.put(16, new padrePioS1());
-        REGISTRY.put(17, new againstEvil());
-        REGISTRY.put(18, new tssaiiatSaintRita());
-        REGISTRY.put(19, new masbahaAlFarah());
-        REGISTRY.put(20, new masbahaAlHezen());
-        REGISTRY.put(21, new masbahaAlMajed());
-        REGISTRY.put(22, new masbahaAlNour());
-        REGISTRY.put(23, new alra7maIlahiyeh());
-        REGISTRY.put(24, new telbitAlra7maIlahiyeh());
-        REGISTRY.put(25, new gardAngel());
-        REGISTRY.put(26, new babyCancer());
-        REGISTRY.put(27, new mariamt7ik3ikad());
-        REGISTRY.put(28, new takrisKalebMariam());
-        REGISTRY.put(29, new takrisKalebYassou3());
-        REGISTRY.put(30, new telbetElMawta());
-        REGISTRY.put(31, new AnfoudAlmathariyeh());
-        REGISTRY.put(32, new Saintcharbel());
-        REGISTRY.put(33, new SaintRafqa());
-        REGISTRY.put(34, new tessawiyetSaintJoseph());
-        REGISTRY.put(35, new telbetSaintJoseph());
-        REGISTRY.put(36, new masbahaSaintJoseph());
-        REGISTRY.put(37, new doua2SaintJoseph());
-        REGISTRY.put(38, new FransistoViergeMarie());
-        REGISTRY.put(39, new morning());
-        REGISTRY.put(40, new evening());
-        REGISTRY.put(41, new SaintMarina());
-        REGISTRY.put(42, new SaintNemaAllah());
-        REGISTRY.put(43, new sallatNafes());
-        REGISTRY.put(44, new sallatJassad());
-        REGISTRY.put(45, new SaintRita2());
-        
-        REGISTRY.put(46, new ali3tiraf());
-    }
 
     public static template getSalat() {
-        return REGISTRY.getOrDefault(code, template::new).get();
+        switch (staticVar.code) {
+            case 1:
+                return new saintCharbel();
+            case 2:
+                return new saintRafqa();
+            case 3:
+                return new saintKassab();
+            case 4:
+                return new alra7ma();
+            case 5:
+                return new rou7koudous();
+            case 6:
+                return new saintRita();
+            case 7:
+                return new saintJoseph();
+            case 8:
+                return new saintJoseph2();
+            case 9:
+                return new telbatElAddra();
+            case 10:
+                return new tabchirAlMala2ika();
+            case 11:
+                return new telbetkalebyassouh();
+            case 12:
+                return new althaloth();
+            case 13:
+                return new beforsleep();
+            case 14:
+                return new ssaidniyarab();
+            case 15:
+                return new myfather();
+            case 16:
+                return new padrePioS1();
+            case 17:
+                return new againstEvil();
+            case 18:
+                return new tssaiiatSaintRita();
+// ---------------------------------------
+            case 19:
+                return new masbahaAlFarah();
+            case 20:
+                return new masbahaAlHezen();
+            case 21:
+                return new masbahaAlMajed();
+            case 22:
+                return new masbahaAlNour();
+            case 23:
+                return new alra7maIlahiyeh();
+
+            case 24:
+                return new telbitAlra7maIlahiyeh();
+            case 25:
+                return new gardAngel();
+
+            case 26:
+                return new babyCancer();
+            case 27:
+                return new mariamt7ik3ikad();
+
+
+            case 28:
+                return new takrisKalebMariam();
+            case 29:
+                return new takrisKalebYassou3();
+
+            case 30:
+                return new telbetElMawta();
+            case 31:
+                return new AnfoudAlmathariyeh();
+
+            // --- -----------
+            case 32:
+                return new Saintcharbel();
+            case 33:
+                return new SaintRafqa();
+
+
+                // -----
+            case 34:
+                return new tessawiyetSaintJoseph();
+
+            case 35:
+                return new telbetSaintJoseph();
+            case 36:
+                return new masbahaSaintJoseph();
+            case 37:
+                return new doua2SaintJoseph();
+            case 38:
+                return new FransistoViergeMarie();
+
+
+            case 39:
+                return new morning();
+            case 40:
+                return new evening();
+
+            case 41:
+                return new SaintMarina();
+            case 42:
+                return new SaintNemaAllah();
+
+
+            case 43:
+                return new sallatNafes();
+            case 44:
+                return new sallatJassad();
+            case 45:
+                return new SaintRita2();
+				
+            case 46:
+                return new ali3tiraf();
+
+
+
+            // -----------------------------------
+            default:
+                return new template();
+
+        }
     }
+
 
     public static void setGroupNumber(int code) {
         groupNumber = code;
@@ -83,4 +148,5 @@ public class staticVar {
     public static int getGroupNumber() {
         return groupNumber;
     }
+
 }

@@ -1,6 +1,16 @@
 package com.charbel.jesusforme;
 
 import com.charbel.jesusforme.data.template;
+
+import com.charbel.jesusforme.data.doua2.*;
+import com.charbel.jesusforme.data.irchadat.*;
+import com.charbel.jesusforme.data.massbaha.*;
+import com.charbel.jesusforme.data.salatYawmiyeh.*;
+import com.charbel.jesusforme.data.salawet.*;
+import com.charbel.jesusforme.data.salawetKhassa.*;
+import com.charbel.jesusforme.data.telbet.*;
+import com.charbel.jesusforme.data.tesawiyet.*;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;

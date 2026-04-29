@@ -4,266 +4,160 @@ import com.charbel.jesusforme.data.template;
 
 public class ali3tiraf  extends template {
 
- String data1 ="<p  dir=\"RTL\">\n" +
-"<h2 dir=\"RTL\" >\n" +
-"<span lang=\"AR-SA\" >الإعتراف الصّحيح</span>\n" +
-"</h2></p>\n" +
-"\n" +
-"\n" +
-"<p  dir=\"RTL\">\n" +
-"<span lang=\"AR-SA\" >بعد دقائق من الصّمت، \n" +
-"أُسلِّمُ ذاتي، وإرادتي، وفكري، وكلّ قواي بين يديّ الله، تاركاً المجال لعمل الروح \n" +
-"القدس فيّ. وأقوم بفحص لضميري منذ الإعتراف الأخير، وحَسَب شروط سرّ التوبة</span></p>\n" +
-"\n" +
-"\n" +
-"\n" +
-"<ul>\n" +
-"	<li  dir=\"RTL\">\n" +
-"	<span lang=\"AR-SA\" >\n" +
-"	فحص الضمير.</span></li>\n" +
-"	\n" +
-"	<li  dir=\"RTL\">\n" +
-"	<span lang=\"AR-SA\" >\n" +
-"	الندامة على الخطايا وأخذ المقاصد بعدم الرجوع إليها.</span></li>\n" +
-"	\n" +
-"	<li  dir=\"RTL\">\n" +
-"	<span lang=\"AR-SA\" >\n" +
-"	الإقرار بالخطايا أمام الكاهن.</span></li>\n" +
-"	<li  dir=\"RTL\">\n" +
-"	<span lang=\"AR-SA\" >\n" +
-"	الإرشاد والحلّة من الكاهن للخاطئ.</span></li>\n" +
-"	<li  dir=\"RTL\">\n" +
-"	<span lang=\"AR-SA\" >\n" +
-"	ثمّ تتميم قانون سرّ الإعتراف (أيّ الكفّارة).</span></li>\n" +
-"</ul>\n" ;
-    String data2 = "<br>\n" +
-"\n" +
-"<p  dir=\"RTL\"><b>\n" +
-"<span lang=\"AR-SA\" >\n" +
-"طريقة فحص الضمير على</span><span dir=\"LTR\" >:</span></b></p>\n" +
-"\n" +
-"\n" +
-"<p  dir=\"RTL\">\n" +
-"	<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" >\n" +
-"		<thead>\n" +
-"			<tr >\n" +
-"				<td style=\"background-color:#99CC00\">\n" +
-"				<p align=\"center\"  dir=\"RTL\"><b>\n" +
-"				<span lang=\"AR-SA\" >وصايا الله العشر</span></b></p>\n" +
-"				</td>\n" +
-"				<td style=\"background-color:#99CC00\">\n" +
-"				<p align=\"center\"  dir=\"RTL\"><b>\n" +
-"				<span lang=\"AR-SA\" >وصايا الكنيسة السبع</span></b></p>\n" +
-"				</td>\n" +
-"			</tr>\n" +
-"		</thead>\n" +
-"		<tr >\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			أنا هو الربّ إلهك، لا يكن لك إله غيري</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			إسمع القدّاس، أيام الآحاد والأعياد المأمورة</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:2\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			لا تحلف باسم الله بالباطل</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			صُم الصوم الكبير وسائر الأصوام المفروضة</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:3\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			إحفظ يوم الربّ</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			إنقطع عن الزفر يوم الجمعة</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:4\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			أكرم أباك وأمّك</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			إعترف بخطاياك للكاهن قلّما يكون مرّة في السنة</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:5\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			لا تقتل</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			تناول القربان المقدّس قلّما مرّة في عيد الفصح</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:6\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			لا تزنِ</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			أوفِ البركة أي العشر</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:7\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			لا تسرق</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			إمتنع عن إكليل العرس في الأزمنة المحرّمة</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:8\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			لا تشهد بالزور</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td ></td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:9\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			لا تشته امرأة قريبك</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td ></td>\n" +
-"		</tr>\n" +
-"		<tr style=\"mso-yfti-irow:10;mso-yfti-lastrow:yes\">\n" +
-"			<td >\n" +
-"			<p  dir=\"RTL\">\n" +
-"			<span dir=\"LTR\" >- </span>\n" +
-"			<span lang=\"AR-SA\" >\n" +
-"			لا تشته مُقتنى غيرك</span><span dir=\"LTR\" >.</span></p>\n" +
-"			</td>\n" +
-"			<td style=\"padding:.75pt .75pt .75pt .75pt\"></td>\n" +
-"		</tr>\n" +
-"	</table>\n" +
-"</p>\n";
-    
-    String data3 = "<h2 dir=\"RTL\" >\n" +
-"<span lang=\"AR-SA\">تفاصيل فحص الضمير وفعل الندامة</span></h2>\n" +
-"\n" +
-"<p dir=\"RTL\" >\n" +
-"\n" +
-"<b><span lang=\"AR-SA\" style=\"background-color:#99CC00\">الخطايا ضدّ الله:</span></b>\n" +
-"\n" +
-"\n" +
-"<span dir=\"LTR\"> \n" +
-"</span>\n" +
-"<span lang=\"AR-SA\">إهمال واجباتنا الروحية. فتور. قلّة إحترام في الكنيسة. مقاومة \n" +
-"النِعَم. حلف. تذمّر. قلّة صبر وعدم تسليم للإرادة الإلهية. إجهاض</span>\n" +
-"<span dir=\"LTR\">...</span>\n" +
-"</p>\n" +
-"\n" +
-"\n" +
-"<p  dir=\"RTL\" >\n" +
-"\n" +
-"<b> <span lang=\"AR-SA\" style=\"background-color:#99CC00\">الخطايا ضدّ القريب:</span> </b>\n" +
-"\n" +
-"<span dir=\"LTR\"> </span>\n" +
-"<span lang=\"AR-SA\">دينونة باطلة. حسد. رغبة الإنتقام. مُشاجرة. تجديف. مسبّات. \n" +
-"نميمة. إستهزاء. إغتياب. ضرر في ماله. قدوة رديئة. إحتقار. قلّة رحمة وأمانة، \n" +
-"إستغلال. طمع. تشجيع على الخطيئة</span><span dir=\"LTR\">...</span>\n" +
-"\n" +
-"</p>\n";
-    
-    String data4 ="<p dir=\"RTL\" >\n" +
-"\n" +
-"<b ><span lang=\"AR-SA\" style=\"background-color:#99CC00\">الخطايا ضدّ الذات:</span></b>\n" +
-"\n" +
-"<span lang=\"AR-SA\">كبرياء. كذب. أفكار وأشواق وأقوال وأفعال مضادّة للطهارة. \n" +
-"شراهة. أنانية. إحتداد طبع. عيشة عديمة النفع. كسل في تتميم وظيفتنا</span>\n" +
-"\n" +
-"<span dir=\"LTR\">...</span>\n" +
-"</p>\n" +
-"<p dir=\"RTL\" >\n" +
-"<span lang=\"AR-SA\">ثمّ أتتقدّم من كرسيّ الإعتراف وأجثو أمام الكاهن قائلاً له:</span>\n" +
-"<br >\n" +
-"<b ><span lang=\"AR-SA\">إغفر لي يا أبتِ لأنّي خطئتُ. ثمّ أُقرّ مُعترفاً بخطاياي</span></b>\n" +
-"<b><span dir=\"LTR\">...</span></b></p>\n" +
-"\n" +
-"<p dir=\"RTL\">\n" ;
-    
-    String data5 ="<b><span lang=\"AR-SA\" style=\"background-color:#99CC00\">فعل الندامة:</span></b>\n" +
-"<br >\n" +
-"\n" +
-"<span lang=\"AR-SA\">ربّي وإلهي. أنا نادم من كلّ قلبي، على جميع خطاياي، لأنّي \n" +
-"بالخطيئة خسرتُ نفسي والخيرات الأبديّة. واستحققت العذابات الجهنميّة. وبالأكثر أنا \n" +
-"نادم، لأنّي أغظتك وأهنتك، أنتَ يا ربّي وإلهي المستحقّ كلّ كرامة ومحبّة. ولهذا \n" +
-"السبب أبغض الخطيئة فوق كلّ شرّ. وأريد بنعمتك أن أموت، قبل أن أغيظك فيما بعد، \n" +
-"وأقصد أن أهرب من كلّ سبب خطيئة، وأن أفي بقدر استطاعتي عن الخطايا التي فعلتها. \n" +
-"آمين</span>\n" +
-"\n" +
-"</p>\n" +
-"\n" +
-"\n" +
-"<p  dir=\"RTL\" >\n" +
-"\n" +
-"<span lang=\"AR-SA\">أشكر الثالوث الأقدس والكنيسة \n" +
-"على منحهم إيّاي مغفرة خطاياي الملزم بالتكفير عنها</span>\n" +
-"\n" +
-"</p>\n" +
-"\n" +
-"<br>\n" +
-"\n" +
-"<p  dir=\"RTL\" >\n" +
-"<span lang=\"AR-SA\">مختصر التعليم المسيحي للكنيسة الكاثوليكية - بتصرّف.</span>\n" +
-"\n" +
-"</p>";
-    
-   String data =  data1+data2+data3+data4;
-
 
 
     public ali3tiraf () {
         super();
 
         super.title = "الإعتراف الصّحيح";
-        super.data =data1+data2+data3+data4;
+        super.data = "<p  dir=\"RTL\"> "
+            + "<h2 dir=\"RTL\" > "
+            + "<span lang=\"AR-SA\" >الإعتراف الصّحيح</span> "
+            + "</h2></p> "
+            + " "
+            + " "
+            + "<p  dir=\"RTL\"> "
+            + "<span lang=\"AR-SA\" >بعد دقائق من الصّمت،  "
+            + "أُسلِّمُ ذاتي، وإرادتي، وفكري، وكلّ قواي بين يديّ الله، تاركاً المجال لعمل الروح  "
+            + "القدس فيّ. وأقوم بفحص لضميري منذ الإعتراف الأخير، وحَسَب شروط سرّ التوبة</span></p> "
+            + " "
+            + "<br> "
+            + " "
+            + "<p  dir=\"RTL\"> "
+            + "	<span lang=\"AR-SA\" >-  "
+            + "	فحص الضمير.</span><br>	 "
+            + "	 "
+            + "	<span lang=\"AR-SA\" >-  "
+            + "	الندامة على الخطايا وأخذ المقاصد بعدم الرجوع إليها.</span><br> "
+            + "		 "
+            + "	<span lang=\"AR-SA\" >-  "
+            + "	الإقرار بالخطايا أمام الكاهن.</span><br> "
+            + " "
+            + "	<span lang=\"AR-SA\" >-  "
+            + "	الإرشاد والحلّة من الكاهن للخاطئ.</span><br> "
+            + "		 "
+            + "	<span lang=\"AR-SA\" >-  "
+            + "	ثمّ تتميم قانون سرّ الإعتراف (أيّ الكفّارة).</span><br> "
+            + "	</p> "
+            + "	 "
+            + "<br> "
+            + " "
+            + "<p  dir=\"RTL\"  style=\" background-color: #ABAB89\"><b> "
+            + "<span lang=\"AR-SA\" > "
+            + "طريقة فحص الضمير على:</span></b></p> "
+            + " "
+            + " "
+            + "<p align=\"center\"  dir=\"RTL\"><b> "
+            + "				<span lang=\"AR-SA\" >وصايا الله العشر</span></b> </p> "
+            + "				 "
+            + "<p  dir=\"RTL\"> "
+            + "			<span dir=\"LTR\" > "
+            + "			أنا هو الربّ إلهك، لا يكن لك إله غيري . <br>						 "
+            + "			لا تحلف باسم الله بالباطل .<br> "
+            + "			إحفظ يوم الربّ . <br>				  "
+            + "			أكرم أباك وأمّك .<br>	 "
+            + "			لا تقتل .<br>	 "
+            + "			لا تزنِ .<br>	 "
+            + "			لا تسرق .<br>	 "
+            + "			لا تشهد بالزور .<br>	 "
+            + "			لا تشته امرأة قريبك .<br>	 "
+            + "			لا تشته مُقتنى غيرك .<br>				  "
+            + "			</span> "
+            + "</p> "
+            + "			 "
+            + "		 "
+            + " "
+            + " "
+            + "<p align=\"center\"  dir=\"RTL\"><b> "
+            + "				<span lang=\"AR-SA\" >وصايا الكنيسة السبع</span></b> </p> "
+            + " "
+            + " "
+            + "	 "
+            + "<p  dir=\"RTL\"> "
+            + "			<span dir=\"LTR\" >	 "
+            + "			 إسمع القدّاس، أيام الآحاد والأعياد المأمورة .<br> "
+            + "			 صُم الصوم الكبير وسائر الأصوام المفروضة .<br> "
+            + "			 إنقطع عن الزفر يوم الجمعة .<br> "
+            + "			 إعترف بخطاياك للكاهن قلّما يكون مرّة في السنة .<br> "
+            + "			 تناول القربان المقدّس قلّما مرّة في عيد الفصح .<br> "
+            + "			 أوفِ البركة أي العشر .<br> "
+            + "			 إمتنع عن إكليل العرس في الأزمنة المحرّمة .<br> "
+            + " "
+            + "			</span> "
+            + " "
+            + "</p> "
+            + " "
+            + " "
+            + "	<p  dir=\"RTL\"  style=\" background-color: #ABAB89\"><b> "
+            + "<span lang=\"AR-SA\" > تفاصيل فحص الضمير وفعل الندامة  </span></b></p> "
+            + " "
+            + " "
+            + "<p dir=\"RTL\" > "
+            + " "
+            + "<b><span lang=\"AR-SA\" style=\"background-color:#99CC00\">الخطايا ضدّ الله:</span></b> "
+            + " "
+            + " "
+            + "<span dir=\"LTR\">  "
+            + "</span> "
+            + "<span lang=\"AR-SA\">إهمال واجباتنا الروحية. فتور. قلّة إحترام في الكنيسة. مقاومة  "
+            + "النِعَم. حلف. تذمّر. قلّة صبر وعدم تسليم للإرادة الإلهية. إجهاض</span> "
+            + "<span dir=\"LTR\">...</span> "
+            + "</p> "
+            + " "
+            + " "
+            + "<p  dir=\"RTL\" > "
+            + " "
+            + "<b> <span lang=\"AR-SA\" style=\"background-color:#99CC00\">الخطايا ضدّ القريب:</span> </b> "
+            + " "
+            + "<span dir=\"LTR\"> </span> "
+            + "<span lang=\"AR-SA\">دينونة باطلة. حسد. رغبة الإنتقام. مُشاجرة. تجديف. مسبّات.  "
+            + "نميمة. إستهزاء. إغتياب. ضرر في ماله. قدوة رديئة. إحتقار. قلّة رحمة وأمانة،  "
+            + "إستغلال. طمع. تشجيع على الخطيئة</span><span dir=\"LTR\">...</span> "
+            + " "
+            + "</p> "
+            + "<p dir=\"RTL\" > "
+            + " "
+            + "<b ><span lang=\"AR-SA\" style=\"background-color:#99CC00\">الخطايا ضدّ الذات:</span></b> "
+            + " "
+            + "<span lang=\"AR-SA\">كبرياء. كذب. أفكار وأشواق وأقوال وأفعال مضادّة للطهارة.  "
+            + "شراهة. أنانية. إحتداد طبع. عيشة عديمة النفع. كسل في تتميم وظيفتنا</span> "
+            + " "
+            + "<span dir=\"LTR\">...</span> "
+            + "</p> "
+            + "<p dir=\"RTL\" > "
+            + "<span lang=\"AR-SA\">ثمّ أتتقدّم من كرسيّ الإعتراف وأجثو أمام الكاهن قائلاً له:</span> "
+            + "<br > "
+            + "<b ><span lang=\"AR-SA\">إغفر لي يا أبتِ لأنّي خطئتُ. ثمّ أُقرّ مُعترفاً بخطاياي</span></b> "
+            + "<b><span dir=\"LTR\">...</span></b></p> "
+            + " "
+            + "<p dir=\"RTL\"> "
+            + "<b><span lang=\"AR-SA\" style=\"background-color:#99CC00\">فعل الندامة:</span></b> "
+            + "<br > "
+            + " "
+            + "<span lang=\"AR-SA\">ربّي وإلهي. أنا نادم من كلّ قلبي، على جميع خطاياي، لأنّي  "
+            + "بالخطيئة خسرتُ نفسي والخيرات الأبديّة. واستحققت العذابات الجهنميّة. وبالأكثر أنا  "
+            + "نادم، لأنّي أغظتك وأهنتك، أنتَ يا ربّي وإلهي المستحقّ كلّ كرامة ومحبّة. ولهذا  "
+            + "السبب أبغض الخطيئة فوق كلّ شرّ. وأريد بنعمتك أن أموت، قبل أن أغيظك فيما بعد،  "
+            + "وأقصد أن أهرب من كلّ سبب خطيئة، وأن أفي بقدر استطاعتي عن الخطايا التي فعلتها.  "
+            + "آمين</span> "
+            + " "
+            + "</p> "
+            + " "
+            + " "
+            + "<p  dir=\"RTL\" > "
+            + " "
+            + "<span lang=\"AR-SA\">أشكر الثالوث الأقدس والكنيسة  "
+            + "على منحهم إيّاي مغفرة خطاياي الملزم بالتكفير عنها</span> "
+            + " "
+            + "</p> "
+            + " "
+            + "<br> "
+            + " "
+            + "<p  dir=\"RTL\" > "
+            + "<span lang=\"AR-SA\">مختصر التعليم المسيحي للكنيسة الكاثوليكية - بتصرّف.</span> "
+            + " "
+            + "</p> "
+            + " "
+            + "";
     }
     }

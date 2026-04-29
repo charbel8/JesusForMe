@@ -409,12 +409,34 @@
 
             </LinearLayout>
 
-        </LinearLayout>
 
+
+
+            <!--    start   ************** irchadat ************      -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/irchadat"
+                android:text="ارشادات  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout  style="@style/LinearExpand"
+                android:id="@+id/irchadatExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/ali3tiraf"
+                        android:text="الإعتراف الصّحيح"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+			 <!--    End   ************** irchadat ************      -->
+            
+        </LinearLayout>
     </ScrollView>
 
     <!--       *********************************************************                          -->
-
 
     <!-- Version at bottom (fixed, not scrolling) -->
     <TextView style="@style/appVersionText"

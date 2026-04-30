@@ -62,13 +62,14 @@ public class MainActivity  extends AppCompatActivity {
                         R.id.SalawetkhassaExpandableButtons,
                         "صلاوات خاصة  ◀ ", "صلاوات خاصة  ▼ ",
                         new int[][]{
-                                {R.id.takrisKalebMariam,   28},
+                                {R.id.AnfoudAlmathariyeh,  31},
+                                {R.id.babyCancer,          26},
                                 {R.id.mariamt7ik3ikad,     27},
                                 {R.id.takrisKalebYassou3,  29},
-                                {R.id.babyCancer,          26},
-                                {R.id.AnfoudAlmathariyeh,  31},
-                                {R.id.padrePioS1,          16},
-                                {R.id.againstEvil,         17},
+                                {R.id.takrisKalebMariam,   28},
+                                
+                                {R.id.padrePioS1,          16}, // added
+                                {R.id.againstEvil,         17}, // added
                         }),
 
                 new Group(R.id.btnGroupSalawet,
@@ -93,25 +94,26 @@ public class MainActivity  extends AppCompatActivity {
                         R.id.tsaiiyatExpandableButtons,
                         "التساعيّات  ◀ ", "التساعيّات  ▼ ",
                         new int[][]{
+                                {R.id.saintKassab,       3},
+                                {R.id.saintRafqa,        2},
                                 {R.id.tssaiiatSaintRita,      18},
                                 {R.id.tessawiyetSaintJoseph,  34},
                                 {R.id.TseiiyetSaintVeronicaJulyani,  49},
+                                {R.id.SaintCharbel,      1},
+                                {R.id.alra7maIlahiyeh,      23},
                         }),
 
                 new Group(R.id.btnGroupTalabet,
                         R.id.talabetExpandableButtons,
                         "الطلبات  ◀ ", "الطلبات  ▼ ",
                         new int[][]{
-                                {R.id.SaintCharbel,      1},
-                                {R.id.saintRafqa,        2},
-                                {R.id.saintKassab,       3},
-                                {R.id.alra7ma,           4},
-                                {R.id.telbatElAddra,     9},
-                                {R.id.telbitkalebyassouh,11},
-                                {R.id.althaloth,         12},
-                                {R.id.telbetElMawta,     30},
+                               {R.id.TelbitSaintVeronicaJulyani, 48},                            
+                                {R.id.telbitAlra7maIlahiyeh,24},
                                 {R.id.telbetSaintJoseph, 35},
-                                {R.id.TelbitSaintVeronicaJulyani, 48},
+                                {R.id.althaloth,         12},
+                                {R.id.telbitkalebyassouh,11},
+                                {R.id.telbetElMawta,     30},                          
+                                {R.id.telbatElAddra,     9},
                         }),
 
                 new Group(R.id.btnGroupMassebih,
@@ -122,9 +124,8 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.masbahaAlHezen,       20},
                                 {R.id.masbahaAlMajed,       21},
                                 {R.id.masbahaAlNour,        22},
-                                {R.id.masbahaSaintJoseph,   36},
-                                {R.id.alra7maIlahiyeh,      23},
-                                {R.id.telbitAlra7maIlahiyeh,24},
+                                {R.id.masbahaSaintJoseph,   36},                            
+                                {R.id.alra7ma,           4},  
                         }),
 
                 new Group(R.id.btnGroupDouaat,

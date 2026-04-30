@@ -110,6 +110,7 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.althaloth,         12},
                                 {R.id.telbetElMawta,     30},
                                 {R.id.telbetSaintJoseph, 35},
+                                {R.id.TelbitSaintVeronicaJulyani, 48},
                         }),
 
                 new Group(R.id.btnGroupMassebih,

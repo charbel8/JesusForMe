@@ -273,7 +273,7 @@
             <LinearLayout style="@style/LinearExpand"
                 android:id="@+id/talabetExpandableButtons">
 
-                <!-- Row 3 -->
+                <!-- Row 1 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -287,32 +287,40 @@
                     <Button  style="@style/GridButton"
                         android:id="@+id/telbitkalebyassouh"
                         android:text="طلبة قلب يسوع الأقدس" />
-
+					
                 </LinearLayout>
 
-
-                <!-- Row 3 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/telbetSaintJoseph"
-                        android:text="طلبة مار يوسف" />
-
-                </LinearLayout>
-
-
-                <!-- Row 4 -->
+                <!-- Row 2 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
                         android:id="@+id/telbitAlra7maIlahiyeh"
                         android:text="طلبة الرحمة الإلهية" />
+					
+                </LinearLayout>
 
-                    <Button  style="@style/GridButton"
+
+                <!-- Row 3 -->
+                <LinearLayout  style="@style/RawButton">
+					
+					<Button  style="@style/GridButton"
+                        android:id="@+id/telbetSaintJoseph"
+                        android:text="طلبة مار يوسف" />
+					
+					<Button  style="@style/GridButton"
+                        android:id="@+id/TelbitSaintVeronicaJulyani"
+                        android:text="طلبة القديسة فيرونيكا جولياني" />
+                  
+                </LinearLayout>
+
+				  <!-- Row 4 -->
+                <LinearLayout  style="@style/RawButton">
+					  <Button  style="@style/GridButton"
                         android:id="@+id/telbetElMawta"
-                        android:text="الطلبة من أجل الموتى المؤمنين" />
+                        android:text="الطلبة من أجل الموتى المؤمنين" />	
 
                 </LinearLayout>
+				
 
             </LinearLayout>
 

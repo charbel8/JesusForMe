@@ -130,6 +130,8 @@ public class staticVar {
 				
             case 46:
                 return new ali3tiraf();
+            case 47:
+                return new SaintVeronicaJulyani();
 
 
 

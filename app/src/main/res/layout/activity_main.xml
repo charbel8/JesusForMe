@@ -108,6 +108,27 @@
 
                 </LinearLayout>
 
+
+                 <!-- Row 4 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/padrePioS1"
+                        android:text="تحقّق المعجزات - بادري بيو" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/againstEvil"
+                        android:text="ضد كل الشـرور الشـيطانيّة" />
+
+                </LinearLayout>
+
+
+
+
+
+
+				
+
             </LinearLayout>
 
 
@@ -131,12 +152,9 @@
                         android:id="@+id/rita1"
                         android:text="صلاة للقديسة ريتا " />
 
-
-
-
                 </LinearLayout>
 
-                <!-- Row 1 -->
+                <!-- Row 2 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -149,9 +167,8 @@
 
                 </LinearLayout>
 
-                <!-- Row 1 -->
+                <!-- Row 3 -->
                 <LinearLayout  style="@style/RawButton">
-
 
                     <Button  style="@style/GridButton"
                         android:id="@+id/saintRafqaS"
@@ -163,22 +180,8 @@
 
                 </LinearLayout>
 
-
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/padrePioS1"
-                        android:text="تحقّق المعجزات - بادري بيو" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/againstEvil"
-                        android:text="ضد كل الشـرور الشـيطانيّة" />
-
-                </LinearLayout>
-
-                <!-- Row 1 -->
+              
+                <!-- Row 4 -->
                 <LinearLayout style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -191,7 +194,7 @@
 
                 </LinearLayout>
 
-                <!-- Row 2 -->
+                <!-- Row 5 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -204,7 +207,7 @@
 
                 </LinearLayout>
 
-                <!-- Row 2 -->
+                <!-- Row 6 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"

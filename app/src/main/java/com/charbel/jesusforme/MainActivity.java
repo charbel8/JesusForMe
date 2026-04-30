@@ -67,6 +67,8 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.takrisKalebYassou3,  29},
                                 {R.id.babyCancer,          26},
                                 {R.id.AnfoudAlmathariyeh,  31},
+                                {R.id.padrePioS1,          16},
+                                {R.id.againstEvil,         17},
                         }),
 
                 new Group(R.id.btnGroupSalawet,
@@ -77,8 +79,6 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.SaintRita2,    45},
                                 {R.id.charbel,       32},
                                 {R.id.saintRafqaS,   33},
-                                {R.id.padrePioS1,    16},
-                                {R.id.againstEvil,   17},
                                 {R.id.tabchirmalaika, 10},
                                 {R.id.rou7koudous,    5},
                                 {R.id.saintJoseph2,   8},

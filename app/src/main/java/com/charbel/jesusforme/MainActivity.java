@@ -95,6 +95,7 @@ public class MainActivity  extends AppCompatActivity {
                         new int[][]{
                                 {R.id.tssaiiatSaintRita,      18},
                                 {R.id.tessawiyetSaintJoseph,  34},
+                                {R.id.TseiiyetSaintVeronicaJulyani,  49},
                         }),
 
                 new Group(R.id.btnGroupTalabet,

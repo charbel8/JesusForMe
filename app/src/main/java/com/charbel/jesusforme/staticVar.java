@@ -132,6 +132,8 @@ public class staticVar {
                 return new ali3tiraf();
             case 47:
                 return new SaintVeronicaJulyani();
+            case 48:
+                return new TelbitSaintVeronicaJulyani();
 
 
 

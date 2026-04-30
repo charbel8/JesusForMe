@@ -260,6 +260,10 @@
                         android:id="@+id/tessawiyetSaintJoseph"
                         android:text="تساعية القديس يوسف" />
 
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/TseiiyetSaintVeronicaJulyani"
+                        android:text="تساعيّة القديسة فيرونيكا جولياني" />
+
                 </LinearLayout>
 
             </LinearLayout>

@@ -203,8 +203,8 @@
                 <!-- Row 6 -->
                 <LinearLayout  style="@style/RawButton">
 					
-                    <Button  style="@style/SaintVeronicaJulyani"
-                        android:id="@+id/gardAngel"
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintVeronicaJulyani"
                         android:text="صلاة الى القديسة فيرونيكا جولياني " />
 					
                     <Button  style="@style/GridButton"

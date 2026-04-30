@@ -121,14 +121,7 @@
                         android:text="ضد كل الشـرور الشـيطانيّة" />
 
                 </LinearLayout>
-
-
-
-
-
-
-				
-
+		
             </LinearLayout>
 
 
@@ -209,7 +202,11 @@
 
                 <!-- Row 6 -->
                 <LinearLayout  style="@style/RawButton">
-
+					
+                    <Button  style="@style/SaintVeronicaJulyani"
+                        android:id="@+id/gardAngel"
+                        android:text="صلاة الى القديسة فيرونيكا جولياني " />
+					
                     <Button  style="@style/GridButton"
                         android:id="@+id/gardAngel"
                         android:text="صلاة للملاك الحارس " />

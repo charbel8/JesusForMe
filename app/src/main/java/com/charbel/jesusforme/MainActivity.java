@@ -84,11 +84,9 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.saintJoseph2,   8},
                                 {R.id.saintJoseph,    7},
                                 {R.id.gardAngel,     25},
-
-
-
                                 {R.id.SaintMarina,    41},
                                 {R.id.SaintNemaAllah, 42},
+                                {R.id.SaintVeronicaJulyani, 47},
                         }),
 
                 new Group(R.id.btnGroupTsaiiyat,

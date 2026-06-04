@@ -1,0 +1,81 @@
+
+package com.charbel.jesusforme.data.tratil;
+
+import com.charbel.jesusforme.data.template;
+
+public class oudElSalib extends template {
+
+    public oudElSalib() {
+        super();
+
+        super.title = "عُـــــودُ الصَّــــلــــيــبْ";
+        super.data = "<p dir=\"RTL\">\n"
+                + "*&nbsp;&nbsp;&nbsp; &nbsp;\n"
+                + "عُـــــودُ \n"
+                + "الصَّــــلــــيــبْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "أخْــــفــــاهُ الشَّعْبُ الظَّـالِمْ\n"
+                + "<br>\n"
+                + "\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;إيـــــــــــلانُ \n"
+                + "المَليــكَــة ُ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "بَيَّنَتْـهُ لِلــــــعـــــالَـــــــــمْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ضاءَ \n"
+                + "كالنُّورِ العَجيــبْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;يَجْلو الدَّيجورَ القاتِــــــــمْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;والبيعَهْ \n"
+                + "مِــلْءَ الدُّنْيــــا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;تَشْدُو الحَمْدَ والإكْــــــرامْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;فــــاديها \n"
+                + "الرَّبَّ الحَيَّــا&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;نَــــجَّــــــاها مِنَ الأصْنـامْ\n"
+                + "&nbsp;</p>\n"
+                + "\n"
+                + "\n"
+                + "<p dir=\"RTL\">\n"
+                + "**&nbsp;&nbsp;&nbsp; عُـــودُ \n"
+                + "الصَّلـــــيـــــبْ،&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;رَبَّنا، صــارَ المِـــفْــــتاحْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;مِفْتاحَ \n"
+                + "عَـدْن ٍ، سَـليـبْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "عَــدْن ٍ، جنَّـةِ الأفْـــــراحْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;إجْعَلْـــهُ \n"
+                + "آيَ الرَّحْمَـــهْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;نَنْــجُ مِنْ هَوْل ِ النَّقْمَـــــهْ&nbsp;\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;نَخْلُصْ \n"
+                + "مِنْ تَعْذيبِ النَّارْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;نـــارِ الخـاطــينَ الأشْـرارْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;نَبْلُغْ \n"
+                + "أخْـــدارَ النِّعْمَــهْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "نَدْخُــلْ جَنَّة َ الأنْـــــــوارْ</p>\n"
+                + "\n"
+                + "\n"
+                + "<p dir=\"RTL\">\n"
+                + "*/**&nbsp;&nbsp; عُودَ \n"
+                + "الصَّــــــلــــيــبْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;يـــا فادينا، اجْعَلْـهُ سُـورْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;حـــــــــــــارِساً \n"
+                + "لبيعَـةِ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;الإيمان ِ وُسْـعَ المَعْـمـورْ&nbsp;\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;وَقِّها \n"
+                + "الشَّرَّ الرَّهـــيـبْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;الخِصــامَ والتَّــــخْـــريبْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;وَلِيَمْلِكْ \n"
+                + "فيها الوِئـــــامْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;والأمــــــــــــانُ والسَّلامْ\n"
+                + "<br>\n"
+                + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;تَحْتَ \n"
+                + "أفْياءِ الصَّـــليبْ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "&nbsp;نَشْــدوكَ مَدى الأيَّــــــامْ</p>";
+    }   
+  
+}

@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.charbel.jesusforme"
-4    android:versionCode="21"
+4    android:versionCode="22"
 5    android:versionName="2.1" >
 6
 7    <uses-sdk

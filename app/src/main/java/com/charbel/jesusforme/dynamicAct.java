@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.util.TypedValue;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.activity.OnBackPressedCallback;
 
 import com.charbel.jesusforme.data.template;
 
@@ -31,8 +32,19 @@ public class dynamicAct extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.display_prayer);
 
+
         // Keep screen on
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+
+        // Handle system back gesture/button (replaces onBackPressed)
+        getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
+            @Override
+            public void handleOnBackPressed() {
+                navigateToMain();
+            }
+        });
+
+
         currentFontSizeTextView = findViewById(R.id.currentFontSize);
 
         //  StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -92,8 +104,17 @@ String body =_template.getData();
 
     }
 
+    private void navigateToMain() {
+        Intent intent = new Intent(dynamicAct.this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+        finish();
+    }
+
     private void updateFontSize() {
         componetes.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentFontSize);
         currentFontSizeTextView.setText(String.valueOf((int) currentFontSize));
     }
+
+
 }

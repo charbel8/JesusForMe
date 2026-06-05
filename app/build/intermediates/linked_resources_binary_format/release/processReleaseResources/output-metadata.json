@@ -11,7 +11,7 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 21,
+      "versionCode": 22,
       "versionName": "2.1",
       "outputFile": "linked-resources-binary-format-release.ap_"
     }

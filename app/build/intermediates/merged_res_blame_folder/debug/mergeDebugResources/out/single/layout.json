@@ -8,7 +8,7 @@
         "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-33:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.charbel.jesusforme.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "com.charbel.jesusforme.app-main-33:/layout/activity_main.xml"
+        "merged": "com.charbel.jesusforme.app-mergeDebugResources-30:/layout/display_prayer.xml",
+        "source": "com.charbel.jesusforme.app-main-33:/layout/display_prayer.xml"
     }
 ]

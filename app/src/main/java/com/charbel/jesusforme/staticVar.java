@@ -9,6 +9,7 @@ import com.charbel.jesusforme.data.telbet.*;
 import com.charbel.jesusforme.data.template;
 import com.charbel.jesusforme.data.tesawiyet.*;
 import com.charbel.jesusforme.data.irchadat.*;
+import com.charbel.jesusforme.data.tratil.*;
 
 public class staticVar {
 
@@ -137,6 +138,11 @@ public class staticVar {
             case 49:
                 return new TseiiyetSaintVeronicaJulyani();
 
+// ---- tratil section
+            case 301:
+                return new MariamFoukty();
+            case 302:
+                return new oudElSalib();
 
 
             // -----------------------------------

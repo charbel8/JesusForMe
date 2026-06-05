@@ -143,7 +143,17 @@ public class MainActivity  extends AppCompatActivity {
                         "ارشادات  ◀ ", "ارشادات  ▼ ",
                         new int[][]{
                                 {R.id.ali3tiraf,    46},
-                        })
+                        }),
+
+
+        new Group(R.id.btnGroupTratil,
+                R.id.TratilExpandableButtons,
+                "تراتيل  ◀ ", "تراتيل  ▼ ",
+                new int[][]{
+                        {R.id.MariamFoukty,    301},
+                        {R.id.oudElSalib,    302},
+                })
+
         );
     }
 

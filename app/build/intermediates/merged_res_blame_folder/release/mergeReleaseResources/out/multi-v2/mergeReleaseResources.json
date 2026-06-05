@@ -960,9 +960,9 @@
                     "from": {
                         "startLines": "-1,2,-1",
                         "startColumns": "-1,4,-1",
-                        "startOffsets": "-1,66,-1",
+                        "startOffsets": "-1,68,-1",
                         "endColumns": "-1,51,-1",
-                        "endOffsets": "-1,113,-1"
+                        "endOffsets": "-1,115,-1"
                     },
                     "to": {
                         "startLines": "1986,1987,2127",
@@ -1113,12 +1113,9 @@
                 {
                     "source": "D:\\AndroidStudioApps\\Jesusforme\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "3,16,27,39,48",
-                        "startColumns": "4,0,4,4,4",
-                        "startOffsets": "56,696,1107,1548,1887",
-                        "endLines": "14,24,35,45,55",
-                        "endColumns": "12,8,12,12,12",
-                        "endOffsets": "694,1100,1540,1880,2267"
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "5547,5559,5568,5835,9296",

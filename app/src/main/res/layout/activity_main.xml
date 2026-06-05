@@ -444,9 +444,42 @@
 
             </LinearLayout>
 			 <!--    End   ************** irchadat ************      -->
-            
+
+
+
+            <!-- tratil -->
+            <Button style="@style/ExpendButton"
+                android:id="@+id/btnGroupTratil"
+                android:text="تراتيل  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/TratilExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/MariamFoukty"
+                        android:text="يا مريم البكر فقتى" />
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/oudElSalib"
+                        android:text="عُودُ الصَّـلـيـب" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--    End   ************** tratil ************      -->
+
+
+
         </LinearLayout>
     </ScrollView>
+
+
+
 
     <!--       *********************************************************                          -->
 

@@ -3127,6 +3127,7 @@ id DouaatExpandableButtons
 id FUNCTION
 id FransistoViergeMarie
 id META
+id MariamFoukty
 id MassebihExpandableButtons
 id NO_DEBUG
 id SHIFT
@@ -3138,11 +3139,15 @@ id SaintCharbel
 id SaintMarina
 id SaintNemaAllah
 id SaintRita2
+id SaintVeronicaJulyani
 id SalawetExpandableButtons
 id SalawetYawmiyehExpandableButtons
 id SalawetkhassaExpandableButtons
 id TOP_END
 id TOP_START
+id TelbitSaintVeronicaJulyani
+id TratilExpandableButtons
+id TseiiyetSaintVeronicaJulyani
 id above
 id accelerate
 id accessibility_action_clickable_span
@@ -3203,6 +3208,7 @@ id activity_chooser_view_content
 id add
 id againstEvil
 id alertTitle
+id ali3tiraf
 id aligned
 id all
 id allStates
@@ -3243,6 +3249,7 @@ id btnGroupSalawet
 id btnGroupSalawetKhassa
 id btnGroupSalawetYawmiyeh
 id btnGroupTalabet
+id btnGroupTratil
 id btnGroupTsaiiyat
 id buttonPanel
 id cache_measures
@@ -3382,6 +3389,8 @@ id indeterminate
 id info
 id invisible
 id inward
+id irchadat
+id irchadatExpandableButtons
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3499,6 +3508,7 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
+id oudElSalib
 id outline
 id outward
 id overshoot

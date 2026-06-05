@@ -10,8 +10,8 @@ android {
         applicationId = "com.charbel.jesusforme"
         minSdk = 24
         targetSdk = 36
-        versionCode = 20
-        versionName = "2"
+        versionCode = 21
+        versionName = "2.1"
     }
 
     buildTypes {

@@ -8,7 +8,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Jesus for me</string>
-    <string name="app_version">version 1.5</string>
+    <string name="app_version">version 2.1</string>
     <string name="saintCharbel">اليوم الأول:\(أبانا والسلام والمجد)\r</string>
     <style name="ExpendButton">
           <item name="android:layout_width">match_parent</item>

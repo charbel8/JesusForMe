@@ -108,6 +108,20 @@
 
                 </LinearLayout>
 
+
+                 <!-- Row 4 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/padrePioS1"
+                        android:text="تحقّق المعجزات - بادري بيو" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/againstEvil"
+                        android:text="ضد كل الشـرور الشـيطانيّة" />
+
+                </LinearLayout>
+		
             </LinearLayout>
 
 
@@ -131,12 +145,9 @@
                         android:id="@+id/rita1"
                         android:text="صلاة للقديسة ريتا " />
 
-
-
-
                 </LinearLayout>
 
-                <!-- Row 1 -->
+                <!-- Row 2 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -149,9 +160,8 @@
 
                 </LinearLayout>
 
-                <!-- Row 1 -->
+                <!-- Row 3 -->
                 <LinearLayout  style="@style/RawButton">
-
 
                     <Button  style="@style/GridButton"
                         android:id="@+id/saintRafqaS"
@@ -163,22 +173,8 @@
 
                 </LinearLayout>
 
-
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/padrePioS1"
-                        android:text="تحقّق المعجزات - بادري بيو" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/againstEvil"
-                        android:text="ضد كل الشـرور الشـيطانيّة" />
-
-                </LinearLayout>
-
-                <!-- Row 1 -->
+              
+                <!-- Row 4 -->
                 <LinearLayout style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -191,7 +187,7 @@
 
                 </LinearLayout>
 
-                <!-- Row 2 -->
+                <!-- Row 5 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -204,9 +200,13 @@
 
                 </LinearLayout>
 
-                <!-- Row 2 -->
+                <!-- Row 6 -->
                 <LinearLayout  style="@style/RawButton">
-
+					
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintVeronicaJulyani"
+                        android:text="صلاة الى القديسة فيرونيكا جولياني " />
+					
                     <Button  style="@style/GridButton"
                         android:id="@+id/gardAngel"
                         android:text="صلاة للملاك الحارس " />
@@ -260,6 +260,10 @@
                         android:id="@+id/tessawiyetSaintJoseph"
                         android:text="تساعية القديس يوسف" />
 
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/TseiiyetSaintVeronicaJulyani"
+                        android:text="تساعيّة القديسة فيرونيكا جولياني" />
+
                 </LinearLayout>
 
             </LinearLayout>
@@ -273,7 +277,7 @@
             <LinearLayout style="@style/LinearExpand"
                 android:id="@+id/talabetExpandableButtons">
 
-                <!-- Row 3 -->
+                <!-- Row 1 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
@@ -287,32 +291,40 @@
                     <Button  style="@style/GridButton"
                         android:id="@+id/telbitkalebyassouh"
                         android:text="طلبة قلب يسوع الأقدس" />
-
+					
                 </LinearLayout>
 
-
-                <!-- Row 3 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/telbetSaintJoseph"
-                        android:text="طلبة مار يوسف" />
-
-                </LinearLayout>
-
-
-                <!-- Row 4 -->
+                <!-- Row 2 -->
                 <LinearLayout  style="@style/RawButton">
 
                     <Button  style="@style/GridButton"
                         android:id="@+id/telbitAlra7maIlahiyeh"
                         android:text="طلبة الرحمة الإلهية" />
+					
+                </LinearLayout>
 
-                    <Button  style="@style/GridButton"
+
+                <!-- Row 3 -->
+                <LinearLayout  style="@style/RawButton">
+					
+					<Button  style="@style/GridButton"
+                        android:id="@+id/telbetSaintJoseph"
+                        android:text="طلبة مار يوسف" />
+					
+					<Button  style="@style/GridButton"
+                        android:id="@+id/TelbitSaintVeronicaJulyani"
+                        android:text="طلبة القديسة فيرونيكا جولياني" />
+                  
+                </LinearLayout>
+
+				  <!-- Row 4 -->
+                <LinearLayout  style="@style/RawButton">
+					  <Button  style="@style/GridButton"
                         android:id="@+id/telbetElMawta"
-                        android:text="الطلبة من أجل الموتى المؤمنين" />
+                        android:text="الطلبة من أجل الموتى المؤمنين" />	
 
                 </LinearLayout>
+				
 
             </LinearLayout>
 
@@ -409,12 +421,67 @@
 
             </LinearLayout>
 
-        </LinearLayout>
 
+
+
+            <!--    start   ************** irchadat ************      -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/irchadat"
+                android:text="ارشادات  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout  style="@style/LinearExpand"
+                android:id="@+id/irchadatExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/ali3tiraf"
+                        android:text="الإعتراف الصّحيح"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+			 <!--    End   ************** irchadat ************      -->
+
+
+
+            <!-- tratil -->
+            <Button style="@style/ExpendButton"
+                android:id="@+id/btnGroupTratil"
+                android:text="تراتيل  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/TratilExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/MariamFoukty"
+                        android:text="يا مريم البكر فقتى" />
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/oudElSalib"
+                        android:text="عُودُ الصَّـلـيـب" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--    End   ************** tratil ************      -->
+
+
+
+        </LinearLayout>
     </ScrollView>
 
-    <!--       *********************************************************                          -->
 
+
+
+    <!--       *********************************************************                          -->
 
     <!-- Version at bottom (fixed, not scrolling) -->
     <TextView style="@style/appVersionText"

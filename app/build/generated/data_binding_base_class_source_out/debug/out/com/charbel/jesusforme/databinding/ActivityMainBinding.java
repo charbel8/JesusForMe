@@ -29,6 +29,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button FransistoViergeMarie;
 
   @NonNull
+  public final Button MariamFoukty;
+
+  @NonNull
   public final LinearLayout MassebihExpandableButtons;
 
   @NonNull
@@ -44,6 +47,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button SaintRita2;
 
   @NonNull
+  public final Button SaintVeronicaJulyani;
+
+  @NonNull
   public final LinearLayout SalawetExpandableButtons;
 
   @NonNull
@@ -53,7 +59,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final LinearLayout SalawetkhassaExpandableButtons;
 
   @NonNull
+  public final Button TelbitSaintVeronicaJulyani;
+
+  @NonNull
+  public final LinearLayout TratilExpandableButtons;
+
+  @NonNull
+  public final Button TseiiyetSaintVeronicaJulyani;
+
+  @NonNull
   public final Button againstEvil;
+
+  @NonNull
+  public final Button ali3tiraf;
 
   @NonNull
   public final Button alra7ma;
@@ -89,6 +107,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnGroupTalabet;
 
   @NonNull
+  public final Button btnGroupTratil;
+
+  @NonNull
   public final Button btnGroupTsaiiyat;
 
   @NonNull
@@ -102,6 +123,12 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final Button gardAngel;
+
+  @NonNull
+  public final Button irchadat;
+
+  @NonNull
+  public final LinearLayout irchadatExpandableButtons;
 
   @NonNull
   public final Button mariamt7ik3ikad;
@@ -126,6 +153,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final Button myfather;
+
+  @NonNull
+  public final Button oudElSalib;
 
   @NonNull
   public final Button padrePioS1;
@@ -198,43 +228,54 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button AnfoudAlmathariyeh,
       @NonNull LinearLayout DouaatExpandableButtons, @NonNull Button FransistoViergeMarie,
-      @NonNull LinearLayout MassebihExpandableButtons, @NonNull Button SaintCharbel,
-      @NonNull Button SaintMarina, @NonNull Button SaintNemaAllah, @NonNull Button SaintRita2,
+      @NonNull Button MariamFoukty, @NonNull LinearLayout MassebihExpandableButtons,
+      @NonNull Button SaintCharbel, @NonNull Button SaintMarina, @NonNull Button SaintNemaAllah,
+      @NonNull Button SaintRita2, @NonNull Button SaintVeronicaJulyani,
       @NonNull LinearLayout SalawetExpandableButtons,
       @NonNull LinearLayout SalawetYawmiyehExpandableButtons,
-      @NonNull LinearLayout SalawetkhassaExpandableButtons, @NonNull Button againstEvil,
-      @NonNull Button alra7ma, @NonNull Button alra7maIlahiyeh, @NonNull Button althaloth,
-      @NonNull Button babyCancer, @NonNull Button beforsleep, @NonNull Button btnGroupDouaat,
-      @NonNull Button btnGroupMassebih, @NonNull Button btnGroupSalawet,
-      @NonNull Button btnGroupSalawetKhassa, @NonNull Button btnGroupSalawetYawmiyeh,
-      @NonNull Button btnGroupTalabet, @NonNull Button btnGroupTsaiiyat, @NonNull Button charbel,
+      @NonNull LinearLayout SalawetkhassaExpandableButtons,
+      @NonNull Button TelbitSaintVeronicaJulyani, @NonNull LinearLayout TratilExpandableButtons,
+      @NonNull Button TseiiyetSaintVeronicaJulyani, @NonNull Button againstEvil,
+      @NonNull Button ali3tiraf, @NonNull Button alra7ma, @NonNull Button alra7maIlahiyeh,
+      @NonNull Button althaloth, @NonNull Button babyCancer, @NonNull Button beforsleep,
+      @NonNull Button btnGroupDouaat, @NonNull Button btnGroupMassebih,
+      @NonNull Button btnGroupSalawet, @NonNull Button btnGroupSalawetKhassa,
+      @NonNull Button btnGroupSalawetYawmiyeh, @NonNull Button btnGroupTalabet,
+      @NonNull Button btnGroupTratil, @NonNull Button btnGroupTsaiiyat, @NonNull Button charbel,
       @NonNull Button doua2SaintJoseph, @NonNull Button evening, @NonNull Button gardAngel,
+      @NonNull Button irchadat, @NonNull LinearLayout irchadatExpandableButtons,
       @NonNull Button mariamt7ik3ikad, @NonNull Button masbahaAlFarah,
       @NonNull Button masbahaAlHezen, @NonNull Button masbahaAlMajed, @NonNull Button masbahaAlNour,
       @NonNull Button masbahaSaintJoseph, @NonNull Button morning, @NonNull Button myfather,
-      @NonNull Button padrePioS1, @NonNull Button rita1, @NonNull Button rou7koudous,
-      @NonNull Button saintJoseph, @NonNull Button saintJoseph2, @NonNull Button saintKassab,
-      @NonNull Button saintRafqa, @NonNull Button saintRafqaS, @NonNull Button sallatJassad,
-      @NonNull Button sallatNafes, @NonNull Button ssaidniyarab, @NonNull Button tabchirmalaika,
-      @NonNull Button takrisKalebMariam, @NonNull Button takrisKalebYassou3,
-      @NonNull LinearLayout talabetExpandableButtons, @NonNull Button telbatElAddra,
-      @NonNull Button telbetElMawta, @NonNull Button telbetSaintJoseph,
-      @NonNull Button telbitAlra7maIlahiyeh, @NonNull Button telbitkalebyassouh,
-      @NonNull Button tessawiyetSaintJoseph, @NonNull LinearLayout tsaiiyatExpandableButtons,
-      @NonNull Button tssaiiatSaintRita) {
+      @NonNull Button oudElSalib, @NonNull Button padrePioS1, @NonNull Button rita1,
+      @NonNull Button rou7koudous, @NonNull Button saintJoseph, @NonNull Button saintJoseph2,
+      @NonNull Button saintKassab, @NonNull Button saintRafqa, @NonNull Button saintRafqaS,
+      @NonNull Button sallatJassad, @NonNull Button sallatNafes, @NonNull Button ssaidniyarab,
+      @NonNull Button tabchirmalaika, @NonNull Button takrisKalebMariam,
+      @NonNull Button takrisKalebYassou3, @NonNull LinearLayout talabetExpandableButtons,
+      @NonNull Button telbatElAddra, @NonNull Button telbetElMawta,
+      @NonNull Button telbetSaintJoseph, @NonNull Button telbitAlra7maIlahiyeh,
+      @NonNull Button telbitkalebyassouh, @NonNull Button tessawiyetSaintJoseph,
+      @NonNull LinearLayout tsaiiyatExpandableButtons, @NonNull Button tssaiiatSaintRita) {
     this.rootView = rootView;
     this.AnfoudAlmathariyeh = AnfoudAlmathariyeh;
     this.DouaatExpandableButtons = DouaatExpandableButtons;
     this.FransistoViergeMarie = FransistoViergeMarie;
+    this.MariamFoukty = MariamFoukty;
     this.MassebihExpandableButtons = MassebihExpandableButtons;
     this.SaintCharbel = SaintCharbel;
     this.SaintMarina = SaintMarina;
     this.SaintNemaAllah = SaintNemaAllah;
     this.SaintRita2 = SaintRita2;
+    this.SaintVeronicaJulyani = SaintVeronicaJulyani;
     this.SalawetExpandableButtons = SalawetExpandableButtons;
     this.SalawetYawmiyehExpandableButtons = SalawetYawmiyehExpandableButtons;
     this.SalawetkhassaExpandableButtons = SalawetkhassaExpandableButtons;
+    this.TelbitSaintVeronicaJulyani = TelbitSaintVeronicaJulyani;
+    this.TratilExpandableButtons = TratilExpandableButtons;
+    this.TseiiyetSaintVeronicaJulyani = TseiiyetSaintVeronicaJulyani;
     this.againstEvil = againstEvil;
+    this.ali3tiraf = ali3tiraf;
     this.alra7ma = alra7ma;
     this.alra7maIlahiyeh = alra7maIlahiyeh;
     this.althaloth = althaloth;
@@ -246,11 +287,14 @@ public final class ActivityMainBinding implements ViewBinding {
     this.btnGroupSalawetKhassa = btnGroupSalawetKhassa;
     this.btnGroupSalawetYawmiyeh = btnGroupSalawetYawmiyeh;
     this.btnGroupTalabet = btnGroupTalabet;
+    this.btnGroupTratil = btnGroupTratil;
     this.btnGroupTsaiiyat = btnGroupTsaiiyat;
     this.charbel = charbel;
     this.doua2SaintJoseph = doua2SaintJoseph;
     this.evening = evening;
     this.gardAngel = gardAngel;
+    this.irchadat = irchadat;
+    this.irchadatExpandableButtons = irchadatExpandableButtons;
     this.mariamt7ik3ikad = mariamt7ik3ikad;
     this.masbahaAlFarah = masbahaAlFarah;
     this.masbahaAlHezen = masbahaAlHezen;
@@ -259,6 +303,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.masbahaSaintJoseph = masbahaSaintJoseph;
     this.morning = morning;
     this.myfather = myfather;
+    this.oudElSalib = oudElSalib;
     this.padrePioS1 = padrePioS1;
     this.rita1 = rita1;
     this.rou7koudous = rou7koudous;
@@ -329,6 +374,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.MariamFoukty;
+      Button MariamFoukty = ViewBindings.findChildViewById(rootView, id);
+      if (MariamFoukty == null) {
+        break missingId;
+      }
+
       id = R.id.MassebihExpandableButtons;
       LinearLayout MassebihExpandableButtons = ViewBindings.findChildViewById(rootView, id);
       if (MassebihExpandableButtons == null) {
@@ -359,6 +410,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.SaintVeronicaJulyani;
+      Button SaintVeronicaJulyani = ViewBindings.findChildViewById(rootView, id);
+      if (SaintVeronicaJulyani == null) {
+        break missingId;
+      }
+
       id = R.id.SalawetExpandableButtons;
       LinearLayout SalawetExpandableButtons = ViewBindings.findChildViewById(rootView, id);
       if (SalawetExpandableButtons == null) {
@@ -377,9 +434,33 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.TelbitSaintVeronicaJulyani;
+      Button TelbitSaintVeronicaJulyani = ViewBindings.findChildViewById(rootView, id);
+      if (TelbitSaintVeronicaJulyani == null) {
+        break missingId;
+      }
+
+      id = R.id.TratilExpandableButtons;
+      LinearLayout TratilExpandableButtons = ViewBindings.findChildViewById(rootView, id);
+      if (TratilExpandableButtons == null) {
+        break missingId;
+      }
+
+      id = R.id.TseiiyetSaintVeronicaJulyani;
+      Button TseiiyetSaintVeronicaJulyani = ViewBindings.findChildViewById(rootView, id);
+      if (TseiiyetSaintVeronicaJulyani == null) {
+        break missingId;
+      }
+
       id = R.id.againstEvil;
       Button againstEvil = ViewBindings.findChildViewById(rootView, id);
       if (againstEvil == null) {
+        break missingId;
+      }
+
+      id = R.id.ali3tiraf;
+      Button ali3tiraf = ViewBindings.findChildViewById(rootView, id);
+      if (ali3tiraf == null) {
         break missingId;
       }
 
@@ -449,6 +530,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnGroupTratil;
+      Button btnGroupTratil = ViewBindings.findChildViewById(rootView, id);
+      if (btnGroupTratil == null) {
+        break missingId;
+      }
+
       id = R.id.btnGroupTsaiiyat;
       Button btnGroupTsaiiyat = ViewBindings.findChildViewById(rootView, id);
       if (btnGroupTsaiiyat == null) {
@@ -476,6 +563,18 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.gardAngel;
       Button gardAngel = ViewBindings.findChildViewById(rootView, id);
       if (gardAngel == null) {
+        break missingId;
+      }
+
+      id = R.id.irchadat;
+      Button irchadat = ViewBindings.findChildViewById(rootView, id);
+      if (irchadat == null) {
+        break missingId;
+      }
+
+      id = R.id.irchadatExpandableButtons;
+      LinearLayout irchadatExpandableButtons = ViewBindings.findChildViewById(rootView, id);
+      if (irchadatExpandableButtons == null) {
         break missingId;
       }
 
@@ -524,6 +623,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.myfather;
       Button myfather = ViewBindings.findChildViewById(rootView, id);
       if (myfather == null) {
+        break missingId;
+      }
+
+      id = R.id.oudElSalib;
+      Button oudElSalib = ViewBindings.findChildViewById(rootView, id);
+      if (oudElSalib == null) {
         break missingId;
       }
 
@@ -666,18 +771,21 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((LinearLayout) rootView, AnfoudAlmathariyeh,
-          DouaatExpandableButtons, FransistoViergeMarie, MassebihExpandableButtons, SaintCharbel,
-          SaintMarina, SaintNemaAllah, SaintRita2, SalawetExpandableButtons,
-          SalawetYawmiyehExpandableButtons, SalawetkhassaExpandableButtons, againstEvil, alra7ma,
-          alra7maIlahiyeh, althaloth, babyCancer, beforsleep, btnGroupDouaat, btnGroupMassebih,
-          btnGroupSalawet, btnGroupSalawetKhassa, btnGroupSalawetYawmiyeh, btnGroupTalabet,
-          btnGroupTsaiiyat, charbel, doua2SaintJoseph, evening, gardAngel, mariamt7ik3ikad,
-          masbahaAlFarah, masbahaAlHezen, masbahaAlMajed, masbahaAlNour, masbahaSaintJoseph,
-          morning, myfather, padrePioS1, rita1, rou7koudous, saintJoseph, saintJoseph2, saintKassab,
-          saintRafqa, saintRafqaS, sallatJassad, sallatNafes, ssaidniyarab, tabchirmalaika,
-          takrisKalebMariam, takrisKalebYassou3, talabetExpandableButtons, telbatElAddra,
-          telbetElMawta, telbetSaintJoseph, telbitAlra7maIlahiyeh, telbitkalebyassouh,
-          tessawiyetSaintJoseph, tsaiiyatExpandableButtons, tssaiiatSaintRita);
+          DouaatExpandableButtons, FransistoViergeMarie, MariamFoukty, MassebihExpandableButtons,
+          SaintCharbel, SaintMarina, SaintNemaAllah, SaintRita2, SaintVeronicaJulyani,
+          SalawetExpandableButtons, SalawetYawmiyehExpandableButtons,
+          SalawetkhassaExpandableButtons, TelbitSaintVeronicaJulyani, TratilExpandableButtons,
+          TseiiyetSaintVeronicaJulyani, againstEvil, ali3tiraf, alra7ma, alra7maIlahiyeh, althaloth,
+          babyCancer, beforsleep, btnGroupDouaat, btnGroupMassebih, btnGroupSalawet,
+          btnGroupSalawetKhassa, btnGroupSalawetYawmiyeh, btnGroupTalabet, btnGroupTratil,
+          btnGroupTsaiiyat, charbel, doua2SaintJoseph, evening, gardAngel, irchadat,
+          irchadatExpandableButtons, mariamt7ik3ikad, masbahaAlFarah, masbahaAlHezen,
+          masbahaAlMajed, masbahaAlNour, masbahaSaintJoseph, morning, myfather, oudElSalib,
+          padrePioS1, rita1, rou7koudous, saintJoseph, saintJoseph2, saintKassab, saintRafqa,
+          saintRafqaS, sallatJassad, sallatNafes, ssaidniyarab, tabchirmalaika, takrisKalebMariam,
+          takrisKalebYassou3, talabetExpandableButtons, telbatElAddra, telbetElMawta,
+          telbetSaintJoseph, telbitAlra7maIlahiyeh, telbitkalebyassouh, tessawiyetSaintJoseph,
+          tsaiiyatExpandableButtons, tssaiiatSaintRita);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

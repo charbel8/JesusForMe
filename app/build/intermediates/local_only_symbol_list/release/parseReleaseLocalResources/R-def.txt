@@ -17,15 +17,21 @@ drawable ic_launcher_foreground
 id AnfoudAlmathariyeh
 id DouaatExpandableButtons
 id FransistoViergeMarie
+id MariamFoukty
 id MassebihExpandableButtons
 id SaintCharbel
 id SaintMarina
 id SaintNemaAllah
 id SaintRita2
+id SaintVeronicaJulyani
 id SalawetExpandableButtons
 id SalawetYawmiyehExpandableButtons
 id SalawetkhassaExpandableButtons
+id TelbitSaintVeronicaJulyani
+id TratilExpandableButtons
+id TseiiyetSaintVeronicaJulyani
 id againstEvil
+id ali3tiraf
 id alra7ma
 id alra7maIlahiyeh
 id althaloth
@@ -38,6 +44,7 @@ id btnGroupSalawet
 id btnGroupSalawetKhassa
 id btnGroupSalawetYawmiyeh
 id btnGroupTalabet
+id btnGroupTratil
 id btnGroupTsaiiyat
 id charbel
 id currentFontSize
@@ -47,6 +54,8 @@ id doua2SaintJoseph
 id evening
 id gardAngel
 id increaseFontSize
+id irchadat
+id irchadatExpandableButtons
 id mariamt7ik3ikad
 id masbahaAlFarah
 id masbahaAlHezen
@@ -55,6 +64,7 @@ id masbahaAlNour
 id masbahaSaintJoseph
 id morning
 id myfather
+id oudElSalib
 id padrePioS1
 id rita1
 id rou7koudous

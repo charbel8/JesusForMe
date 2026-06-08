@@ -446,10 +446,13 @@
 			 <!--    End   ************** irchadat ************      -->
 
            <View
-            android:layout_width="1dp"
-            android:layout_height="32dp"
-            android:layout_gravity="center_vertical"
-            android:background="@color/dividerColor" />
+              android:layout_width="0dp"
+              android:layout_weight="0.7"
+              android:layout_height="2dp"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="8dp"
+              android:layout_marginBottom="8dp"
+              android:background="@color/dividerColor" />
 
             <!-- tratil -->
             <Button style="@style/ExpendButton"

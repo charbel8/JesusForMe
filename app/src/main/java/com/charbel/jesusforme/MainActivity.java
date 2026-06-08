@@ -161,7 +161,7 @@ public class MainActivity  extends AppCompatActivity {
                     " أناشيد للعذراء  ◀ ", " أناشيد للعذراء  ▼ ",
                 new int[][]{
                         {R.id.wouroud,    400},
-                }),
+                })
 
         );
     }

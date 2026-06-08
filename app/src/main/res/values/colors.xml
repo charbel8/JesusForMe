@@ -8,5 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="dividerColor">#40FFFFFF</color>  <!-- semi-transparent white, adjust to taste -->
+    <color name="dividerColor">#6069F0</color>  <!-- semi-transparent white, adjust to taste -->
 </resources>

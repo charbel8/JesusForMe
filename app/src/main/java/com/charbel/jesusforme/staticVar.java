@@ -148,6 +148,8 @@ public class staticVar {
 // ---- Anachid Mariam section
             case 400:
                 return new wouroud();
+            case 401:
+                return new yaNajmatSoboh();
 
             // -----------------------------------
             default:

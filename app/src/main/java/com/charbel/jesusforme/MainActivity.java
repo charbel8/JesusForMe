@@ -160,7 +160,8 @@ public class MainActivity  extends AppCompatActivity {
                 R.id.AnachidMariamExpandableButtons,              
                     " أناشيد للعذراء  ◀ ", " أناشيد للعذراء  ▼ ",
                 new int[][]{
-                        {R.id.wouroud,    400},
+                        {R.id.wouroud,    400}, 
+                        {R.id.yaNajmatSoboh,    401},
                 })
 
         );

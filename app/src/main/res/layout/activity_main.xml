@@ -445,15 +445,17 @@
             </LinearLayout>
 			 <!--    End   ************** irchadat ************      -->
 
-           <View
-              android:layout_width="0dp"
-              android:layout_weight="0.7"
-              android:layout_height="2dp"
-              android:layout_gravity="center_horizontal"
-              android:layout_marginTop="8dp"
-              android:layout_marginBottom="8dp"
-              android:background="@color/dividerColor" />
-
+     
+<View
+    android:layout_width="match_parent"
+    android:layout_marginStart="15%"
+    android:layout_marginEnd="15%"
+    android:layout_height="2dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="#6069F0" />
+			
             <!-- tratil -->
             <Button style="@style/ExpendButton"
                 android:id="@+id/btnGroupTratil"

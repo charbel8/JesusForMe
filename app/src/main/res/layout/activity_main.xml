@@ -499,6 +499,10 @@
                     <Button style="@style/GridButton"
                         android:id="@+id/wouroud"
                         android:text="إليك الورد يا مريم" />
+					
+				    <Button style="@style/GridButton"
+                        android:id="@+id/yaNajmatSoboh"
+                        android:text="يا نجمة الصبح البهيّه" />
                 </LinearLayout>
 
             </LinearLayout>

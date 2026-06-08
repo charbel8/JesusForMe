@@ -10,7 +10,7 @@ import com.charbel.jesusforme.data.template;
 import com.charbel.jesusforme.data.tesawiyet.*;
 import com.charbel.jesusforme.data.irchadat.*;
 import com.charbel.jesusforme.data.tratil.*;
-import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
+import com.charbel.jesusforme.data.tratil.AnachidMariam.wouroud;
 
 public class staticVar {
 

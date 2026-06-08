@@ -154,6 +154,15 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.oudElSalib,    302},
                 })
 
+
+            
+        new Group(R.id.btnGroupAnachidMariam,
+                R.id.TratilExpandableButtons,              
+                    " أناشيد للعذراء  ◀ ", " أناشيد للعذراء  ▼ ",
+                new int[][]{
+                        {R.id.wouroud,    400},
+                })
+
         );
     }
 

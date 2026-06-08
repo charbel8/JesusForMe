@@ -470,9 +470,28 @@
                 </LinearLayout>
 
             </LinearLayout>
-
             <!--    End   ************** tratil ************      -->
 
+           <!-- Anachid Maria -->
+            <Button style="@style/ExpendButton"
+                android:id="@+id/btnGroupAnachidMariam"
+                android:text="أناشيد للعذراء  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/AnachidMariamExpandableButtons">
+				
+                <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/wouroud"
+                        android:text="إليك الورد يا مريم" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--    End   ************** Anachid Maria ************      -->
 
 
         </LinearLayout>

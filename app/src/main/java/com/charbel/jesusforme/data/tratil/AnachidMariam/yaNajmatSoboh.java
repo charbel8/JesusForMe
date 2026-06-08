@@ -16,7 +16,7 @@ public class yaNajmatSoboh extends template {
                 + "إحمينا مِـِن شرِّ&nbsp;\n"
                 + "الخطيْهْ &nbsp; -&nbsp; يـا امَ يسوعَ الغفـورْ <br>\n"
                 + "\n"
-                + "ررَبي اصطفاكِ&nbsp; -&nbsp; دونَ اشتراكِ (٢\n"
+                  + "ررَبي اصطفاكِ&nbsp; -&nbsp; دونَ اشتراكِ (٢)\n"
                 + "<br>\n"
                 + "\n"
                 + "\n"

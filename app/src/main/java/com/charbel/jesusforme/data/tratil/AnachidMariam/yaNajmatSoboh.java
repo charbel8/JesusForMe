@@ -7,7 +7,7 @@ public class yaNajmatSoboh extends template {
     public yaNajmatSoboh() {
         super();
 
-        super.title = "يا نجمة الصبح البهيّه  ";
+        super.title = "يا نجمة الصبح البهيّه";
         super.data = "<p align=\"center\" dir=\"RTL\" >\n"
                 + "يا نجمةَ الصبـح البهيْهْ&nbsp; -&nbsp; وسيـدة كـلِّ&nbsp;\n"
                 + "البريـْه\n"

@@ -152,7 +152,7 @@ public class MainActivity  extends AppCompatActivity {
                 new int[][]{
                         {R.id.MariamFoukty,    301},
                         {R.id.oudElSalib,    302},
-                })
+                }),
 
 
             

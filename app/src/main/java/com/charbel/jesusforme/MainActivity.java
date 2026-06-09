@@ -162,6 +162,8 @@ public class MainActivity  extends AppCompatActivity {
                 new int[][]{
                         {R.id.wouroud,    400}, 
                         {R.id.yaNajmatSoboh,    401},
+                        {R.id.alaykisalam,    402}, 
+                        {R.id.salamSalam,    403},
                 })
 
         );

@@ -472,10 +472,6 @@
                 <LinearLayout style="@style/RawButton" >
 
                     <Button style="@style/GridButton"
-                        android:id="@+id/MariamFoukty"
-                        android:text="يا مريم البكر فقتى" />
-
-                    <Button style="@style/GridButton"
                         android:id="@+id/oudElSalib"
                         android:text="عُودُ الصَّـلـيـب" />
 
@@ -504,9 +500,8 @@
                         android:id="@+id/yaNajmatSoboh"
                         android:text="يا نجمة الصبح البهيّه" />
                 </LinearLayout>
-
-
-  <!-- Row 2 -->
+				
+				<!-- Row 2 -->
                 <LinearLayout style="@style/RawButton" >
 					
                     <Button style="@style/GridButton"
@@ -518,6 +513,33 @@
                         android:text="سلام، سلام" />
                 </LinearLayout>
 
+
+				
+				<!-- Row 3 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/nahnouBanouki"
+                        android:text="يا مريم نحن بنوك" />
+					
+				    <Button style="@style/GridButton"
+                        android:id="@+id/mariamFoukty"
+                        android:text="يا مريم البكر فقت" />
+                </LinearLayout>
+				
+				<!-- Row 4 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/majdouMariam"
+                        android:text="مجد مريم يتعظّم" />
+					
+				    <Button style="@style/GridButton"
+                        android:id="@+id/houbouki"
+                        android:text="حبّك يا مريم" />
+                </LinearLayout>
+
+				
 				
 
             </LinearLayout>

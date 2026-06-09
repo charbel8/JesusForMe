@@ -149,8 +149,7 @@ public class MainActivity  extends AppCompatActivity {
         new Group(R.id.btnGroupTratil,
                 R.id.TratilExpandableButtons,
                 "تراتيل  ◀ ", "تراتيل  ▼ ",
-                new int[][]{
-                        {R.id.MariamFoukty,    301},
+                new int[][]{                  
                         {R.id.oudElSalib,    302},
                 }),
 
@@ -164,6 +163,13 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.yaNajmatSoboh,    401},
                         {R.id.alaykisalam,    402}, 
                         {R.id.salamSalam,    403},
+
+                        {R.id.nahnouBanouki,    404}, 
+                        {R.id.mariamFoukty,    405},
+                        {R.id.majdouMariam,    406}, 
+                        {R.id.houbouki,    407},
+
+                    
                 })
 
         );

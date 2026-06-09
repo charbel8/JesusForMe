@@ -151,6 +151,12 @@ public class staticVar {
             case 401:
                 return new yaNajmatSoboh();
 
+				
+            case 402:
+                return new alaykisalam();
+            case 403:
+                return new salamSalam();
+
             // -----------------------------------
             default:
                 return new template();

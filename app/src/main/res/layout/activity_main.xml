@@ -505,6 +505,21 @@
                         android:text="يا نجمة الصبح البهيّه" />
                 </LinearLayout>
 
+
+  <!-- Row 2 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/alaykisalam"
+                        android:text="عليك السلام بلا ملل" />
+					
+				    <Button style="@style/GridButton"
+                        android:id="@+id/salamSalam"
+                        android:text="سلام، سلام" />
+                </LinearLayout>
+
+				
+
             </LinearLayout>
 
             <!--    End   ************** Anachid Maria ************      -->

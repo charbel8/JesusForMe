@@ -141,7 +141,7 @@ public class staticVar {
 
 // ---- tratil section
             case 301:
-                return new MariamFoukty();
+                return new template();
             case 302:
                 return new oudElSalib();
 				
@@ -149,13 +149,21 @@ public class staticVar {
             case 400:
                 return new wouroud();
             case 401:
-                return new yaNajmatSoboh();
-
-				
+                return new yaNajmatSoboh();				
             case 402:
                 return new alaykisalam();
             case 403:
                 return new salamSalam();
+
+				
+            case 404:
+                return new nahnouBanouki();
+            case 405:
+                return new mariamFoukty();				
+            case 406:
+                return new majdouMariam();
+            case 407:
+                return new houbouki();
 
             // -----------------------------------
             default:

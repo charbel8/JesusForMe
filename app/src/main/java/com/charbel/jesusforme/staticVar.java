@@ -164,6 +164,21 @@ public class staticVar {
                 return new majdouMariam();
             case 407:
                 return new houbouki();
+			
+			case 408:
+                return new maljaElBanin();
+            case 409:
+                return new fiZillHimayitiki();				
+            case 410:
+                return new sallwaKouloub();
+            case 411:
+                return new yaOumana();				
+            case 412:
+                return new rayaIftikhar();
+            case 413:
+                return new majdLeb();
+
+				
 
             // -----------------------------------
             default:

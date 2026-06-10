@@ -8,7 +8,7 @@ public class sallwaKouloub extends template {
     public sallwaKouloub() {
         super();
 
-        super.title = "sallwaKouloub";
+        super.title = "سلوى القلوب";
         super.data = "<p  dir=\"RTL\">\n"
                 + "سلوى \n"
                 + "القلوب قلبُ العذراء - نوُرُ الدروبِ نحو السماء\n"

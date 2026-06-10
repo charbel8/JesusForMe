@@ -15,10 +15,10 @@ public class kanzBaraket extends template {
     public kanzBaraket() {
         super();
 
-        super.title = "يا أمّ اﷲ كنـز البرآات";
+        super.title = "يا أمّ اﷲ كنـز البركات";
         super.data = "<p  dir=\"RTL\">\n"
                 + "يا أمّ اﷲ كنـز \n"
-                + "البرآات، \n"
+                + "البركات، \n"
                 + "<br>\n"
                 + "عنك الأنبيا \n"
                 + "أخبروا في البرايا، برموزٍ وآيات.&nbsp; \n"

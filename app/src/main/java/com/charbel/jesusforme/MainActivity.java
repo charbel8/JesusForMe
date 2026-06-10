@@ -176,6 +176,10 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.rayaIftikhar,    412}, 
                         {R.id.majdLeb,    413},
                     
+                        {R.id.oumHayat,    414},
+                        {R.id.kanzBaraket,    415}, 
+                        {R.id.antichafih,    416},
+                    
                 })
 
         );

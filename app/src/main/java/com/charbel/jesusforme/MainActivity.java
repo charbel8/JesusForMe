@@ -169,6 +169,12 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.majdouMariam,    406}, 
                         {R.id.houbouki,    407},
 
+                        {R.id.maljaElBanin,    408}, 
+                        {R.id.fiZillHimayitiki,    409},
+                        {R.id.sallwaKouloub,    410}, 
+                        {R.id.yaOumana,    411},
+                        {R.id.rayaIftikhar,    412}, 
+                        {R.id.majdLeb,    413},
                     
                 })
 

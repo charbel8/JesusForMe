@@ -559,6 +559,22 @@
                         android:text="مجــد لبنــان" />						
                 </LinearLayout>	
 				
+					<!-- Row 8 -->
+                <LinearLayout style="@style/RawButton" >				
+                    <Button style="@style/GridButton"
+                        android:id="@+id/oumHayat"
+                        android:text="يا أمّ اﷲ أم الحياة" />	
+						
+				    <Button style="@style/GridButton"
+                        android:id="@+id/kanzBaraket"
+                        android:text="يا أمّ اﷲ كنـز البركات" />						
+                </LinearLayout>	
+					<!-- Row 9 -->
+                <LinearLayout style="@style/RawButton" >				
+                    <Button style="@style/GridButton"
+                        android:id="@+id/antichafih"
+                        android:text="أنت الشفيع الأكرم" />					
+                </LinearLayout>	
 				
 
             </LinearLayout>

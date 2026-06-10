@@ -178,6 +178,13 @@ public class staticVar {
             case 413:
                 return new majdLeb();
 
+            case 414:
+                return new oumHayat();				
+            case 415:
+                return new kanzBaraket();
+            case 416:
+                return new antichafih();
+
 				
 
             // -----------------------------------

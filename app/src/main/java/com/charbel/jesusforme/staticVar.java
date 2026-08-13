@@ -185,6 +185,8 @@ public class staticVar {
             case 416:
                 return new antichafih();
 
+            case 417:
+                return new SaintCharbelCancer();
 				
 
             // -----------------------------------

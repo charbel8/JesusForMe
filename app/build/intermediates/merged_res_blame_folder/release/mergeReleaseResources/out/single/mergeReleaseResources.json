@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-32:\\drawable\\back.png"
     },
     {
+        "merged": "com.charbel.jesusforme.app-release-31:/layout_activity_main.xml.flat",
+        "source": "com.charbel.jesusforme.app-main-32:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-release-31:\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
         "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-32:\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
     },
@@ -84,10 +88,6 @@
         "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "com.charbel.jesusforme.app-release-31:/layout_display_prayer.xml.flat",
-        "source": "com.charbel.jesusforme.app-main-32:/layout/display_prayer.xml"
-    },
-    {
         "merged": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-release-31:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-32:\\layout\\activity_main.xml"
     },
@@ -114,9 +114,5 @@
     {
         "merged": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-release-31:\\layout_display_prayer.xml.flat",
         "source": "C:\\Users\\Charbel Tannous\\.gradle\\daemon\\8.13\\com.charbel.jesusforme.app-main-32:\\layout\\display_prayer.xml"
-    },
-    {
-        "merged": "com.charbel.jesusforme.app-release-31:/drawable_back.png.flat",
-        "source": "com.charbel.jesusforme.app-main-32:/drawable/back.png"
     }
 ]

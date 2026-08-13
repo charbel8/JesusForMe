@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color dividerColor
 color purple_200
 color purple_500
 color purple_700
@@ -14,12 +15,13 @@ drawable button_border
 drawable cross
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id AnachidMariamExpandableButtons
 id AnfoudAlmathariyeh
 id DouaatExpandableButtons
 id FransistoViergeMarie
-id MariamFoukty
 id MassebihExpandableButtons
 id SaintCharbel
+id SaintCharbelCancer
 id SaintMarina
 id SaintNemaAllah
 id SaintRita2
@@ -31,13 +33,16 @@ id TelbitSaintVeronicaJulyani
 id TratilExpandableButtons
 id TseiiyetSaintVeronicaJulyani
 id againstEvil
+id alaykisalam
 id ali3tiraf
 id alra7ma
 id alra7maIlahiyeh
 id althaloth
+id antichafih
 id babyCancer
 id back
 id beforsleep
+id btnGroupAnachidMariam
 id btnGroupDouaat
 id btnGroupMassebih
 id btnGroupSalawet
@@ -52,10 +57,17 @@ id data
 id decreaseFontSize
 id doua2SaintJoseph
 id evening
+id fiZillHimayitiki
 id gardAngel
+id houbouki
 id increaseFontSize
 id irchadat
 id irchadatExpandableButtons
+id kanzBaraket
+id majdLeb
+id majdouMariam
+id maljaElBanin
+id mariamFoukty
 id mariamt7ik3ikad
 id masbahaAlFarah
 id masbahaAlHezen
@@ -64,8 +76,11 @@ id masbahaAlNour
 id masbahaSaintJoseph
 id morning
 id myfather
+id nahnouBanouki
 id oudElSalib
+id oumHayat
 id padrePioS1
+id rayaIftikhar
 id rita1
 id rou7koudous
 id saintJoseph
@@ -73,8 +88,10 @@ id saintJoseph2
 id saintKassab
 id saintRafqa
 id saintRafqaS
+id salamSalam
 id sallatJassad
 id sallatNafes
+id sallwaKouloub
 id ssaidniyarab
 id tabchirmalaika
 id takrisKalebMariam
@@ -89,6 +106,9 @@ id tessawiyetSaintJoseph
 id title
 id tsaiiyatExpandableButtons
 id tssaiiatSaintRita
+id wouroud
+id yaNajmatSoboh
+id yaOumana
 layout activity_main
 layout display_prayer
 mipmap ic_launcher

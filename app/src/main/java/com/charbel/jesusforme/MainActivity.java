@@ -10,6 +10,8 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 
+import com.charbel.jesusforme.data.salawetKhassa.SaintCharbelCancer;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -70,6 +72,8 @@ public class MainActivity  extends AppCompatActivity {
                                 
                                 {R.id.padrePioS1,          16}, // added
                                 {R.id.againstEvil,         17}, // added
+                                {R.id.SaintCharbelCancer,  417},
+
                         }),
 
                 new Group(R.id.btnGroupSalawet,

@@ -83,6 +83,9 @@
                         android:id="@+id/takrisKalebMariam"
                         android:text="فعل التكريس لقلب مريم الطاهر" />
 
+
+
+
                 </LinearLayout>
 
                 <!-- Row 2 -->
@@ -121,7 +124,19 @@
                         android:text="ضد كل الشـرور الشـيطانيّة" />
 
                 </LinearLayout>
-		
+
+
+                <!-- Row 5 -->
+                <LinearLayout  style="@style/RawButton">
+
+
+                <Button  style="@style/GridButton"
+                    android:id="@+id/SaintCharbelCancer"
+                    android:text="لمار شربل خاصة بالأمراض المستعصية" />
+
+                </LinearLayout>
+
+
             </LinearLayout>
 
 

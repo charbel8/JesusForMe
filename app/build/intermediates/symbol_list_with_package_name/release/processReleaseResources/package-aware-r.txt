@@ -1430,6 +1430,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color dividerColor
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -3119,6 +3120,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id AnachidMariamExpandableButtons
 id AnfoudAlmathariyeh
 id BOTTOM_END
 id BOTTOM_START
@@ -3127,7 +3129,6 @@ id DouaatExpandableButtons
 id FUNCTION
 id FransistoViergeMarie
 id META
-id MariamFoukty
 id MassebihExpandableButtons
 id NO_DEBUG
 id SHIFT
@@ -3136,6 +3137,7 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SaintCharbel
+id SaintCharbelCancer
 id SaintMarina
 id SaintNemaAllah
 id SaintRita2
@@ -3207,6 +3209,7 @@ id actions
 id activity_chooser_view_content
 id add
 id againstEvil
+id alaykisalam
 id alertTitle
 id ali3tiraf
 id aligned
@@ -3219,6 +3222,7 @@ id always
 id animateToEnd
 id animateToStart
 id antiClockwise
+id antichafih
 id anticipate
 id arc
 id asConfigured
@@ -3243,6 +3247,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnGroupAnachidMariam
 id btnGroupDouaat
 id btnGroupMassebih
 id btnGroupSalawet
@@ -3343,6 +3348,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fiZillHimayitiki
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3376,6 +3382,7 @@ id homeAsUp
 id honorRequest
 id horizontal
 id horizontal_only
+id houbouki
 id icon
 id icon_group
 id ifRoom
@@ -3395,6 +3402,7 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id kanzBaraket
 id labeled
 id layout
 id left
@@ -3406,6 +3414,10 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
+id majdLeb
+id majdouMariam
+id maljaElBanin
+id mariamFoukty
 id mariamt7ik3ikad
 id marquee
 id masbahaAlFarah
@@ -3473,6 +3485,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myfather
+id nahnouBanouki
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3509,6 +3522,7 @@ id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
 id oudElSalib
+id oumHayat
 id outline
 id outward
 id overshoot
@@ -3532,6 +3546,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id rayaIftikhar
 id rectangles
 id report_drawn
 id reverseSawtooth
@@ -3548,8 +3563,10 @@ id saintJoseph2
 id saintKassab
 id saintRafqa
 id saintRafqaS
+id salamSalam
 id sallatJassad
 id sallatNafes
+id sallwaKouloub
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3692,11 +3709,14 @@ id west
 id withText
 id with_icon
 id withinBounds
+id wouroud
 id wrap
 id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id yaNajmatSoboh
+id yaOumana
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration

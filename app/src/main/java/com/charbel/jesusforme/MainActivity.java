@@ -140,6 +140,7 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.FransistoViergeMarie,38},
                                 {R.id.sallatNafes,    43},
                                 {R.id.sallatJassad,44},
+                                {R.id.saintGrandAntonios,50},
                         }),
 
                 new Group(R.id.irchadat,

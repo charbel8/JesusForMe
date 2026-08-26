@@ -139,6 +139,10 @@ public class staticVar {
             case 49:
                 return new TseiiyetSaintVeronicaJulyani();
 
+            case 50:
+                return new saintGrandAntonios();
+
+				
 // ---- tratil section
             case 301:
                 return new template();

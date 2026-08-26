@@ -83,9 +83,6 @@
                         android:id="@+id/takrisKalebMariam"
                         android:text="فعل التكريس لقلب مريم الطاهر" />
 
-
-
-
                 </LinearLayout>
 
                 <!-- Row 2 -->
@@ -133,7 +130,12 @@
                 <Button  style="@style/GridButton"
                     android:id="@+id/SaintCharbelCancer"
                     android:text="لمار شربل خاصة بالأمراض المستعصية" />
+               
+				<Button  style="@style/GridButton"
+                        android:id="@+id/saintGrandAntonios"
+                        android:text="كتاب صلوات القديس انطونيوس الكبير"/>
 
+					
                 </LinearLayout>
 
 
@@ -434,17 +436,6 @@
 
                 </LinearLayout>
 
-   <!-- Row 3 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/saintGrandAntonios"
-                        android:text="كتاب صلوات القديس انطونيوس الكبير"/>
-
-                  
-
-
-                </LinearLayout>
 
 				
             </LinearLayout>

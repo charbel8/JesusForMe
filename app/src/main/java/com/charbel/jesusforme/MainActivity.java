@@ -73,6 +73,7 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.padrePioS1,          16}, // added
                                 {R.id.againstEvil,         17}, // added
                                 {R.id.SaintCharbelCancer,  417},
+                                {R.id.saintGrandAntonios,50},
 
                         }),
 
@@ -140,7 +141,7 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.FransistoViergeMarie,38},
                                 {R.id.sallatNafes,    43},
                                 {R.id.sallatJassad,44},
-                                {R.id.saintGrandAntonios,50},
+                                
                         }),
 
                 new Group(R.id.irchadat,

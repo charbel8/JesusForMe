@@ -186,6 +186,15 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.kanzBaraket,    415}, 
                         {R.id.antichafih,    416},
                     
+                }),
+
+
+
+       new Group(R.id.btnGroupBioghraphy,
+                R.id.BioghraphyExpandableButtons,
+                "حياة القديسين  ◀ ", "حياة القديسين  ▼ ",
+                new int[][]{                  
+                        {R.id.gemma,    500},
                 })
 
         );

@@ -11,6 +11,7 @@ import com.charbel.jesusforme.data.tesawiyet.*;
 import com.charbel.jesusforme.data.irchadat.*;
 import com.charbel.jesusforme.data.tratil.*;
 import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
+import com.charbel.jesusforme.data.biography.*;
 
 public class staticVar {
 
@@ -191,7 +192,11 @@ public class staticVar {
 
             case 417:
                 return new SaintCharbelCancer();
-				
+
+
+			// ------------ sira zatiyeh
+			 case 500:
+                return new gemma();	
 
             // -----------------------------------
             default:

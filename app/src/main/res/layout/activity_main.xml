@@ -601,6 +601,49 @@
             <!--    End   ************** Anachid Maria ************      -->
 
 
+
+
+
+
+ <!--    Start   ************** Biography ************      -->
+
+<View
+    android:layout_width="match_parent"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:layout_height="2dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="#6069F0" />
+
+		
+
+			
+            <!-- Biography -->
+            <Button style="@style/ExpendButton"
+                android:id="@+id/btnGroupBioghraphy"
+                android:text="حياة القديسين  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/TBioghraphyExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/oudElSalib"
+                        android:text="القديسة جيما" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--    End  
+			************** Biography ************      -->
+
+
+			
         </LinearLayout>
     </ScrollView>
 

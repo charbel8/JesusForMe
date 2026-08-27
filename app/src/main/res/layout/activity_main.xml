@@ -627,13 +627,13 @@
 
             <!-- Expandable Buttons Container -->
             <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/TBioghraphyExpandableButtons">
+                android:id="@+id/BioghraphyExpandableButtons">
 
                 <!-- Row 1 -->
                 <LinearLayout style="@style/RawButton" >
 
                     <Button style="@style/GridButton"
-                        android:id="@+id/oudElSalib"
+                        android:id="@+id/gemma"
                         android:text="القديسة جيما" />
 
                 </LinearLayout>

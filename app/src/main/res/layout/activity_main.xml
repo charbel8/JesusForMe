@@ -636,6 +636,10 @@
                         android:id="@+id/gemma"
                         android:text="القديسة جيما" />
 
+					 <Button style="@style/GridButton"
+                        android:id="@+id/saintCharbelBiog"
+                        android:text="القديسة شربل" />
+
                 </LinearLayout>
 
             </LinearLayout>

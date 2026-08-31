@@ -106,6 +106,7 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.TseiiyetSaintVeronicaJulyani,  49},
                                 {R.id.SaintCharbel,      1},
                                 {R.id.alra7maIlahiyeh,      23},
+                                {R.id.TseiiyetSaintPio,      51},
                         }),
 
                 new Group(R.id.btnGroupTalabet,

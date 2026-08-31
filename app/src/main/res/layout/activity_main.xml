@@ -30,7 +30,7 @@
 			<include layout="@layout/section_salawet" />
 
 			
-           <!-- ------------------------------------- -->
+           <!-- *********************** -->
           <include layout="@layout/section_raw_spliter" />
 			
             <!-- Tsaiiyat -->
@@ -43,7 +43,7 @@
             <include layout="@layout/section_massebih" />
 
 			
-           <!-- ------------------------------------- -->
+           <!-- *********************** -->
           <include layout="@layout/section_raw_spliter" />
 			
             <!--  Douaat --> 
@@ -52,7 +52,7 @@
 			<!--  irchadat  -->
             <include layout="@layout/section_irchadat" />	
 			
-           <!-- ------------------------------------- -->
+           <!-- *********************** -->
           <include layout="@layout/section_raw_spliter" />
 
 			
@@ -63,7 +63,7 @@
            <include layout="@layout/section_anachidmariam" />
 
  
-           <!-- ------------------------------------- -->
+           <!-- *********************** -->
           <include layout="@layout/section_raw_spliter" />
 		
        <include layout="@layout/section_biography" />			

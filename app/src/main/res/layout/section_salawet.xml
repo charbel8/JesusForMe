@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+   
+            <!-- Salawet -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/btnGroupSalawet"
+                android:text="الصلوات  ◀ "/>
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/SalawetExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintRita2"
+                        android:text="صلاة للقديسة ريتا 2" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/rita1"
+                        android:text="صلاة للقديسة ريتا " />
+
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/charbel"
+                        android:text="صلاة إلى القديس شربل" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintNemaAllah"
+                        android:text="القديس نعمه الله" />
+
+                </LinearLayout>
+
+                <!-- Row 3 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/saintRafqaS"
+                        android:text="صلاة للقدّيسة رفقا" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintMarina"
+                        android:text="صلاة القديسة مارينا" />
+
+                </LinearLayout>
+
+              
+                <!-- Row 4 -->
+                <LinearLayout style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/tabchirmalaika"
+                        android:text="التبشير الملائكي" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/rou7koudous"
+                        android:text="صلاة للروح القدس" />
+
+                </LinearLayout>
+
+                <!-- Row 5 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/saintJoseph2"
+                        android:text="مار يوسف شفيع الكنيسة العام" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/saintJoseph"
+                        android:text="صلاة للقديس يوسف " />
+
+                </LinearLayout>
+
+                <!-- Row 6 -->
+                <LinearLayout  style="@style/RawButton">
+					
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintVeronicaJulyani"
+                        android:text="صلاة الى القديسة فيرونيكا جولياني " />
+					
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/gardAngel"
+                        android:text="صلاة للملاك الحارس " />
+                </LinearLayout>
+
+            </LinearLayout>
+
+</merge>

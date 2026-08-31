@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+   
+         
+            <!-- btnGroup Salawet Khassa -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/btnGroupSalawetKhassa"
+                android:text="صلاوات خاصة  ◀ "/>
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/SalawetkhassaExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/mariamt7ik3ikad"
+                        android:text="صلاة لمريم التي تحل العقد" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/takrisKalebMariam"
+                        android:text="فعل التكريس لقلب مريم الطاهر" />
+
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/takrisKalebYassou3"
+                        android:text="فعل التكريس لقلب يسوع الأقدس" />
+
+                </LinearLayout>
+
+
+                <!-- Row 3 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/babyCancer"
+                        android:text="صلاة لمرضى السرطان وخاصة الاطفال" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/AnfoudAlmathariyeh"
+                        android:text="صلاة لأجل الأنفس المطهريّة" />
+
+                </LinearLayout>
+
+
+                 <!-- Row 4 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/padrePioS1"
+                        android:text="تحقّق المعجزات - بادري بيو" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/againstEvil"
+                        android:text="ضد كل الشـرور الشـيطانيّة" />
+
+                </LinearLayout>
+
+
+                <!-- Row 5 -->
+                <LinearLayout  style="@style/RawButton">
+
+
+                <Button  style="@style/GridButton"
+                    android:id="@+id/SaintCharbelCancer"
+                    android:text="لمار شربل خاصة بالأمراض المستعصية" />
+               
+				<Button  style="@style/GridButton"
+                        android:id="@+id/saintGrandAntonios"
+                        android:text="كتاب صلوات القديس انطونيوس الكبير"/>
+
+					
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+</merge>

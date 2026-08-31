@@ -194,7 +194,8 @@ public class MainActivity  extends AppCompatActivity {
                 R.id.BioghraphyExpandableButtons,
                 "حياة القديسين  ◀ ", "حياة القديسين  ▼ ",
                 new int[][]{                  
-                        {R.id.gemma,    500},
+                        {R.id.gemma,    500},              
+                        {R.id.saintCharbelBiog,    501},
                 })
 
         );

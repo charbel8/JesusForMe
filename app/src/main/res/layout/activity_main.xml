@@ -500,7 +500,7 @@
             <!--    End   ************** tratil ************      -->
 
            <!-- Anachid Maria -->
-           <include layout="@layout/section_anachidMariam" />
+           <include layout="@layout/section_anachidmariam" />
 
  <!--    Start   ************** Biography ************      -->
 

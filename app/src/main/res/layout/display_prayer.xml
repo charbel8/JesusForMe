@@ -71,6 +71,16 @@
             android:orientation="horizontal"
             android:padding="8dp">
 
+            <!-- Export button, bottom-right (start, due to RTL) -->
+           <Button
+               android:id="@+id/export"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"            
+               android:layout_margin="8dp"
+               android:text="Exp"
+               android:textSize="18sp"
+               android:textStyle="bold" />
+            
             <Button
                 android:id="@+id/decreaseFontSize"
                 android:layout_width="60dp"
@@ -101,18 +111,6 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
-
-        <!-- Export button, bottom-right (start, due to RTL) -->
-        <Button
-            android:id="@+id/export"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|start"
-            android:layout_margin="8dp"
-            android:text="Exp"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
     </FrameLayout>
 
 </LinearLayout>

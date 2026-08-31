@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Biography -->
+    <Button style="@style/ExpendButton"
+        android:id="@+id/btnGroupBioghraphy"
+        android:text="حياة القديسين  ◀ " />
+
+    <!-- Expandable Buttons Container -->
+    <LinearLayout style="@style/LinearExpand"
+        android:id="@+id/BioghraphyExpandableButtons">
+
+        <!-- Row 1 -->
+        <LinearLayout style="@style/RawButton">
+
+            <Button style="@style/GridButton"
+                android:id="@+id/gemma"
+                android:text="القديسة جيما" />
+
+            <Button style="@style/GridButton"
+                android:id="@+id/saintCharbelBiog"
+                android:text="القديسة شربل" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

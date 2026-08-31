@@ -616,38 +616,10 @@
     android:layout_marginTop="8dp"
     android:layout_marginBottom="8dp"
     android:background="#6069F0" />
-
 		
-
+<include layout="@layout/section_biography" />
 			
-            <!-- Biography -->
-            <Button style="@style/ExpendButton"
-                android:id="@+id/btnGroupBioghraphy"
-                android:text="حياة القديسين  ◀ " />
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/BioghraphyExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout style="@style/RawButton" >
-
-                    <Button style="@style/GridButton"
-                        android:id="@+id/gemma"
-                        android:text="القديسة جيما" />
-
-					 <Button style="@style/GridButton"
-                        android:id="@+id/saintCharbelBiog"
-                        android:text="القديسة شربل" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-            <!--    End  
-			************** Biography ************      -->
-
-
-			
+        			
         </LinearLayout>
     </ScrollView>
 

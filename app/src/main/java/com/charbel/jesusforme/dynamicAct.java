@@ -9,10 +9,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.util.TypedValue;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.activity.OnBackPressedCallback;
-
 import com.charbel.jesusforme.data.template;
 
 public class dynamicAct extends AppCompatActivity {
@@ -21,17 +19,15 @@ public class dynamicAct extends AppCompatActivity {
     private TextView title;
     private TextView componetes;
     private TextView currentFontSizeTextView;
-
     private float currentFontSize = 16f;
-
     Button increaseFontBtn ;
     Button decreaseFontBtn ;
+    Button exportBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.display_prayer);
-
 
         // Keep screen on
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -44,46 +40,38 @@ public class dynamicAct extends AppCompatActivity {
             }
         });
 
-
         currentFontSizeTextView = findViewById(R.id.currentFontSize);
-
-        //  StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        //  StrictMode.setThreadPolicy(policy);
 
         back = findViewById(R.id.back);
         back.setOnClickListener(v -> {
             Intent intent = new Intent(dynamicAct.this, MainActivity.class);
             startActivity(intent);
-            finish(); // optional, closes SigActivity so user can't return to it with back button
+            finish();
         });
 
         increaseFontBtn = findViewById(R.id.increaseFontSize);
         increaseFontBtn.setOnClickListener(
                 v -> {
-                    if (currentFontSize < 30f) { // Max size limit
+                    if (currentFontSize < 30f) {
                         currentFontSize += 2f;
                         updateFontSize();
                     }
                 }
-
-              );
+        );
 
         decreaseFontBtn = findViewById(R.id.decreaseFontSize);
         decreaseFontBtn.setOnClickListener(
                 v -> {
-                    if (currentFontSize > 10f) { // Min size limit
+                    if (currentFontSize > 10f) {
                         currentFontSize -= 2f;
                         updateFontSize();
                     }
                 }
-
         );
 
-
-        template _template =staticVar.getSalat();
-String titre =_template.getTitle();
-String body =_template.getData();
-
+        template _template = staticVar.getSalat();
+        String titre = _template.getTitle();
+        String body = _template.getData();
 
         title = findViewById(R.id.title);
         title.setText(titre);
@@ -100,8 +88,20 @@ String body =_template.getData();
         componetes.setText(spanned);
         componetes.setMovementMethod(android.text.method.LinkMovementMethod.getInstance());
 
+        // Export button: share the prayer title + text via the Android share sheet
+        exportBtn = findViewById(R.id.export);
+        exportBtn.setOnClickListener(v -> exportPrayer(titre, componetes.getText().toString()));
+    }
 
+    private void exportPrayer(String titre, String bodyText) {
+        String shareText = titre + "\n\n" + bodyText;
 
+        Intent shareIntent = new Intent(Intent.ACTION_SEND);
+        shareIntent.setType("text/plain");
+        shareIntent.putExtra(Intent.EXTRA_SUBJECT, titre);
+        shareIntent.putExtra(Intent.EXTRA_TEXT, shareText);
+
+        startActivity(Intent.createChooser(shareIntent, "مشاركة الصلاة"));
     }
 
     private void navigateToMain() {
@@ -115,6 +115,4 @@ String body =_template.getData();
         componetes.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentFontSize);
         currentFontSizeTextView.setText(String.valueOf((int) currentFontSize));
     }
-
-
 }

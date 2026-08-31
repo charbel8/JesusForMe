@@ -28,6 +28,10 @@
 
             <!-- Salawet -->
 			<include layout="@layout/section_salawet" />
+
+			
+           <!-- ------------------------------------- -->
+          <include layout="@layout/section_raw_spliter" />
 			
             <!-- Tsaiiyat -->
             <include layout="@layout/section_tsaiiyat" />
@@ -37,6 +41,10 @@
 
             <!--   Massebih  -->            
             <include layout="@layout/section_massebih" />
+
+			
+           <!-- ------------------------------------- -->
+          <include layout="@layout/section_raw_spliter" />
 			
             <!--  Douaat --> 
             <include layout="@layout/section_douaat" />
@@ -44,16 +52,8 @@
 			<!--  irchadat  -->
             <include layout="@layout/section_irchadat" />	
 			
-
-<View
-    android:layout_width="match_parent"
-    android:layout_marginStart="50dp"
-    android:layout_marginEnd="50dp"
-    android:layout_height="2dp"
-    android:layout_gravity="center_horizontal"
-    android:layout_marginTop="8dp"
-    android:layout_marginBottom="8dp"
-    android:background="#6069F0" />
+           <!-- ------------------------------------- -->
+          <include layout="@layout/section_raw_spliter" />
 
 			
             <!-- tratil -->
@@ -63,15 +63,8 @@
            <include layout="@layout/section_anachidmariam" />
 
  
-<View
-    android:layout_width="match_parent"
-    android:layout_marginStart="50dp"
-    android:layout_marginEnd="50dp"
-    android:layout_height="2dp"
-    android:layout_gravity="center_horizontal"
-    android:layout_marginTop="8dp"
-    android:layout_marginBottom="8dp"
-    android:background="#6069F0" />
+           <!-- ------------------------------------- -->
+          <include layout="@layout/section_raw_spliter" />
 		
        <include layout="@layout/section_biography" />			
         			

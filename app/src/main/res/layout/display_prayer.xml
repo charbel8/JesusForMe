@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|start"
             android:layout_margin="8dp"
-            android:text="تصدير"
+            android:text="Exp"
             android:textSize="14sp"
             android:textStyle="bold" />
 

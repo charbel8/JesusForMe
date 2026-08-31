@@ -31,7 +31,7 @@
 
 			
            <!-- *********************** -->
-          <include layout="@layout/section_raw_spliter" />
+          <include layout="@layout/section_raw_spliter_N" />
 			
             <!-- Tsaiiyat -->
             <include layout="@layout/section_tsaiiyat" />

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <!--       ************** Douaat ************                          -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/btnGroupDouaat"
+                android:text="الدعاءات  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout  style="@style/LinearExpand"
+                android:id="@+id/DouaatExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/doua2SaintJoseph"
+                        android:text="دعاء الى القديس يوسف"/>
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/FransistoViergeMarie"
+                        android:text="القديس فرنسيس السالسي الى العذراء"/>
+
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/sallatJassad"
+                        android:text="صلاة من أجل شفاء الجسد"/>
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/sallatNafes"
+                        android:text="صلاة من أجل شفاء النفس"/>
+
+
+                </LinearLayout>
+
+
+				
+            </LinearLayout>
+</merge>

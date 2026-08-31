@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+             <!--       ************** btnGrouptalabet ************                          -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/btnGroupTalabet"
+                android:text="الطلبات  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/talabetExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/telbatElAddra"
+                        android:text="طلبة العذراء" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/althaloth"
+                        android:text="طلبة الثالوث الأقدس" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/telbitkalebyassouh"
+                        android:text="طلبة قلب يسوع الأقدس" />
+					
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/telbitAlra7maIlahiyeh"
+                        android:text="طلبة الرحمة الإلهية" />
+					
+                </LinearLayout>
+
+
+                <!-- Row 3 -->
+                <LinearLayout  style="@style/RawButton">
+					
+					<Button  style="@style/GridButton"
+                        android:id="@+id/telbetSaintJoseph"
+                        android:text="طلبة مار يوسف" />
+					
+					<Button  style="@style/GridButton"
+                        android:id="@+id/TelbitSaintVeronicaJulyani"
+                        android:text="طلبة القديسة فيرونيكا جولياني" />
+                  
+                </LinearLayout>
+
+				  <!-- Row 4 -->
+                <LinearLayout  style="@style/RawButton">
+					  <Button  style="@style/GridButton"
+                        android:id="@+id/telbetElMawta"
+                        android:text="الطلبة من أجل الموتى المؤمنين" />	
+
+                </LinearLayout>
+				
+
+            </LinearLayout>
+</merge>

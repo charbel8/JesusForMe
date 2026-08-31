@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+             <!--       ************** Massebih ************                          -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/btnGroupMassebih"
+                android:text="المسابح  ◀ "/>
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout  style="@style/LinearExpand"
+                android:id="@+id/MassebihExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/masbahaAlHezen"
+                        android:text="مسبحة الورديّة: أسرار الحزن"/>
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/masbahaAlFarah"
+                        android:text="مسبحة الورديّة: أسرار الفرح"/>
+
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/masbahaAlNour"
+                        android:text="مسبحة الورديّة: أسرار النّور"/>
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/masbahaAlMajed"
+                        android:text="مسبحة الورديّة: أسرار المجد"/>
+
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/masbahaSaintJoseph"
+                        android:text="مسبحة القديس يوسف"/>
+
+                </LinearLayout>
+
+                <!-- Row 4 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/alra7ma"
+                        android:text="مسبحة الرحمة الإلهية" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+</merge>

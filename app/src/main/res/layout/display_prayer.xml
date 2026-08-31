@@ -74,10 +74,10 @@
             <!-- Export button, bottom-right (start, due to RTL) -->
            <Button
                android:id="@+id/export"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"            
+               android:layout_width="60dp"
+               android:layout_height="60dp"            
                android:layout_margin="8dp"
-               android:text="Exp"
+               android:text="Ex"
                android:textSize="18sp"
                android:textStyle="bold" />
             

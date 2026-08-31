@@ -20,449 +20,30 @@
             android:gravity="fill">
 
             <!-- SalawetYawmiyeh -->
-            <Button style="@style/ExpendButton"
-                android:id="@+id/btnGroupSalawetYawmiyeh"
-                android:text="الصلاة اليومية  ◀ " />
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/SalawetYawmiyehExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout style="@style/RawButton" >
-
-                    <Button style="@style/GridButton"
-                        android:id="@+id/myfather"
-                        android:text="صلاة الصباح – أنت أبي السماوي ومخلصي" />
-
-                    <Button style="@style/GridButton"
-                        android:id="@+id/ssaidniyarab"
-                        android:text="صلاة الصباح – ساعدني يا ربّ" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/beforsleep"
-                        android:text="صلاة إلى مريم قبل النوم" />
-
-                </LinearLayout>
+            <include layout="@layout/section_salawet_yawmiyeh" />
 
 
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton" >
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/evening"
-                        android:text="صلاة المساء" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/morning"
-                        android:text="صلاة الصباحّ" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-
-
-            <!-- btnGroup Salawet Khassa -->
-            <Button  style="@style/ExpendButton"
-                android:id="@+id/btnGroupSalawetKhassa"
-                android:text="صلاوات خاصة  ◀ "/>
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/SalawetkhassaExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout style="@style/RawButton" >
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/mariamt7ik3ikad"
-                        android:text="صلاة لمريم التي تحل العقد" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/takrisKalebMariam"
-                        android:text="فعل التكريس لقلب مريم الطاهر" />
-
-                </LinearLayout>
-
-                <!-- Row 2 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/takrisKalebYassou3"
-                        android:text="فعل التكريس لقلب يسوع الأقدس" />
-
-                </LinearLayout>
-
-
-                <!-- Row 3 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/babyCancer"
-                        android:text="صلاة لمرضى السرطان وخاصة الاطفال" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/AnfoudAlmathariyeh"
-                        android:text="صلاة لأجل الأنفس المطهريّة" />
-
-                </LinearLayout>
-
-
-                 <!-- Row 4 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/padrePioS1"
-                        android:text="تحقّق المعجزات - بادري بيو" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/againstEvil"
-                        android:text="ضد كل الشـرور الشـيطانيّة" />
-
-                </LinearLayout>
-
-
-                <!-- Row 5 -->
-                <LinearLayout  style="@style/RawButton">
-
-
-                <Button  style="@style/GridButton"
-                    android:id="@+id/SaintCharbelCancer"
-                    android:text="لمار شربل خاصة بالأمراض المستعصية" />
-               
-				<Button  style="@style/GridButton"
-                        android:id="@+id/saintGrandAntonios"
-                        android:text="كتاب صلوات القديس انطونيوس الكبير"/>
-
-					
-                </LinearLayout>
-
-
-            </LinearLayout>
-
+            <!-- btnGroup Salawet Khassa -->          
+			<include layout="@layout/section_salawet_khassa" />
 
             <!-- Salawet -->
-            <Button  style="@style/ExpendButton"
-                android:id="@+id/btnGroupSalawet"
-                android:text="الصلوات  ◀ "/>
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/SalawetExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/SaintRita2"
-                        android:text="صلاة للقديسة ريتا 2" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/rita1"
-                        android:text="صلاة للقديسة ريتا " />
-
-                </LinearLayout>
-
-                <!-- Row 2 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/charbel"
-                        android:text="صلاة إلى القديس شربل" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/SaintNemaAllah"
-                        android:text="القديس نعمه الله" />
-
-                </LinearLayout>
-
-                <!-- Row 3 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/saintRafqaS"
-                        android:text="صلاة للقدّيسة رفقا" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/SaintMarina"
-                        android:text="صلاة القديسة مارينا" />
-
-                </LinearLayout>
-
-              
-                <!-- Row 4 -->
-                <LinearLayout style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/tabchirmalaika"
-                        android:text="التبشير الملائكي" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/rou7koudous"
-                        android:text="صلاة للروح القدس" />
-
-                </LinearLayout>
-
-                <!-- Row 5 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/saintJoseph2"
-                        android:text="مار يوسف شفيع الكنيسة العام" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/saintJoseph"
-                        android:text="صلاة للقديس يوسف " />
-
-                </LinearLayout>
-
-                <!-- Row 6 -->
-                <LinearLayout  style="@style/RawButton">
-					
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/SaintVeronicaJulyani"
-                        android:text="صلاة الى القديسة فيرونيكا جولياني " />
-					
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/gardAngel"
-                        android:text="صلاة للملاك الحارس " />
-                </LinearLayout>
-
-            </LinearLayout>
-
+			<include layout="@layout/section_salawet" />
+			
             <!-- Tsaiiyat -->
-            <Button  style="@style/ExpendButton"
-                android:id="@+id/btnGroupTsaiiyat"
-                android:text="التساعيّات  ◀ " />
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/tsaiiyatExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/SaintCharbel"
-                        android:text="تساعية مار شربل" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/saintRafqa"
-                        android:text="تساعيّة القدّيسة رفقا"  />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/saintKassab"
-                        android:text="تساعيّة القدّيس نعمة الله الحرديني" />
-
-                </LinearLayout>
-
-                <!-- Row 2 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/tssaiiatSaintRita"
-                        android:text="تساعيّة القدّيسة ريتا" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/alra7maIlahiyeh"
-                        android:text="تساعية الرحمة الإلهية" />
-
-                </LinearLayout>
-
-                <!-- Row 3 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/tessawiyetSaintJoseph"
-                        android:text="تساعية القديس يوسف" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/TseiiyetSaintVeronicaJulyani"
-                        android:text="تساعيّة القديسة فيرونيكا جولياني" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <!--       ************** btnGrouptalabet ************                          -->
-            <Button  style="@style/ExpendButton"
-                android:id="@+id/btnGroupTalabet"
-                android:text="الطلبات  ◀ " />
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/talabetExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/telbatElAddra"
-                        android:text="طلبة العذراء" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/althaloth"
-                        android:text="طلبة الثالوث الأقدس" />
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/telbitkalebyassouh"
-                        android:text="طلبة قلب يسوع الأقدس" />
-					
-                </LinearLayout>
-
-                <!-- Row 2 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/telbitAlra7maIlahiyeh"
-                        android:text="طلبة الرحمة الإلهية" />
-					
-                </LinearLayout>
-
-
-                <!-- Row 3 -->
-                <LinearLayout  style="@style/RawButton">
-					
-					<Button  style="@style/GridButton"
-                        android:id="@+id/telbetSaintJoseph"
-                        android:text="طلبة مار يوسف" />
-					
-					<Button  style="@style/GridButton"
-                        android:id="@+id/TelbitSaintVeronicaJulyani"
-                        android:text="طلبة القديسة فيرونيكا جولياني" />
-                  
-                </LinearLayout>
-
-				  <!-- Row 4 -->
-                <LinearLayout  style="@style/RawButton">
-					  <Button  style="@style/GridButton"
-                        android:id="@+id/telbetElMawta"
-                        android:text="الطلبة من أجل الموتى المؤمنين" />	
-
-                </LinearLayout>
-				
-
-            </LinearLayout>
-
-            <!--       ************** Massebih ************                          -->
-            <Button  style="@style/ExpendButton"
-                android:id="@+id/btnGroupMassebih"
-                android:text="المسابح  ◀ "/>
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout  style="@style/LinearExpand"
-                android:id="@+id/MassebihExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/masbahaAlHezen"
-                        android:text="مسبحة الورديّة: أسرار الحزن"/>
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/masbahaAlFarah"
-                        android:text="مسبحة الورديّة: أسرار الفرح"/>
-
-                </LinearLayout>
-
-                <!-- Row 2 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/masbahaAlNour"
-                        android:text="مسبحة الورديّة: أسرار النّور"/>
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/masbahaAlMajed"
-                        android:text="مسبحة الورديّة: أسرار المجد"/>
-
-                </LinearLayout>
-
-                <!-- Row 2 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/masbahaSaintJoseph"
-                        android:text="مسبحة القديس يوسف"/>
-
-                </LinearLayout>
-
-                <!-- Row 4 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/alra7ma"
-                        android:text="مسبحة الرحمة الإلهية" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <!--       ************** Douaat ************                          -->
-            <Button  style="@style/ExpendButton"
-                android:id="@+id/btnGroupDouaat"
-                android:text="الدعاءات  ◀ " />
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout  style="@style/LinearExpand"
-                android:id="@+id/DouaatExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/doua2SaintJoseph"
-                        android:text="دعاء الى القديس يوسف"/>
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/FransistoViergeMarie"
-                        android:text="القديس فرنسيس السالسي الى العذراء"/>
-
-                </LinearLayout>
-
-                <!-- Row 2 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/sallatJassad"
-                        android:text="صلاة من أجل شفاء الجسد"/>
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/sallatNafes"
-                        android:text="صلاة من أجل شفاء النفس"/>
-
-
-                </LinearLayout>
-
-
-				
-            </LinearLayout>
-
-
-
-
-            <!--    start   ************** irchadat ************      -->
-            <Button  style="@style/ExpendButton"
-                android:id="@+id/irchadat"
-                android:text="ارشادات  ◀ " />
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout  style="@style/LinearExpand"
-                android:id="@+id/irchadatExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout  style="@style/RawButton">
-
-                    <Button  style="@style/GridButton"
-                        android:id="@+id/ali3tiraf"
-                        android:text="الإعتراف الصّحيح"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-			 <!--    End   ************** irchadat ************      -->
+            <include layout="@layout/section_tsaiiyat" />
+			
+            <!-- btnGrouptalabet -->
+			<include layout="@layout/section_talabet" />
+
+            <!--   Massebih  -->            
+            <include layout="@layout/section_massebih" />
+			
+            <!--  Douaat --> 
+            <include layout="@layout/section_douaat" />
+			
+			<!--  irchadat  -->
+            <include layout="@layout/section_irchadat" />	
+			
 
 <View
     android:layout_width="match_parent"
@@ -474,36 +55,14 @@
     android:layout_marginBottom="8dp"
     android:background="#6069F0" />
 
-
-			
-
 			
             <!-- tratil -->
-            <Button style="@style/ExpendButton"
-                android:id="@+id/btnGroupTratil"
-                android:text="تراتيل  ◀ " />
-
-            <!-- Expandable Buttons Container -->
-            <LinearLayout style="@style/LinearExpand"
-                android:id="@+id/TratilExpandableButtons">
-
-                <!-- Row 1 -->
-                <LinearLayout style="@style/RawButton" >
-
-                    <Button style="@style/GridButton"
-                        android:id="@+id/oudElSalib"
-                        android:text="عُودُ الصَّـلـيـب" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-            <!--    End   ************** tratil ************      -->
-
+           <include layout="@layout/section_tratil" />			
+			
            <!-- Anachid Maria -->
            <include layout="@layout/section_anachidmariam" />
 
- <!--    Start   ************** Biography ************      -->
-
+ 
 <View
     android:layout_width="match_parent"
     android:layout_marginStart="50dp"
@@ -514,8 +73,7 @@
     android:layout_marginBottom="8dp"
     android:background="#6069F0" />
 		
-<include layout="@layout/section_biography" />
-			
+       <include layout="@layout/section_biography" />			
         			
         </LinearLayout>
     </ScrollView>

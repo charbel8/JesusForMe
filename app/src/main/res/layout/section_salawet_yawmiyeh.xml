@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+   
+          <!-- SalawetYawmiyeh -->
+            <Button style="@style/ExpendButton"
+                android:id="@+id/btnGroupSalawetYawmiyeh"
+                android:text="الصلاة اليومية  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/SalawetYawmiyehExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/myfather"
+                        android:text="صلاة الصباح – أنت أبي السماوي ومخلصي" />
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/ssaidniyarab"
+                        android:text="صلاة الصباح – ساعدني يا ربّ" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/beforsleep"
+                        android:text="صلاة إلى مريم قبل النوم" />
+
+                </LinearLayout>
+
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton" >
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/evening"
+                        android:text="صلاة المساء" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/morning"
+                        android:text="صلاة الصباحّ" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+</merge>

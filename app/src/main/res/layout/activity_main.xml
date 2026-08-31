@@ -31,7 +31,7 @@
 
 			
            <!-- *********************** -->
-          <include layout="@layout/section_raw_spliter_N" />
+          <include layout="@layout/section_raw_spliter_n" />
 			
             <!-- Tsaiiyat -->
             <include layout="@layout/section_tsaiiyat" />
@@ -44,7 +44,7 @@
 
 			
            <!-- *********************** -->
-          <include layout="@layout/section_raw_spliter" />
+          <include layout="@layout/section_raw_spliter_n" />
 			
             <!--  Douaat --> 
             <include layout="@layout/section_douaat" />
@@ -53,7 +53,7 @@
             <include layout="@layout/section_irchadat" />	
 			
            <!-- *********************** -->
-          <include layout="@layout/section_raw_spliter" />
+          <include layout="@layout/section_raw_spliter_n" />
 
 			
             <!-- tratil -->
@@ -64,7 +64,7 @@
 
  
            <!-- *********************** -->
-          <include layout="@layout/section_raw_spliter" />
+          <include layout="@layout/section_raw_spliter_n" />
 		
        <include layout="@layout/section_biography" />			
         			

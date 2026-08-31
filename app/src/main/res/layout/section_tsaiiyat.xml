@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+      <!-- Tsaiiyat -->
+            <Button  style="@style/ExpendButton"
+                android:id="@+id/btnGroupTsaiiyat"
+                android:text="التساعيّات  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/tsaiiyatExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintCharbel"
+                        android:text="تساعية مار شربل" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/saintRafqa"
+                        android:text="تساعيّة القدّيسة رفقا"  />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/saintKassab"
+                        android:text="تساعيّة القدّيس نعمة الله الحرديني" />
+
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/tssaiiatSaintRita"
+                        android:text="تساعيّة القدّيسة ريتا" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/alra7maIlahiyeh"
+                        android:text="تساعية الرحمة الإلهية" />
+
+                </LinearLayout>
+
+                <!-- Row 3 -->
+                <LinearLayout  style="@style/RawButton">
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/tessawiyetSaintJoseph"
+                        android:text="تساعية القديس يوسف" />
+
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/TseiiyetSaintVeronicaJulyani"
+                        android:text="تساعيّة القديسة فيرونيكا جولياني" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+</merge>

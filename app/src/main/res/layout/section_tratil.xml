@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- tratil -->
+            <Button style="@style/ExpendButton"
+                android:id="@+id/btnGroupTratil"
+                android:text="تراتيل  ◀ " />
+
+            <!-- Expandable Buttons Container -->
+            <LinearLayout style="@style/LinearExpand"
+                android:id="@+id/TratilExpandableButtons">
+
+                <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/oudElSalib"
+                        android:text="عُودُ الصَّـلـيـب" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+			
+</merge>

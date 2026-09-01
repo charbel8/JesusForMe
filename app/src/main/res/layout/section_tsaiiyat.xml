@@ -59,7 +59,10 @@
                     <Button  style="@style/GridButton"
                         android:id="@+id/TseiiyetSaintPio"
                         android:text="تساعية القديس بيو" />
-
+                      
+                      <Button  style="@style/GridButton"
+                        android:id="@+id/TseiiyetSaintArss"
+                        android:text="تساعية القديس جان ماري فياني (خوري آرس)" />
 
                 </LinearLayout>
                   

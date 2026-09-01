@@ -88,6 +88,16 @@
                         android:text="صلاة للملاك الحارس " />
                 </LinearLayout>
 
+                <!-- Row 7 -->
+                <LinearLayout  style="@style/RawButton">
+					
+                    <Button  style="@style/GridButton"
+                        android:id="@+id/SaintArss"
+                        android:text="صلاة القديّس خوري آرس" />
+				
+                </LinearLayout>
+				
+
             </LinearLayout>
 
 </merge>

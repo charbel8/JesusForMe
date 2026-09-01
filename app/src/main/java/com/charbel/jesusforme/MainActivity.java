@@ -92,7 +92,8 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.gardAngel,     25},
                                 {R.id.SaintMarina,    41},
                                 {R.id.SaintNemaAllah, 42},
-                                {R.id.SaintVeronicaJulyani, 47},
+                                {R.id.SaintVeronicaJulyani, 47},                            
+                                {R.id.SaintArss, 52},
                         }),
 
                 new Group(R.id.btnGroupTsaiiyat,
@@ -107,6 +108,7 @@ public class MainActivity  extends AppCompatActivity {
                                 {R.id.SaintCharbel,      1},
                                 {R.id.alra7maIlahiyeh,      23},
                                 {R.id.TseiiyetSaintPio,      51},
+                                {R.id.TseiiyetSaintArss,      53},
                         }),
 
                 new Group(R.id.btnGroupTalabet,

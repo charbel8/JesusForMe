@@ -146,7 +146,11 @@ public class staticVar {
             case 51:
                 return new TseiiyetSaintPio();
 
-				
+			case 52:
+                return new SaintArss();
+
+            case 53:
+                return new TseiiyetSaintArss();
 				
 // ---- tratil section
             case 301:

@@ -160,6 +160,8 @@ public class MainActivity  extends AppCompatActivity {
                 "تراتيل  ◀ ", "تراتيل  ▼ ",
                 new int[][]{                  
                         {R.id.oudElSalib,    302},
+                        {R.id.ifrahhi,    303},
+                        {R.id.touazimNafssi,    304},
                 }),
 
 

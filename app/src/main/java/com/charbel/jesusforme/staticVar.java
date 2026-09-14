@@ -12,7 +12,7 @@ import com.charbel.jesusforme.data.irchadat.*;
 import com.charbel.jesusforme.data.tratil.*;
 import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
 import com.charbel.jesusforme.data.biography.*;
-package com.charbel.jesusforme.data.tratil.mounaa.*;
+import com.charbel.jesusforme.data.tratil.mounaa.*;
 
 public class staticVar {
 

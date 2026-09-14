@@ -19,6 +19,21 @@
 
                 </LinearLayout>
 
+
+
+				  <!-- Row 2 -->
+                <LinearLayout style="@style/RawButton" >
+
+                    <Button style="@style/GridButton"
+                        android:id="@+id/ifrahhi"
+                        android:text="إفرَحي يا مَنْ أَنْعَمَ الله عَليْها" />
+
+					  <Button style="@style/GridButton"
+                        android:id="@+id/touazimNafssi"
+                        android:text="تعظّم نفسي الرب" />
+
+                </LinearLayout>
+
             </LinearLayout>
 			
 </merge>

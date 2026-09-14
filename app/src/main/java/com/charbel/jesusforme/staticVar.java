@@ -12,6 +12,7 @@ import com.charbel.jesusforme.data.irchadat.*;
 import com.charbel.jesusforme.data.tratil.*;
 import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
 import com.charbel.jesusforme.data.biography.*;
+package com.charbel.jesusforme.data.tratil.mounaa.*;
 
 public class staticVar {
 
@@ -157,6 +158,15 @@ public class staticVar {
                 return new template();
             case 302:
                 return new oudElSalib();
+
+				
+            case 303:
+                return new ifrahhi();
+            case 304:
+                return new touazimNafssi();
+
+
+				
 				
 // ---- Anachid Mariam section
             case 400:

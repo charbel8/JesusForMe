@@ -7,7 +7,7 @@ public class touazimNafssi extends template {
     public touazimNafssi() {
         super();
 
-        super.title = "إفرَحي يا مَنْ أَنْعَمَ الله عَليْها";
+        super.title = "تعظّم نفسي الرب";
         super.data = "<p  dir=\"RTL\">"
                 + "***تعظّم نفسي الرب <br>\n"
                 + "وتبتهج روحي<br>\n"

@@ -37,5 +37,5 @@ public class touazimNafssi extends template {
                 + " بالله مخلّصي<br>"
                 + ""
                 + "</p>";
-    
+        }
     }

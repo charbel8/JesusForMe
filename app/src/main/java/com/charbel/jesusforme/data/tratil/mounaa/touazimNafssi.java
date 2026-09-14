@@ -36,6 +36,6 @@ public class touazimNafssi extends template {
                 + "وتبتهج روحي<br>\n"
                 + " بالله مخلّصي<br>"
                 + ""
-                + "</p>"
+                + "</p>";
     
     }

@@ -227,6 +227,48 @@ public class staticVar {
 			case 60002:
 			    return new touazimNafssi();
 
+
+            case 60003:
+                return new wouroud();
+            case 60004:
+                return new yaNajmatSoboh();				
+            case 60005:
+                return new alaykisalam();
+            case 60006:
+                return new salamSalam();
+
+				
+            case 60007:
+                return new nahnouBanouki();
+            case 60008:
+                return new mariamFoukty();				
+            case 60009:
+                return new majdouMariam();
+            case 60010:
+                return new houbouki();
+			
+			case 60011:
+                return new maljaElBanin();
+            case 60012:
+                return new fiZillHimayitiki();				
+            case 60013:
+                return new sallwaKouloub();
+            case 60014:
+                return new yaOumana();				
+            case 60015:
+                return new rayaIftikhar();
+            case 60016:
+                return new majdLeb();
+
+            case 60017:
+                return new oumHayat();				
+            case 60018:
+                return new kanzBaraket();
+            case 60019:
+                return new antichafih();
+
+
+				
 				
             // -----------------------------------
             default:

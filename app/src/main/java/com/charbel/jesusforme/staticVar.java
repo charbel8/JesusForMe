@@ -219,6 +219,17 @@ public class staticVar {
 			  case 501:
                 return new saintCharbelBiog();	
 
+
+// ------------------ tratill -----------------
+// ---- tratil list section
+			case 60000:
+			    return new template();
+			case 60000:
+			    return new template();
+			case 60000:
+			    return new template();
+
+				
             // -----------------------------------
             default:
                 return new template();

@@ -23,9 +23,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".dynamicAct"> </activity>
-        <activity android:name=".tratilList" > </activity>
-        </activity>
+       <activity android:name=".dynamicAct" android:exported="false" />
+        <activity android:name=".tratilList" android:exported="false" />
 
 
     </application>

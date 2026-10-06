@@ -13,11 +13,11 @@ public class tratilList extends AppCompatActivity {
 
     // {title, code}  -> add new records here only
     private static final Object[][] ITEMS = {
-       { (new oudElSalib()).getTitle() , // "عُـــــودُ الصَّــــلــــيــبْ",
+       { (new oudElSalib()).getTitle() , 
         60000},
-        {"إفرَحي يا مَنْ أَنْعَمَ الله عَليْها", 
+        { (new ifrahhi()).getTitle() , 
         60001},
-        {"تعظّم نفسي الرب",
+        { (new touazimNafssi()).getTitle() ,
         60002},
     };
 

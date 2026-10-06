@@ -56,6 +56,13 @@
           <include layout="@layout/section_raw_spliter_n" />
 
 			
+			<Button
+    android:id="@+id/tratilMnouwaa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ترانيم منوعة" />
+			 <include layout="@layout/section_raw_spliter_n" />
+			
             <!-- tratil -->
            <include layout="@layout/section_tratil" />			
 			

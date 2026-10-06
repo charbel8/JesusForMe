@@ -158,9 +158,7 @@ public class staticVar {
             case 301:
                 return new template();
             case 302:
-                return new oudElSalib();
-
-				
+                return new oudElSalib();				
             case 303:
                 return new ifrahhi();
             case 304:
@@ -223,11 +221,11 @@ public class staticVar {
 // ------------------ tratill -----------------
 // ---- tratil list section
 			case 60000:
-			    return new template();
+			    return new oudElSalib();
 			case 60001:
-			    return new template();
+			    return new ifrahhi();
 			case 60002:
-			    return new template();
+			    return new touazimNafssi();
 
 				
             // -----------------------------------

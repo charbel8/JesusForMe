@@ -76,7 +76,7 @@ public class tratilList extends AppCompatActivity {
 
         String[] titles = new String[ITEMS.length];
         for (int i = 0; i < ITEMS.length; i++) {
-            titles[i] = (String) ITEMS[i][0];
+            titles[i] = ""+(i+1) " - " +( (String) ITEMS[i][0]);
         }
 
         ListView listView = findViewById(R.id.tratilListView);

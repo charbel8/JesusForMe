@@ -12,7 +12,7 @@ public class tratilList extends AppCompatActivity {
     // {title, code}  -> add new records here only
     private static final Object[][] ITEMS = {
             {60000, "عُـــــودُ الصَّــــلــــيــبْ"},
-            {60001, "إفرَحي يا مَنْ أَنْعَمَ الله عَليْها""},
+            {60001, "إفرَحي يا مَنْ أَنْعَمَ الله عَليْها"},
             {60002, "تعظّم نفسي الرب"},
     };
 

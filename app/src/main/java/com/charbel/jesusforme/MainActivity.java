@@ -155,43 +155,8 @@ public class MainActivity  extends AppCompatActivity {
                         }),
 
 
-        new Group(R.id.btnGroupTratil,
-                R.id.TratilExpandableButtons,
-                "تراتيل  ◀ ", "تراتيل  ▼ ",
-                new int[][]{                  
-                        {R.id.oudElSalib,    302},
-                        {R.id.ifrahhi,    303},
-                        {R.id.touazimNafssi,    304},
-                }),
-
 
             
-        new Group(R.id.btnGroupAnachidMariam,
-                R.id.AnachidMariamExpandableButtons,              
-                    " أناشيد للعذراء  ◀ ", " أناشيد للعذراء  ▼ ",
-                new int[][]{
-                        {R.id.wouroud,    400}, 
-                        {R.id.yaNajmatSoboh,    401},
-                        {R.id.alaykisalam,    402}, 
-                        {R.id.salamSalam,    403},
-
-                        {R.id.nahnouBanouki,    404}, 
-                        {R.id.mariamFoukty,    405},
-                        {R.id.majdouMariam,    406}, 
-                        {R.id.houbouki,    407},
-
-                        {R.id.maljaElBanin,    408}, 
-                        {R.id.fiZillHimayitiki,    409},
-                        {R.id.sallwaKouloub,    410}, 
-                        {R.id.yaOumana,    411},
-                        {R.id.rayaIftikhar,    412}, 
-                        {R.id.majdLeb,    413},
-                    
-                        {R.id.oumHayat,    414},
-                        {R.id.kanzBaraket,    415}, 
-                        {R.id.antichafih,    416},
-                    
-                }),
 
 
 

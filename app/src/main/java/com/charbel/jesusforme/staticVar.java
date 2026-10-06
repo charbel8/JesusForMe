@@ -153,64 +153,13 @@ public class staticVar {
 
             case 53:
                 return new TseiiyetSaintArss();
-				
-// ---- tratil section
-            case 301:
-                return new template();
-            case 302:
-                return new oudElSalib();				
-            case 303:
-                return new ifrahhi();
-            case 304:
-                return new touazimNafssi();
 
-
-				
-				
-// ---- Anachid Mariam section
-            case 400:
-                return new wouroud();
-            case 401:
-                return new yaNajmatSoboh();				
-            case 402:
-                return new alaykisalam();
-            case 403:
-                return new salamSalam();
-
-				
-            case 404:
-                return new nahnouBanouki();
-            case 405:
-                return new mariamFoukty();				
-            case 406:
-                return new majdouMariam();
-            case 407:
-                return new houbouki();
-			
-			case 408:
-                return new maljaElBanin();
-            case 409:
-                return new fiZillHimayitiki();				
-            case 410:
-                return new sallwaKouloub();
-            case 411:
-                return new yaOumana();				
-            case 412:
-                return new rayaIftikhar();
-            case 413:
-                return new majdLeb();
-
-            case 414:
-                return new oumHayat();				
-            case 415:
-                return new kanzBaraket();
-            case 416:
-                return new antichafih();
-
+		
             case 417:
                 return new SaintCharbelCancer();
+	
 
-
+				
 			// ------------ sira zatiyeh
 			 case 500:
                 return new gemma();	

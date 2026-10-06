@@ -239,6 +239,12 @@ public class MainActivity  extends AppCompatActivity {
                 );
             }
         }
+findViewById(R.id.tratilMnouwaa).setOnClickListener(v -> {
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+        
         toggle(staticVar.getGroupNumber());
     }
 
@@ -261,6 +267,7 @@ public class MainActivity  extends AppCompatActivity {
 
     private void openPage(int code) {
         staticVar.code = code;
+         staticVar.cameFromList = false;
         startActivity(new Intent(this, dynamicAct.class));
         finish();
     }

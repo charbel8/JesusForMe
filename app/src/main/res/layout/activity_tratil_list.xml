@@ -13,7 +13,10 @@
         android:layout_marginTop="12dp"
         android:padding="4dp"
         android:background="@android:color/transparent">
-    
+
+
+
+      
      <Button
             android:id="@+id/backList"
             android:layout_width="45dp"
@@ -22,6 +25,22 @@
             android:layout_margin="8dp"
             android:background="@drawable/button_back"
             android:text="" />
+
+ <TextView
+            android:id="@+id/title"
+            android:layout_width="314dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|left"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            android:text="ترانيم منوعة"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+      
    </FrameLayout>
 
     

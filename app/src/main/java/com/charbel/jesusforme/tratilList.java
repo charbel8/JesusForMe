@@ -6,15 +6,16 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
+import com.charbel.jesusforme.data.tratil.*;
 
 public class tratilList extends AppCompatActivity {
 
     // {title, code}  -> add new records here only
     private static final Object[][] ITEMS = {
          
-        {60000, " 1"},
-        {60001, "2 "},
-        {60002, " 3 "},
+        {60000, (new oudElSalib()).getTitle()},
+        {60001, (new ifrahhi()).getTitle()},
+        {60002, (new touazimNafssi()).getTitle()},
     };
 
     @Override

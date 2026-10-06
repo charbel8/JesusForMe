@@ -14,9 +14,9 @@ public class tratilList extends AppCompatActivity {
     // {title, code}  -> add new records here only
     private static final Object[][] ITEMS = {
          
-        {60000, (new oudElSalib()).getTitle()},
-        {60001, (new ifrahhi()).getTitle()},
-        {60002, (new touazimNafssi()).getTitle()},
+        {60000, " 1"},
+        {60001, " 2"},
+        {60002, " 3"},
     };
 
     @Override

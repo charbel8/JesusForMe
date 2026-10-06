@@ -224,9 +224,9 @@ public class staticVar {
 // ---- tratil list section
 			case 60000:
 			    return new template();
-			case 60000:
+			case 60001:
 			    return new template();
-			case 60000:
+			case 60002:
 			    return new template();
 
 				

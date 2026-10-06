@@ -43,11 +43,13 @@ public class dynamicAct extends AppCompatActivity {
         currentFontSizeTextView = findViewById(R.id.currentFontSize);
 
         back = findViewById(R.id.back);
-        back.setOnClickListener(v -> {
-            Intent intent = new Intent(dynamicAct.this, MainActivity.class);
-            startActivity(intent);
-            finish();
-        });
+        back.setOnClickListener(v -> navigateToMain());
+      //  back.setOnClickListener(v -> {
+      //      Intent intent = new Intent(dynamicAct.this, MainActivity.class);
+      //      startActivity(intent);
+      //      finish();
+      //  });
+        
 
         increaseFontBtn = findViewById(R.id.increaseFontSize);
         increaseFontBtn.setOnClickListener(
@@ -105,10 +107,16 @@ public class dynamicAct extends AppCompatActivity {
     }
 
     private void navigateToMain() {
-        Intent intent = new Intent(dynamicAct.this, MainActivity.class);
+         Class<?> target = staticVar.cameFromList ? tratilList.class : MainActivity.class;
+        Intent intent = new Intent(dynamicAct.this, target);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();
+        
+     //   Intent intent = new Intent(dynamicAct.this, MainActivity.class);
+     //   intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+     //   startActivity(intent);
+     //   finish();
     }
 
     private void updateFontSize() {

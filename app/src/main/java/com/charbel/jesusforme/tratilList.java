@@ -6,8 +6,21 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.charbel.jesusforme.data.doua2.*;
+import com.charbel.jesusforme.data.massbaha.*;
+import com.charbel.jesusforme.data.salatYawmiyeh.*;
+import com.charbel.jesusforme.data.salawet.*;
+import com.charbel.jesusforme.data.salawetKhassa.*;
+import com.charbel.jesusforme.data.telbet.*;
+import com.charbel.jesusforme.data.template;
+import com.charbel.jesusforme.data.tesawiyet.*;
+import com.charbel.jesusforme.data.irchadat.*;
 import com.charbel.jesusforme.data.tratil.*;
+import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
+import com.charbel.jesusforme.data.biography.*;
 import com.charbel.jesusforme.data.tratil.mounaa.*;
+
 
 public class tratilList extends AppCompatActivity {
 

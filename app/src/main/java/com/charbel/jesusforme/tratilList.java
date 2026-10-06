@@ -13,12 +13,38 @@ public class tratilList extends AppCompatActivity {
 
     // {title, code}  -> add new records here only
     private static final Object[][] ITEMS = {
-       { (new oudElSalib()).getTitle() , 
-        60000},
-        { (new ifrahhi()).getTitle() , 
-        60001},
-        { (new touazimNafssi()).getTitle() ,
-        60002},
+       { (new oudElSalib()).getTitle() , 60000},
+       { (new ifrahhi()).getTitle() , 60001},
+       { (new touazimNafssi()).getTitle() , 60002},
+      
+       { (new wouroud()).getTitle() , 60003},
+       { (new yaNajmatSoboh()).getTitle() , 60004},
+       { (new alaykisalam()).getTitle() , 60005},
+       { (new salamSalam()).getTitle() , 60006},
+	   
+       { (new nahnouBanouki()).getTitle() , 60007},
+       { (new mariamFoukty()).getTitle() , 60008},
+       { (new majdouMariam()).getTitle() , 60009},				
+
+       { (new houbouki()).getTitle() , 60010},
+       { (new maljaElBanin()).getTitle() , 60011},
+       { (new fiZillHimayitiki()).getTitle() , 60012},	
+
+	   { (new sallwaKouloub()).getTitle() , 60013},
+       { (new yaOumana()).getTitle() , 60014},
+       { (new rayaIftikhar()).getTitle() , 60015},
+		
+       { (new majdLeb()).getTitle() , 60016},
+       { (new oumHayat()).getTitle() , 60017},
+       { (new kanzBaraket()).getTitle() , 60018},
+	   
+       { (new antichafih()).getTitle() , 60019},
+
+
+
+        
+
+        
     };
 
     @Override

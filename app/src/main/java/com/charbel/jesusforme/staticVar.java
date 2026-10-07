@@ -169,53 +169,55 @@ public class staticVar {
 
 // ------------------ tratill -----------------
 // ---- tratil list section
-			case 60000:
-			    return new oudElSalib();
-			case 60001:
-			    return new ifrahhi();
-			case 60002:
-			    return new touazimNafssi();
-
-
-            case 60003:
-                return new wouroud();
-            case 60004:
-                return new yaNajmatSoboh();				
-            case 60005:
-                return new alaykisalam();
-            case 60006:
-                return new salamSalam();
-
+			case 60000: return new oudElSalib();
+			case 60001: return new ifrahhi();
+			case 60002: return new touazimNafssi();
+            case 60003: return new wouroud();
+            case 60004: return new yaNajmatSoboh();				
+            case 60005: return new alaykisalam();
+            case 60006: return new salamSalam();				
+            case 60007: return new nahnouBanouki();
+            case 60008: return new mariamFoukty();				
+            case 60009: return new majdouMariam();
+            case 60010: return new houbouki();			
+			case 60011: return new maljaElBanin();
+            case 60012: return new fiZillHimayitiki();				
+            case 60013: return new sallwaKouloub();
+            case 60014: return new yaOumana();				
+            case 60015: return new rayaIftikhar();
+            case 60016: return new majdLeb();
+            case 60017: return new oumHayat();				
+            case 60018: return new kanzBaraket();
+            case 60019: return new antichafih();
 				
-            case 60007:
-                return new nahnouBanouki();
-            case 60008:
-                return new mariamFoukty();				
-            case 60009:
-                return new majdouMariam();
-            case 60010:
-                return new houbouki();
-			
-			case 60011:
-                return new maljaElBanin();
-            case 60012:
-                return new fiZillHimayitiki();				
-            case 60013:
-                return new sallwaKouloub();
-            case 60014:
-                return new yaOumana();				
-            case 60015:
-                return new rayaIftikhar();
-            case 60016:
-                return new majdLeb();
-
-            case 60017:
-                return new oumHayat();				
-            case 60018:
-                return new kanzBaraket();
-            case 60019:
-                return new antichafih();
-
+			case 60020: return new a3tiniKalam();
+			case 60021: return new a3tinirabi();
+			case 60022: return new a3tiniYaIlahiMoulk();
+			case 60023: return new AbanaT();
+			case 60024: return new abanaWsalama();
+			case 60025: return new abati();
+			case 60026: return new abFoukara2();
+			case 60027: return new ach3ourBelAmen();
+			case 60028: return new AchrakNourou3alaAbrar();
+			case 60029: return new ahmadouka();
+			case 60030: return new anta3azim();
+			case 60031: return new arakaIlahiArak();
+			case 60032: return new aredSalla3layaAllah();
+			case 60033: return new arsaltouka();
+			case 60034: return new arselRouhaka();
+			case 60035: return new ibtahijiNafssi();
+			case 60036: return new ichta2naTemroukMin3ina();
+			case 60037: return new ikhdimouRab();
+			case 60038: return new inssanMithloukaKhala2t();
+			case 60039: return new irfa3IsemFadi();
+			case 60040: return new is2alouTa3tou();
+			case 60041: return new ithamniYaAllah();
+			case 60042: return new itloubouMalakoutLah();
+			case 60043: return new izhaboufiAlredKoulouha();
+			case 60044: return new ouhebakRabiYassou3();
+			case 60045: return new ouhiboukaYaRab();
+			case 60046: return new outroukKoulaChayi2();
+			case 60047: return new tabchirMala2ikiT();
 
 				
 				

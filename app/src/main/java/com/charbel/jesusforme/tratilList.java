@@ -93,11 +93,13 @@ private static void BuildFor2(){
 
         TextView title = findViewById(R.id.title);
         title.setText(staticVar.cameFromListTitle);
-        
-        if(staticVar.cameFromListcode==1){
-            BuildFor1(); }
-       
-      
+
+        switch(staticVar.cameFromListcode) {
+            case 1:  BuildFor1();  break;
+            case 2:  BuildFor2();  break;
+            default:  BuildFor1();
+        }
+              
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {

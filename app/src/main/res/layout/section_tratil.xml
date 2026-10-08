@@ -15,11 +15,11 @@
 					
                     <Button style="@style/GridButton"
                         android:id="@+id/tratilAnachidMariam"
-                        android:text="1 أناشيد مريم" />
+                        android:text="أناشيد مريم" />
 					
 					  <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa"
-                        android:text="2 ترانيم منوعة" />
+                        android:text="1 ترانيم منوعة" />
                 </LinearLayout>
 
 

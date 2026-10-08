@@ -10,7 +10,17 @@
             <LinearLayout style="@style/LinearExpand"
                 android:id="@+id/TratilExpandableButtons">
 
-                <!-- Row 1 -->
+              <!-- Row 1 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa"
+                        android:text="1 ترانيم منوعة" />
+                </LinearLayout>
+
+				
+				
+                <!-- Row 2 -->
                 <LinearLayout style="@style/RawButton" >
 
                     <Button style="@style/GridButton"
@@ -21,7 +31,7 @@
 
 
 
-				  <!-- Row 2 -->
+				  <!-- Row 3 -->
                 <LinearLayout style="@style/RawButton" >
 
                     <Button style="@style/GridButton"

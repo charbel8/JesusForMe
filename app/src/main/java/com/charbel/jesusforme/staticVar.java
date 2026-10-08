@@ -19,6 +19,7 @@ public class staticVar {
     public static int code=0;
     public static template _template;
     public static boolean cameFromList = false;
+	 public static String cameFromListTitle="";
 	
  public static int groupNumber = -1;
 

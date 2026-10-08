@@ -14,8 +14,12 @@
                 <LinearLayout style="@style/RawButton" >
 					
                     <Button style="@style/GridButton"
+                        android:id="@+id/tratilAnachidMariam"
+                        android:text="1 أناشيد مريم" />
+					
+					  <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa"
-                        android:text="1 ترانيم منوعة" />
+                        android:text="2 ترانيم منوعة" />
                 </LinearLayout>
 
 

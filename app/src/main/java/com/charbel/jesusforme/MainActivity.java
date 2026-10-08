@@ -211,6 +211,7 @@ public class MainActivity  extends AppCompatActivity {
         }
 findViewById(R.id.tratilMnouwaa).setOnClickListener(v -> {
     staticVar.cameFromListTitle="1 ترانيم منوعة";
+     staticVar.cameFromListcode = 1;
     startActivity(new Intent(MainActivity.this, tratilList.class));
     finish();
 });

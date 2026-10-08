@@ -25,7 +25,7 @@ import com.charbel.jesusforme.data.tratil.mounaa.*;
 public class tratilList extends AppCompatActivity {
 
     // {title, code}  -> add new records here only
-    private static final Object[][] ITEMS;
+    private static final Object[][] ITEMS = new Object[0][0];
     /*= {
        { (new oudElSalib()).getTitle() , 60000},
        { (new ifrahhi()).getTitle() , 60001},

@@ -210,6 +210,7 @@ public class MainActivity  extends AppCompatActivity {
             }
         }
 findViewById(R.id.tratilMnouwaa).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="1 ترانيم منوعة";
     startActivity(new Intent(MainActivity.this, tratilList.class));
     finish();
 });

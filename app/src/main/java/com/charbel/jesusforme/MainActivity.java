@@ -155,20 +155,25 @@ public class MainActivity  extends AppCompatActivity {
                         }),
 
 
-
-            
-
-
-
        new Group(R.id.btnGroupBioghraphy,
                 R.id.BioghraphyExpandableButtons,
                 "حياة القديسين  ◀ ", "حياة القديسين  ▼ ",
                 new int[][]{                  
                         {R.id.gemma,    500},              
                         {R.id.saintCharbelBiog,    501},
+                }),
+
+
+     new Group(R.id.btnGroupTratil,
+                R.id.TratilExpandableButtons,
+                "تراتيل  ◀ ", "تراتيل  ▼ ",
+                new int[][]{                  
+                        {R.id.tratilMnouwaa,    0},
                 })
 
         );
+
+        
     }
 
     // ── lifecycle ─────────────────────────────────────────────────

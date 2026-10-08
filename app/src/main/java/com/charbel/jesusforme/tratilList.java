@@ -20,12 +20,12 @@ import com.charbel.jesusforme.data.tratil.*;
 import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
 import com.charbel.jesusforme.data.biography.*;
 import com.charbel.jesusforme.data.tratil.mounaa.*;
-
+import android.widget.TextView;
 
 public class tratilList extends AppCompatActivity {
 
     // {title, code}  -> add new records here only
-    private static final Object[][] ITEMS = new Object[0][0];
+    private static  Object[][] ITEMS = new Object[0][0];
     /*= {
        { (new oudElSalib()).getTitle() , 60000},
        { (new ifrahhi()).getTitle() , 60001},
@@ -137,16 +137,15 @@ private static void BuildFor1(){
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        if(staticVar.cameFromListcode==1){
-       BuildFor1(); }
-       
-        TextView title = findViewById(R.id.title);
-        title.setText(staticVar.cameFromListTitle);
-
-        
         setContentView(R.layout.activity_tratil_list);
 
+        TextView title = findViewById(R.id.title);
+        title.setText(staticVar.cameFromListTitle);
+        
+        if(staticVar.cameFromListcode==1){
+            BuildFor1(); }
+       
+      
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {

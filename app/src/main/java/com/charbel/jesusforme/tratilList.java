@@ -81,7 +81,7 @@ public class tratilList extends AppCompatActivity {
 
 
 private static void BuildFor1(){
-    ITEMS = {
+    ITEMS = new Object[][]{
        { (new oudElSalib()).getTitle() , 60000},
        { (new ifrahhi()).getTitle() , 60001},
        { (new touazimNafssi()).getTitle() , 60002},      

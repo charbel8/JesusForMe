@@ -51,17 +51,22 @@
 			
 			<!--  irchadat  -->
             <include layout="@layout/section_irchadat" />	
-			
-           <!-- *********************** -->
-          <include layout="@layout/section_raw_spliter_n" />		
-       <include layout="@layout/section_biography" />		
 
+            <!-- biography -->
+            <include layout="@layout/section_raw_spliter_n" />		
+            <include layout="@layout/section_biography" />		
+
+            <!-- tratil -->
+            <include layout="@layout/section_raw_spliter_n" />		
+            <include layout="@layout/section_tratil" />		
+
+			
 			
            <!-- *********************** -->
           <include layout="@layout/section_raw_spliter_n" />
 			
 			<Button
-    android:id="@+id/tratilMnouwaa"
+    android:id="@+id/tratilMnouwaa2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="ترانيم منوعة" />

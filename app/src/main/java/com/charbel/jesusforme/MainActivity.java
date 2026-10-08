@@ -168,7 +168,8 @@ public class MainActivity  extends AppCompatActivity {
                 R.id.TratilExpandableButtons,
                 "تراتيل  ◀ ", "تراتيل  ▼ ",
                 new int[][]{                  
-                        {R.id.tratilMnouwaa,    0},
+                        {R.id.tratilMnouwaa,    0},     
+                        {R.id.tratilAnachidMariam,    0},
                 })
 
         );
@@ -209,13 +210,20 @@ public class MainActivity  extends AppCompatActivity {
                 );
             }
         }
+        
 findViewById(R.id.tratilMnouwaa).setOnClickListener(v -> {
     staticVar.cameFromListTitle="1 ترانيم منوعة";
+     staticVar.cameFromListcode = 2;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+        
+findViewById(R.id.tratilAnachidMariam).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="أناشيد مريم";
      staticVar.cameFromListcode = 1;
     startActivity(new Intent(MainActivity.this, tratilList.class));
     finish();
 });
-
         
         toggle(staticVar.getGroupNumber());
     }

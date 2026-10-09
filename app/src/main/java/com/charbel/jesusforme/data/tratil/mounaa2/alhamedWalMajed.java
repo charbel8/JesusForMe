@@ -1,4 +1,6 @@
 
+package com.charbel.jesusforme.data.tratil.mounaa2;
+
 import com.charbel.jesusforme.data.template;
 
 public class alhamedWalMajed extends template {

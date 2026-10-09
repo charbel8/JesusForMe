@@ -137,7 +137,7 @@ private static void BuildFor3(){
         { (new inaFara7RabKouwatana()).getTitle() , 60088},
         { (new inLanTa3oudouKalAtfal()).getTitle() , 60089},
         { (new inni7abatKam7i()).getTitle() , 60090},      
-        { (new oumounaMariam()).getTitle() , 60092},
+        { (new oumounaMariam()).getTitle() , 60091},
     };
 };
     

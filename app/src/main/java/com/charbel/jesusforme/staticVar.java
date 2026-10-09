@@ -265,8 +265,7 @@ public class staticVar {
 			case 60088: return new inaFara7RabKouwatana();
 			case 60089: return new inLanTa3oudouKalAtfal();
 			case 60090: return new inni7abatKam7i();
-			case 60091: return new nothing();
-			case 60092: return new oumounaMariam();
+			case 60091: return new oumounaMariam();
 
 				
 				

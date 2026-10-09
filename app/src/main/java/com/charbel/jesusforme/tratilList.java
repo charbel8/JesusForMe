@@ -20,6 +20,7 @@ import com.charbel.jesusforme.data.tratil.*;
 import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
 import com.charbel.jesusforme.data.biography.*;
 import com.charbel.jesusforme.data.tratil.mounaa.*;
+import com.charbel.jesusforme.data.tratil.mounaa2.*;
 import android.widget.TextView;
 
 public class tratilList extends AppCompatActivity {
@@ -85,6 +86,62 @@ private static void BuildFor2(){
        { (new tabchirMala2ikiT()).getTitle() , 60047 },
     };
 };
+
+private static void BuildFor3(){
+    ITEMS = new Object[][]{
+        { (new al3alamJa2i3()).getTitle() , 60048},
+        { (new alhamdouWalChoukran()).getTitle() , 60049},
+        { (new alhamedWalMajed()).getTitle() , 60050},
+        { (new alki2alaRabHamouka()).getTitle() , 60051},
+        { (new allahNouryKhalassi()).getTitle() , 60052},
+        { (new allahoumaSma3Khalassi()).getTitle() , 60053},
+        { (new almajdLaka()).getTitle() , 60054},
+        { (new almajdMalikMajed()).getTitle() , 60055},
+        { (new AlmajdouAllahFiAl2a3ali()).getTitle() , 60056},
+        { (new Almassi7KamMinBayinAmouwat()).getTitle() , 60057},
+        { (new alrabHouwaAllah()).getTitle() , 60058},
+        { (new alrabNouryKhalasi()).getTitle() , 60059},
+        { (new alrabouRa3i()).getTitle() , 60060},
+        { (new alrabRahimSami3()).getTitle() , 60061},
+        { (new alrabYamchi()).getTitle() , 60062},
+        { (new alrabYassou3Wassatouna()).getTitle() , 60063},
+        { (new Alrou7Yajma3ouna()).getTitle() , 60064},
+        { (new alsadikKalNakhel()).getTitle() , 60065},
+        { (new anaNadaytoukaYaAllah()).getTitle() , 60066},
+        { (new annaKouliIman()).getTitle() , 60067},
+    };
+};
+
+    private static void BuildFor4(){
+    ITEMS = new Object[][]{
+        { (new annaMousta3id()).getTitle() , 60068},
+        { (new annaRabKa2inat()).getTitle() , 60069},
+        { (new annaWakif3alaBabak()).getTitle() , 60070},
+        { (new antaChafi()).getTitle() , 60071},
+        { (new antaChafi3Akdam()).getTitle() , 60072},
+        { (new antaIlahi()).getTitle() , 60073},
+        { (new antaKoultLiHaloumou()).getTitle() , 60074},
+        { (new antaMoulkouna()).getTitle() , 60075},
+        { (new antaWa7dakDa3out()).getTitle() , 60076},
+        { (new antoumMil7Ared()).getTitle() , 60077},
+        { (new ilahhi2ousabi7ouka()).getTitle() , 60078},
+        { (new ilahiRaffa3tIlaykaYady()).getTitle() , 60079},
+        { (new ilahouna()).getTitle() , 60080},
+        { (new ilahouna3alli()).getTitle() , 60081},
+        { (new ilaykaRafa3tou3aynay()).getTitle() , 60082},
+        { (new ilaykaYassou32Touk()).getTitle() , 60083},
+        { (new ilaykiWouroudYaMariam()).getTitle() , 60084},
+        { (new ilaykKalbiHayati()).getTitle() , 60085},
+        { (new illaAkassiAred()).getTitle() , 60086},
+        { (new inaclaKam7a()).getTitle() , 60087},
+        { (new inaFara7RabKouwatana()).getTitle() , 60088},
+        { (new inLanTa3oudouKalAtfal()).getTitle() , 60089},
+        { (new inni7abatKam7i()).getTitle() , 60090},
+        { (new nothing()).getTitle() , 60091},
+        { (new oumounaMariam()).getTitle() , 60092},
+    };
+};
+    
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +154,8 @@ private static void BuildFor2(){
         switch(staticVar.cameFromListcode) {
             case 1:  BuildFor1();  break;
             case 2:  BuildFor2();  break;
+            case 3:  BuildFor3();  break;
+            case 4:  BuildFor4();  break;
             default:  BuildFor1();
         }
               

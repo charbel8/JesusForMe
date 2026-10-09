@@ -22,6 +22,18 @@
                         android:text="1 ترانيم منوعة" />
                 </LinearLayout>
 
+             <!-- Row 2 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa3"
+                        android:text="3 ترانيم منوعة" />
+					
+					  <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa2"
+                        android:text="2 ترانيم منوعة" />
+                </LinearLayout>
+				
 
 				
 

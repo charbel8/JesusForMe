@@ -16,12 +16,12 @@
 				 <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa"
                         android:text="1 ترانيم منوعة" />
-                </LinearLayout>
-				
+					
                  <Button style="@style/GridButton"
                         android:id="@+id/tratilAnachidMariam"
                         android:text="أناشيد مريم" />
-
+				
+				</LinearLayout>
              <!-- Row 2 -->
                 <LinearLayout style="@style/RawButton" >
 					

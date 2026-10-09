@@ -13,6 +13,7 @@ import com.charbel.jesusforme.data.tratil.*;
 import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
 import com.charbel.jesusforme.data.biography.*;
 import com.charbel.jesusforme.data.tratil.mounaa.*;
+import com.charbel.jesusforme.data.tratil.mounaa2.*;
 
 public class staticVar {
 
@@ -220,6 +221,52 @@ public class staticVar {
 			case 60045: return new ouhiboukaYaRab();
 			case 60046: return new outroukKoulaChayi2();
 			case 60047: return new tabchirMala2ikiT();
+				// -------------------
+			case 60048: return new al3alamJa2i3();
+			case 60049: return new alhamdouWalChoukran();
+			case 60050: return new alhamedWalMajed();
+			case 60051: return new alki2alaRabHamouka();
+			case 60052: return new allahNouryKhalassi();
+			case 60053: return new allahoumaSma3Khalassi();
+			case 60054: return new almajdLaka();
+			case 60055: return new almajdMalikMajed();
+			case 60056: return new AlmajdouAllahFiAl2a3ali();
+			case 60057: return new Almassi7KamMinBayinAmouwat();
+			case 60058: return new alrabHouwaAllah();
+			case 60059: return new alrabNouryKhalasi();
+			case 60060: return new alrabouRa3i();
+			case 60061: return new alrabRahimSami3();
+			case 60062: return new alrabYamchi();
+			case 60063: return new alrabYassou3Wassatouna();
+			case 60064: return new Alrou7Yajma3ouna();
+			case 60065: return new alsadikKalNakhel();
+			case 60066: return new anaNadaytoukaYaAllah();
+			case 60067: return new annaKouliIman();
+			case 60068: return new annaMousta3id();
+			case 60069: return new annaRabKa2inat();
+			case 60070: return new annaWakif3alaBabak();
+			case 60071: return new antaChafi();
+			case 60072: return new antaChafi3Akdam();
+			case 60073: return new antaIlahi();
+			case 60074: return new antaKoultLiHaloumou();
+			case 60075: return new antaMoulkouna();
+			case 60076: return new antaWa7dakDa3out();
+			case 60077: return new antoumMil7Ared();
+			case 60078: return new ilahhi2ousabi7ouka();
+			case 60079: return new ilahiRaffa3tIlaykaYady();
+			case 60080: return new ilahouna();
+			case 60081: return new ilahouna3alli();
+			case 60082: return new ilaykaRafa3tou3aynay();
+			case 60083: return new ilaykaYassou32Touk();
+			case 60084: return new ilaykiWouroudYaMariam();
+			case 60085: return new ilaykKalbiHayati();
+			case 60086: return new illaAkassiAred();
+			case 60087: return new inaclaKam7a();
+			case 60088: return new inaFara7RabKouwatana();
+			case 60089: return new inLanTa3oudouKalAtfal();
+			case 60090: return new inni7abatKam7i();
+			case 60091: return new nothing();
+			case 60092: return new oumounaMariam();
 
 				
 				

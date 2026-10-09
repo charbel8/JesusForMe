@@ -12,15 +12,15 @@
 
               <!-- Row 1 -->
                 <LinearLayout style="@style/RawButton" >
-					
-                    <Button style="@style/GridButton"
-                        android:id="@+id/tratilAnachidMariam"
-                        android:text="أناشيد مريم" />
-					
-					  <Button style="@style/GridButton"
+										
+				 <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa"
                         android:text="1 ترانيم منوعة" />
                 </LinearLayout>
+				
+                 <Button style="@style/GridButton"
+                        android:id="@+id/tratilAnachidMariam"
+                        android:text="أناشيد مريم" />
 
              <!-- Row 2 -->
                 <LinearLayout style="@style/RawButton" >

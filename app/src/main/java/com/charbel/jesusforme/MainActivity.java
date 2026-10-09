@@ -169,7 +169,9 @@ public class MainActivity  extends AppCompatActivity {
                 "تراتيل  ◀ ", "تراتيل  ▼ ",
                 new int[][]{                  
                         {R.id.tratilMnouwaa,    0},     
-                        {R.id.tratilAnachidMariam,    0},
+                        {R.id.tratilAnachidMariam,    0},   
+                        {R.id.tratilMnouwaa2,    0},   
+                        {R.id.tratilMnouwaa3,    0},
                 })
 
         );
@@ -210,20 +212,38 @@ public class MainActivity  extends AppCompatActivity {
                 );
             }
         }
-        
-findViewById(R.id.tratilMnouwaa).setOnClickListener(v -> {
-    staticVar.cameFromListTitle="1 ترانيم منوعة";
-     staticVar.cameFromListcode = 2;
-    startActivity(new Intent(MainActivity.this, tratilList.class));
-    finish();
-});
-        
+
 findViewById(R.id.tratilAnachidMariam).setOnClickListener(v -> {
     staticVar.cameFromListTitle="أناشيد مريم";
      staticVar.cameFromListcode = 1;
     startActivity(new Intent(MainActivity.this, tratilList.class));
     finish();
 });
+
+findViewById(R.id.tratilMnouwaa).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="1 ترانيم منوعة";
+     staticVar.cameFromListcode = 2;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});    
+        
+findViewById(R.id.tratilMnouwaa2).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="2 ترانيم منوعة";
+     staticVar.cameFromListcode = 3;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+
+findViewById(R.id.tratilMnouwaa3).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="3 ترانيم منوعة";
+     staticVar.cameFromListcode = 4;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+
+
         
         toggle(staticVar.getGroupNumber());
     }

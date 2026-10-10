@@ -8,8 +8,8 @@ public class ilaykKalbiHayati extends template {
         super();
 
         super.title = "إليك قلبي وحياتي";
-        super.data = "<p dir=\"RTL\">اليك قلبي وحياتي يسوع ملك، يسوع ملكي</p>\n" +
-"			<p dir=\"RTL\">انني أمشي وراءك، أمشي وراءك، يسوع \n" +
+        super.data = "<p dir=\"RTL\">اليك قلبي وحياتي يسوع ملك، يسوع ملكي<br>\n" +
+"			انني أمشي وراءك، أمشي وراءك، يسوع \n" +
 "			ملكي</p>";
     }
 }

@@ -9,10 +9,10 @@ public class anta3azim extends template {
 
         super.title = "أنت عظيم";
         super.data = "<p dir=\"RTL\">- أنت عظيم، عظيم&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
-                + "		عظيم يا الله (2) </p>\n"
-                + "		<p dir=\"RTL\">- عظيم في أمانتك&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
-                + "		عظيم في محبتك</p>\n"
-                + "		<p dir=\"RTL\">&nbsp; عظيم في تحريرك&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "		عظيم يا الله (2) <br>\n"
+                + "		- عظيم في أمانتك&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
+                + "		عظيم في محبتك<br>\n"
+                + "		&nbsp; عظيم في تحريرك&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n"
                 + "		عظيم أيضا في شفائك</p>";
     }
 }

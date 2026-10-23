@@ -21,6 +21,8 @@ import com.charbel.jesusforme.data.tratil.AnachidMariam.*;
 import com.charbel.jesusforme.data.biography.*;
 import com.charbel.jesusforme.data.tratil.mounaa.*;
 import com.charbel.jesusforme.data.tratil.mounaa2.*;
+import com.charbel.jesusforme.data.tratil.mounaa3.*;
+import com.charbel.jesusforme.data.tratil.mounaa4.*;
 import android.widget.TextView;
 
 public class tratilList extends AppCompatActivity {
@@ -140,6 +142,84 @@ private static void BuildFor3(){
         { (new oumounaMariam()).getTitle() , 60091},
     };
 };
+
+  private static void BuildFor5(){
+    ITEMS = new Object[][]{
+        { (new anna3alaBabak()).getTitle() , 60092}, 
+        { (new ayouhaAbKoudous()).getTitle() , 60093}, 
+        { (new ayouhaMassihKalima()).getTitle() , 60094}, 
+        { (new barikiNafssiElRab()).getTitle() , 60095}, 
+        { (new barikYaRabChabak()).getTitle() , 60096}, 
+        { (new bassmeh7elweh()).getTitle() , 60097}, 
+        { (new bhebakYaYassou3()).getTitle() , 60098}, 
+        { (new bidamYassou3()).getTitle() , 60099}, 
+        { (new bikalebMahbassy()).getTitle() , 60100}, 
+        { (new bima2oukafi2Rab()).getTitle() , 60101}, 
+        { (new bismikaAlyomNajtami3()).getTitle() , 60102}, 
+        { (new bissikaAtakadam()).getTitle() , 60103}, 
+        { (new bnourakN3ayinNour()).getTitle() , 60104}, 
+        { (new bsawtiIlaRab()).getTitle() , 60105}, 
+        { (new bwehdetnaSalamna()).getTitle() , 60106}, 
+        { (new charbelWelSalla()).getTitle() , 60107}, 
+        { (new chilElZa3al()).getTitle() , 60108}, 
+        { (new chouHelwehElSama()).getTitle() , 60109}, 
+        { (new hajtiDawman2illak()).getTitle() , 60110}, 
+        { (new hananakYaRabAkwan()).getTitle() , 60111}, 
+        { (new hattaMata()).getTitle() , 60112}, 
+        { (new hayatiHiyaMassi7()).getTitle() , 60113}, 
+        { (new ihtifoulelrab()).getTitle() , 60114}, 
+        { (new jamilat2anti()).getTitle() , 60115}, 
+        { (new jaritKourban()).getTitle() , 60116}, 
+        { (new jayiL3indak()).getTitle() , 60117}, 
+        { (new jinna2idassan2idess()).getTitle() , 60118}, 
+        { (new kebezKhamerMay()).getTitle() , 60119}, 
+        { (new khallesCha3bak()).getTitle() , 60120}, 
+        { (new khatabRabCha3bouh()).getTitle() , 60121}, 
+        { (new kheweHe7deh()).getTitle() , 60122}, 
+        { (new khouzHayatiYaRab()).getTitle() , 60123}, 
+        { (new RabMajed()).getTitle() , 60124},		
+    };
+};
+		
+  private static void BuildFor6(){
+    ITEMS = new Object[][]{		 
+        { (new khouzYaRab()).getTitle() , 60125}, 
+        { (new rabbiAnnaWarakaBayda2()).getTitle() , 60127}, 
+        { (new rabbiAntaTasstati3()).getTitle() , 60128}, 
+        { (new rabbiJassadouka()).getTitle() , 60129}, 
+        { (new rabbiTakabal()).getTitle() , 60130}, 
+        { (new rabi3azzim()).getTitle() , 60131}, 
+        { (new rabiIj3alni()).getTitle() , 60132}, 
+        { (new rabiJassadouka()).getTitle() , 60133}, 
+        { (new rabiKoulaChayi2()).getTitle() , 60134}, 
+        { (new raffa3t3aynni()).getTitle() , 60135}, 
+        { (new rajawtRab()).getTitle() , 60136}, 
+        { (new rannimHallilouya()).getTitle() , 60137}, 
+        { (new ranSawtMin2a3la()).getTitle() , 60138}, 
+        { (new rissala2a3titani()).getTitle() , 60139},
+        { (new sabbi7ouAlRab()).getTitle() , 60140}, 
+        { (new sallamSallam()).getTitle() , 60141}, 
+        { (new sallamtKalbi()).getTitle() , 60142}, 
+        { (new salwaKouloub()).getTitle() , 60143}, 
+        { (new sarkhati()).getTitle() , 60144}, 
+        { (new sawfaAkoudoukoum()).getTitle() , 60145}, 
+        { (new sehran()).getTitle() , 60146}, 
+        { (new shekerAlla()).getTitle() , 60147}, 
+        { (new snninTawilleh()).getTitle() , 60148}, 
+        { (new ta3alaMla2niL2an()).getTitle() , 60149}, 
+        { (new ta3alBaynana()).getTitle() , 60150}, 
+        { (new ta3alouIlaRab()).getTitle() , 60151}, 
+        { (new thallaKalbi()).getTitle() , 60152}, 
+        { (new tjalla()).getTitle() , 60153}, 
+        { (new toubou()).getTitle() , 60154}, 
+        { (new toubouIlaRab()).getTitle() , 60155}, 
+        { (new twakalna3Alla()).getTitle() , 60156}, 
+        { (new yaRavRahmak()).getTitle() , 60157}, 
+        { (new zahraFiBiladi()).getTitle() , 60158}, 
+    };
+};
+
+
     
     
     @Override
@@ -155,6 +235,8 @@ private static void BuildFor3(){
             case 2:  BuildFor2();  break;
             case 3:  BuildFor3();  break;
             case 4:  BuildFor4();  break;
+            case 5:  BuildFor5();  break;
+            case 6:  BuildFor6();  break;
             default:  BuildFor1();
         }
               

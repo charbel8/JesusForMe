@@ -245,6 +245,20 @@ findViewById(R.id.tratilMnouwaa3).setOnClickListener(v -> {
 });
 
 
+        findViewById(R.id.tratilMnouwaa4).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="4 ترانيم منوعة";
+     staticVar.cameFromListcode = 5;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+        findViewById(R.id.tratilMnouwaa5).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="5 ترانيم منوعة";
+     staticVar.cameFromListcode = 6;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
 
         
         toggle(staticVar.getGroupNumber());

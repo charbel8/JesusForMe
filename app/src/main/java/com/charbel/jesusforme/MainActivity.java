@@ -171,7 +171,9 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.tratilMnouwaa,    0},     
                         {R.id.tratilAnachidMariam,    0},   
                         {R.id.tratilMnouwaa2,    0},   
-                        {R.id.tratilMnouwaa3,    0},
+                        {R.id.tratilMnouwaa3,    0},   
+                        {R.id.tratilMnouwaa4,    0},   
+                        {R.id.tratilMnouwaa5,    0},
                 })
 
         );

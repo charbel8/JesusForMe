@@ -303,7 +303,6 @@ public class staticVar {
 			case 60123: return new  khouzHayatiYaRab();
 			case 60124: return new  RabMajed();
 			case 60125: return new  khouzYaRab();
-			case 60126: return new  nothing();
 			case 60127: return new  rabbiAnnaWarakaBayda2();
 			case 60128: return new  rabbiAntaTasstati3();
 			case 60129: return new  rabbiJassadouka();

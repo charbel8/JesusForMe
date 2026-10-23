@@ -34,7 +34,17 @@
                         android:text="2 ترانيم منوعة" />
                 </LinearLayout>
 				
-
+         <!-- Row 3 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa5"
+                        android:text="5 ترانيم منوعة" />
+					
+					  <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa4"
+                        android:text="4 ترانيم منوعة" />
+                </LinearLayout>
 				
 
             </LinearLayout>			

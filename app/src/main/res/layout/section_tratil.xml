@@ -45,6 +45,30 @@
                         android:id="@+id/tratilMnouwaa4"
                         android:text="4 ترانيم منوعة" />
                 </LinearLayout>
+
+				<!-- Row 4 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa7"
+                        android:text="7 ترانيم منوعة" />
+					
+					  <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa6"
+                        android:text="6 ترانيم منوعة" />
+                </LinearLayout>
+
+
+				    <!-- Row 5 -->
+                <LinearLayout style="@style/RawButton" >
+					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa8"
+                        android:text="8 ترانيم منوعة" />
+					
+					
+                </LinearLayout>
+
 				
 
             </LinearLayout>			

@@ -173,7 +173,10 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.tratilMnouwaa2,    0},   
                         {R.id.tratilMnouwaa3,    0},   
                         {R.id.tratilMnouwaa4,    0},   
-                        {R.id.tratilMnouwaa5,    0},
+                        {R.id.tratilMnouwaa5,    0},   
+                        {R.id.tratilMnouwaa6,    0},   
+                        {R.id.tratilMnouwaa7,    0},   
+                        {R.id.tratilMnouwaa8,    0},
                 })
 
         );
@@ -259,6 +262,29 @@ findViewById(R.id.tratilMnouwaa3).setOnClickListener(v -> {
     finish();
 });
 
+
+      findViewById(R.id.tratilMnouwaa6).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="6 ترانيم منوعة";
+     staticVar.cameFromListcode = 7;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+              findViewById(R.id.tratilMnouwaa7).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="7 ترانيم منوعة";
+     staticVar.cameFromListcode = 8;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+              findViewById(R.id.tratilMnouwaa8).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="8 ترانيم منوعة";
+     staticVar.cameFromListcode = 9;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+        
 
         
         toggle(staticVar.getGroupNumber());

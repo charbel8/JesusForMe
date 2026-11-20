@@ -289,7 +289,7 @@ findViewById(R.id.tratilMnouwaa3).setOnClickListener(v -> {
 
 
         
-              findViewById(R.id.tratilMnouwaa8).setOnClickListener(v -> {
+              findViewById(R.id.tratilMnouwaa9).setOnClickListener(v -> {
     staticVar.cameFromListTitle="9 ترانيم منوعة";
      staticVar.cameFromListcode = 10;
     startActivity(new Intent(MainActivity.this, tratilList.class));
@@ -297,7 +297,7 @@ findViewById(R.id.tratilMnouwaa3).setOnClickListener(v -> {
 });
 
         
-              findViewById(R.id.tratilMnouwaa8).setOnClickListener(v -> {
+              findViewById(R.id.tratilMnouwaa10).setOnClickListener(v -> {
     staticVar.cameFromListTitle="10 ترانيم منوعة";
      staticVar.cameFromListcode = 11;
     startActivity(new Intent(MainActivity.this, tratilList.class));
@@ -305,7 +305,7 @@ findViewById(R.id.tratilMnouwaa3).setOnClickListener(v -> {
 });
 
         
-              findViewById(R.id.tratilMnouwaa8).setOnClickListener(v -> {
+              findViewById(R.id.tratilMnouwaa11).setOnClickListener(v -> {
     staticVar.cameFromListTitle="11 ترانيم منوعة";
      staticVar.cameFromListcode = 12;
     startActivity(new Intent(MainActivity.this, tratilList.class));

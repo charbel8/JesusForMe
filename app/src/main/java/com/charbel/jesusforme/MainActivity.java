@@ -176,7 +176,10 @@ public class MainActivity  extends AppCompatActivity {
                         {R.id.tratilMnouwaa5,    0},   
                         {R.id.tratilMnouwaa6,    0},   
                         {R.id.tratilMnouwaa7,    0},   
-                        {R.id.tratilMnouwaa8,    0},
+                        {R.id.tratilMnouwaa8,    0},  
+                        {R.id.tratilMnouwaa9,    0},   
+                        {R.id.tratilMnouwaa10,    0},   
+                        {R.id.tratilMnouwaa11,    0},
                 })
 
         );
@@ -284,6 +287,30 @@ findViewById(R.id.tratilMnouwaa3).setOnClickListener(v -> {
     finish();
 });
 
+
+        
+              findViewById(R.id.tratilMnouwaa8).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="9 ترانيم منوعة";
+     staticVar.cameFromListcode = 10;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+        
+              findViewById(R.id.tratilMnouwaa8).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="10 ترانيم منوعة";
+     staticVar.cameFromListcode = 11;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
+
+        
+              findViewById(R.id.tratilMnouwaa8).setOnClickListener(v -> {
+    staticVar.cameFromListTitle="11 ترانيم منوعة";
+     staticVar.cameFromListcode = 12;
+    startActivity(new Intent(MainActivity.this, tratilList.class));
+    finish();
+});
         
 
         

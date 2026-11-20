@@ -11,49 +11,41 @@
                 android:id="@+id/TratilExpandableButtons">
 
               <!-- Row 1 -->
-                <LinearLayout style="@style/RawButton" >
-										
+                <LinearLayout style="@style/RawButton" >										
 				 <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa"
-                        android:text="1 ترانيم منوعة" />
-					
+                        android:text="1 ترانيم منوعة" />					
                  <Button style="@style/GridButton"
                         android:id="@+id/tratilAnachidMariam"
-                        android:text="أناشيد مريم" />
-				
+                        android:text="أناشيد مريم" />				
 				</LinearLayout>
+				
              <!-- Row 2 -->
-                <LinearLayout style="@style/RawButton" >
-					
+                <LinearLayout style="@style/RawButton" >					
                     <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa3"
-                        android:text="3 ترانيم منوعة" />
-					
+                        android:text="3 ترانيم منوعة" />					
 					  <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa2"
                         android:text="2 ترانيم منوعة" />
                 </LinearLayout>
 				
          <!-- Row 3 -->
-                <LinearLayout style="@style/RawButton" >
-					
+                <LinearLayout style="@style/RawButton" >					
                     <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa5"
-                        android:text="5 ترانيم منوعة" />
-					
-					  <Button style="@style/GridButton"
+                        android:text="5 ترانيم منوعة" />					
+					 <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa4"
                         android:text="4 ترانيم منوعة" />
                 </LinearLayout>
 
 				<!-- Row 4 -->
-                <LinearLayout style="@style/RawButton" >
-					
+                <LinearLayout style="@style/RawButton" >					
                     <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa7"
-                        android:text="7 ترانيم منوعة" />
-					
-					  <Button style="@style/GridButton"
+                        android:text="7 ترانيم منوعة" />					
+					<Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa6"
                         android:text="6 ترانيم منوعة" />
                 </LinearLayout>
@@ -61,13 +53,25 @@
 
 				    <!-- Row 5 -->
                 <LinearLayout style="@style/RawButton" >
-					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa9"
+                        android:text="9 ترانيم منوعة" />					
                     <Button style="@style/GridButton"
                         android:id="@+id/tratilMnouwaa8"
-                        android:text="8 ترانيم منوعة" />
-					
-					
+                        android:text="8 ترانيم منوعة" />					
                 </LinearLayout>
+				
+				    <!-- Row 6 -->
+                <LinearLayout style="@style/RawButton" >					
+                    <Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa11"
+                        android:text="11 ترانيم منوعة" />					
+					<Button style="@style/GridButton"
+                        android:id="@+id/tratilMnouwaa10"
+                        android:text="10 ترانيم منوعة" />										
+                </LinearLayout>
+
+				
 
 				
 

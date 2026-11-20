@@ -28,6 +28,10 @@ import com.charbel.jesusforme.data.tratil.mounaa5.*;
 import com.charbel.jesusforme.data.tratil.mounaa6.*;
 import com.charbel.jesusforme.data.tratil.mounaa7.*;
 
+import com.charbel.jesusforme.data.tratil.mounaa8.*;
+import com.charbel.jesusforme.data.tratil.mounaa9.*;
+import com.charbel.jesusforme.data.tratil.mounaa10.*;
+
 
 import android.widget.TextView;
 
@@ -312,6 +316,79 @@ private static void BuildFor3(){
 };
 	
     
+	  private static void BuildFor10(){
+    ITEMS = new Object[][]{	
+         { (new lylat3yd()).getTitle() ,  60228},
+         { (new lylatAlmilad()).getTitle() ,  60229},
+         { (new maAjmlMaAṭyb()).getTitle() ,  60230},
+         { (new maAḥbMaskink()).getTitle() ,  60231},
+         { (new maAḥlaAlrku3()).getTitle() ,  60232},
+         { (new malkAlMdjd()).getTitle() ,  60233},
+         { (new manZehaAllazy()).getTitle() ,  60234},
+         { (new maranatah()).getTitle() ,  60235},
+         { (new marymAl3adhraA()).getTitle() ,  60236},
+         { (new masyḥy()).getTitle() ,  60237},
+         { (new matMnAdjlKhatayana()).getTitle() ,  60238},
+         { (new mdjdaLasmk()).getTitle() ,  60239},
+         { (new mdjdMarym()).getTitle() ,  60240},
+         { (new mnDyrAnayaAlmashhur()).getTitle() ,  60241},
+         { (new mnGhrbty()).getTitle() ,  60242},
+         { (new mnKasAlmaḥba()).getTitle() ,  60243},
+         { (new mnZman()).getTitle() ,  60244},
+         { (new moubarkManFdana()).getTitle() ,  60245},
+         { (new mthl3ṭshAlyabs2lmaA()).getTitle() ,  60246},
+         { (new mtlMaAlbḥr()).getTitle() ,  60247},
+    };
+};
+
+	  private static void BuildFor11(){
+    ITEMS = new Object[][]{	
+         { (new haliluya()).getTitle() ,  60248},
+         { (new haliluyaAlRabSali7()).getTitle() ,  60249},
+         { (new haliluyaHushana()).getTitle() ,  60250},
+         { (new halshmsAlghabtAna()).getTitle() ,  60251},
+         { (new haQdHwa()).getTitle() ,  60252},
+         { (new hazaHuYawmelRab()).getTitle() ,  60253},
+         { (new hlilyYyaMaḥaba()).getTitle() ,  60254},
+         { (new hloumAyhaAlRubAlKoudous()).getTitle() ,  60255},
+         { (new hloumYaRouhKoudous()).getTitle() ,  60256},
+         { (new hlylouLilRabKhlasy()).getTitle() ,  60257},
+         { (new hu2ilah7Ay()).getTitle() ,  60258},
+         { (new mnHuwaAlḥyat()).getTitle() ,  60259},
+         { (new na3alyAlhtaf()).getTitle() ,  60260},
+         { (new na3azimDamak()).getTitle() ,  60261},
+         { (new na3azimDamYassou3()).getTitle() ,  60262},
+         { (new nafsyTou3azimAlRab()).getTitle() ,  60263},
+         { (new naju3WaNa3tach()).getTitle() ,  60264},
+         { (new nashydCharbel()).getTitle() ,  60265},
+         { (new naṣyby()).getTitle() ,  60266},
+         { (new nounshidAlḥrdyny()).getTitle() ,  60267},
+         { (new nḥnouSahroun()).getTitle() ,  60268},
+    };
+};
+        
+        
+  	  private static void BuildFor12(){
+    ITEMS = new Object[][]{	      
+         { (new haloumouNouranimLlrb()).getTitle() ,  60269},
+         { (new halYastati3AlRabBi()).getTitle() ,  60270},
+         { (new huwaAlRab()).getTitle() ,  60271},
+         { (new hyaMa3iMinLoubnan()).getTitle() ,  60272},
+         { (new hyaNa3boud()).getTitle() ,  60273},
+         { (new nashydAlMakhluqat()).getTitle() ,  60274},
+         { (new woulidaLana()).getTitle() ,  60275},
+         { (new wḥadtYaRab()).getTitle() ,  60276},
+         { (new ya2ibni3azimKalbak()).getTitle() ,  60277},
+         { (new ya2ilahAlKhayr()).getTitle() ,  60278},
+         { (new yaAbAlHaqArAḥman()).getTitle() ,  60279},
+         { (new yaAbana()).getTitle() ,  60280},
+         { (new yaAllhDlny3alnur()).getTitle() ,  60281},
+         { (new yaAmAlAllahAlkhayr()).getTitle() ,  60282},
+         { (new yaAmAllahKaezBarakat()).getTitle() ,  60283},
+         { (new yaAmanaYaMariamAl3azra()).getTitle() ,  60284},
+         { (new yaArḥmArRaḥmyn()).getTitle() ,  60285},
+    };
+};
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -332,6 +409,10 @@ private static void BuildFor3(){
             case 7:  BuildFor7();  break;
             case 8:  BuildFor8();  break;
             case 9:  BuildFor9();  break;
+				// ===========================				
+            case 10:  BuildFor10();  break;
+            case 11:  BuildFor11();  break;
+            case 12:  BuildFor12();  break;
 				
             default:  BuildFor1();
         }

@@ -19,6 +19,9 @@ import com.charbel.jesusforme.data.tratil.mounaa4.*;
 import com.charbel.jesusforme.data.tratil.mounaa5.*;
 import com.charbel.jesusforme.data.tratil.mounaa6.*;
 import com.charbel.jesusforme.data.tratil.mounaa7.*;
+import com.charbel.jesusforme.data.tratil.mounaa8.*;
+import com.charbel.jesusforme.data.tratil.mounaa9.*;
+import com.charbel.jesusforme.data.tratil.mounaa10.*;
 
 public class staticVar {
 
@@ -408,6 +411,67 @@ public class staticVar {
 			case 60225: return new  lissani3Ajyal();
 			case 60226: return new  litakoumSalati();
 			case 60227: return new  llil7oubkhouloud();
+			// -----------------------------------
+            case 60228: return new  lylat3yd();
+            case 60229: return new  lylatAlmilad();
+            case 60230: return new  maAjmlMaAṭyb();
+            case 60231: return new  maAḥbMaskink();
+            case 60232: return new  maAḥlaAlrku3();
+            case 60233: return new  malkAlMdjd();
+            case 60234: return new  manZehaAllazy();
+            case 60235: return new  maranatah();
+            case 60236: return new  marymAl3adhraA();
+            case 60237: return new  masyḥy();
+            case 60238: return new  matMnAdjlKhatayana();
+            case 60239: return new  mdjdaLasmk();
+            case 60240: return new  mdjdMarym();
+            case 60241: return new  mnDyrAnayaAlmashhur();
+            case 60242: return new  mnGhrbty();
+            case 60243: return new  mnKasAlmaḥba();
+            case 60244: return new  mnZman();
+            case 60245: return new  moubarkManFdana();
+            case 60246: return new  mthl3ṭshAlyabs2lmaA();
+            case 60247: return new  mtlMaAlbḥr();
+            
+            case 60248: return new  haliluya();
+            case 60249: return new  haliluyaAlRabSali7();
+            case 60250: return new  haliluyaHushana();
+            case 60251: return new  halshmsAlghabtAna();
+            case 60252: return new  haQdHwa();
+            case 60253: return new  hazaHuYawmelRab();
+            case 60254: return new  hlilyYyaMaḥaba();
+            case 60255: return new  hloumAyhaAlRubAlKoudous();
+            case 60256: return new  hloumYaRouhKoudous();
+            case 60257: return new  hlylouLilRabKhlasy();
+            case 60258: return new  hu2ilah7Ay();
+            case 60259: return new  mnHuwaAlḥyat();
+            case 60260: return new  na3alyAlhtaf();
+            case 60261: return new  na3azimDamak();
+            case 60262: return new  na3azimDamYassou3();
+            case 60263: return new  nafsyTou3azimAlRab();
+            case 60264: return new  naju3WaNa3tach();
+            case 60265: return new  nashydCharbel();
+            case 60266: return new  naṣyby();
+            case 60267: return new  nounshidAlḥrdyny();
+            case 60268: return new  nḥnouSahroun();
+            
+            case 60269: return new  haloumouNouranimLlrb();
+            case 60270: return new  halYastati3AlRabBi();
+            case 60271: return new  huwaAlRab();
+            case 60272: return new  hyaMa3iMinLoubnan();
+            case 60273: return new  hyaNa3boud();
+            case 60274: return new  nashydAlMakhluqat();
+            case 60275: return new  woulidaLana();
+            case 60276: return new  wḥadtYaRab();
+            case 60277: return new  ya2ibni3azimKalbak();
+            case 60278: return new  ya2ilahAlKhayr();
+            case 60279: return new  yaAbAlHaqArAḥman();
+            case 60280: return new  yaAbana();
+            case 60281: return new  yaAllhDlny3alnur();
+            case 60282: return new  yaAmAlAllahAlkhayr();
+            case 60283: return new  yaAmAllahKaezBarakat();
+            case 60284: return new  yaAmanaYaMariamAl3azra();
+            case 60285: return new  yaArḥmArRaḥmyn();           
 				
             // -----------------------------------
             default:
